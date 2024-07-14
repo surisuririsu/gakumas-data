@@ -1,0 +1,8 @@
+{
+  "name": "gakumas-data",
+  "type": "module",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "build": "python -m scripts.csv_to_json p_items"
+  }
+}

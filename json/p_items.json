@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "1",
+    "name": "\u306f\u3064\u307c\u3057\u30d6\u30ed\u30fc\u30c1",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterLesson,do:rewardCardOptions+=1",
+    "sourceType": "produce"
+  },
+  {
+    "id": "2",
+    "name": "\u306f\u3064\u307c\u3057\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterSPLesson,do:stamina-=3,do:upgradeSelectedCard",
+    "sourceType": "produce"
+  },
+  {
+    "id": "3",
+    "name": "\u306f\u3064\u307c\u3057\u624b\u5e33",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=2,limit:1",
+    "sourceType": "produce"
+  },
+  {
+    "id": "4",
+    "name": "\u306f\u3064\u307c\u3057T\u30b7\u30e3\u30c4",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:cardUsesRemaining+=1,do:goodCondition+=2,limit:1",
+    "sourceType": "produce"
+  },
+  {
+    "id": "5",
+    "name": "\u306f\u3064\u307c\u3057\u30ad\u30fc\u30db\u30eb\u30c0\u30fc",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodImpression>=3,do:cardUsesRemaining+=1,do:goodImpression+=3,limit:1",
+    "sourceType": "produce"
+  },
+  {
+    "id": "6",
+    "name": "\u30de\u30b9\u30b3\u30c3\u30c8\uff08\u975e\u516c\u8a8d\uff09",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:motivation>=5,do:cardUsesRemaining+=1,do:motivation+=3,limit:1",
+    "sourceType": "produce"
+  },
+  {
+    "id": "7",
+    "name": "\u3070\u304f\u304a\u3093\u30e9\u30a4\u30aa\u30f3",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=6,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "8",
+    "name": "\u3070\u304f\u304a\u3093\u30e9\u30a4\u30aa\u30f3+",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=11,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "9",
+    "name": "\u5fc5\u643a\u30b9\u30c6\u30f3\u30ec\u30b9\u30dc\u30c8\u30eb",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=4,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "10",
+    "name": "\u5fc5\u643a\u30b9\u30c6\u30f3\u30ec\u30b9\u30dc\u30c8\u30eb+",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=6,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "11",
+    "name": "\u3061\u3073\u3069\u3082\u624b\u4f5c\u308a\u30e1\u30c0\u30eb",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "12",
+    "name": "\u3061\u3073\u3069\u3082\u624b\u4f5c\u308a\u30e1\u30c0\u30eb+",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "13",
+    "name": "\u7d33\u58eb\u98a8\u30cf\u30f3\u30ab\u30c1\u30fc\u30d5",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=1,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "14",
+    "name": "\u7d33\u58eb\u98a8\u30cf\u30f3\u30ab\u30c1\u30fc\u30d5+",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "15",
+    "name": "\u7dd1\u306e\u304a\u63c3\u3044\u30d6\u30ec\u30b9",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:goodImpressionIncreased,do:goodImpression+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "16",
+    "name": "\u7dd1\u306e\u304a\u63c3\u3044\u30d6\u30ec\u30b9+",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:goodImpressionIncreased,do:goodImpression+=5,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "17",
+    "name": "\u9858\u3044\u3092\u53f6\u3048\u308b\u304a\u5b88\u308a",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:motivationIncreased,do:motivation+=2,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "18",
+    "name": "\u9858\u3044\u3092\u53f6\u3048\u308b\u304a\u5b88\u308a+",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "19",
+    "name": "\u30d4\u30f3\u30af\u306e\u304a\u63c3\u3044\u30d6\u30ec\u30b9",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,do:concentration+=1,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "20",
+    "name": "\u30d4\u30f3\u30af\u306e\u304a\u63c3\u3044\u30d6\u30ec\u30b9+",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,do:concentration+=1,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "21",
+    "name": "\u8d85\u7d76\u3042\u3093\u307f\u3093\u30de\u30b9\u30af",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.5,do:stamina-=1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "22",
+    "name": "\u8d85\u7d76\u3042\u3093\u307f\u3093\u30de\u30b9\u30af+",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.7,do:stamina-=1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "23",
+    "name": "\u3044\u3064\u3082\u306e\u30e1\u30a4\u30af\u30dd\u30fc\u30c1",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "24",
+    "name": "\u3044\u3064\u3082\u306e\u30e1\u30a4\u30af\u30dd\u30fc\u30c1+",
+    "plan": "sense",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "25",
+    "name": "\u54b2\u5b63\u306e\u5b8c\u5168\u98df\u30ec\u30b7\u30d4",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=9,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "26",
+    "name": "\u54b2\u5b63\u306e\u5b8c\u5168\u98df\u30ec\u30b7\u30d4+",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=12,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "27",
+    "name": "\u79c1\u306e\u300c\u521d\u300d\u306e\u697d\u8b5c",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=3,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "28",
+    "name": "\u79c1\u306e\u300c\u521d\u300d\u306e\u697d\u8b5c+",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=4,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "29",
+    "name": "\u304a\u6c17\u306b\u306e\u30b9\u30cb\u30fc\u30ab\u30fc",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=4,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "30",
+    "name": "\u304a\u6c17\u306b\u306e\u30b9\u30cb\u30fc\u30ab\u30fc+",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=5,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "31",
+    "name": "Dear\u30ea\u30c8\u30eb\u30d7\u30ea\u30f3\u30b9",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:goodConditionIncreased,do:goodCondition+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "32",
+    "name": "Dear\u30ea\u30c8\u30eb\u30d7\u30ea\u30f3\u30b9+",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:goodConditionIncreased,do:goodCondition+=4,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "33",
+    "name": "\u601d\u3044\u51fa\u30ed\u30dc",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "34",
+    "name": "\u601d\u3044\u51fa\u30ed\u30dc+",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=4,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "35",
+    "name": "\u3057\u3087\u3052\u306a\u3044\u30cf\u30f3\u30ab\u30c1",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.6,do:stamina-=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "36",
+    "name": "\u3057\u3087\u3052\u306a\u3044\u30cf\u30f3\u30ab\u30c1+",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.7,do:stamina-=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "37",
+    "name": "\u653e\u8ab2\u5f8c\u306e\u3089\u304f\u304c\u304d",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:concentrationIncreased,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "38",
+    "name": "\u653e\u8ab2\u5f8c\u306e\u3089\u304f\u304c\u304d+",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:concentrationIncreased,do:concentration+=2,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "39",
+    "name": "\u3060\u308c\u3067\u3082\u308f\u304b\u308b\u5165\u9580\u66f8",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=5,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "40",
+    "name": "\u3060\u308c\u3067\u3082\u308f\u304b\u308b\u5165\u9580\u66f8+",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=6,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "41",
+    "name": "\u304d\u307f\u3078\u306e\u5dee\u3057\u5165\u308c",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "42",
+    "name": "\u304d\u307f\u3078\u306e\u5dee\u3057\u5165\u308c+",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:4",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "43",
+    "name": "\u5171\u306b\u6226\u3046\u30bf\u30aa\u30eb",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "44",
+    "name": "\u5171\u306b\u6226\u3046\u30bf\u30aa\u30eb+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "45",
+    "name": "\u81ea\u5206\u3092\u5b88\u308b\u30a4\u30e4\u30db\u30f3",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "46",
+    "name": "\u81ea\u5206\u3092\u5b88\u308b\u30a4\u30e4\u30db\u30f3+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "47",
+    "name": "\u30d4\u30c3\u30b0\u30c9\u30ea\u30fc\u30e0\u8caf\u91d1\u7bb1",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=3,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "48",
+    "name": "\u30d4\u30c3\u30b0\u30c9\u30ea\u30fc\u30e0\u8caf\u91d1\u7bb1+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=5,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "49",
+    "name": "\u5185\u306a\u308b\u5149\u306e\u8033\u98fe\u308a",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,do:genki+=1,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "50",
+    "name": "\u5185\u306a\u308b\u5149\u306e\u8033\u98fe\u308a+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=3,do:genki+=1,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "51",
+    "name": "\u5922\u3078\u306e\u30e9\u30a4\u30d5\u30ed\u30b0",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression*0.3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "52",
+    "name": "\u5922\u3078\u306e\u30e9\u30a4\u30d5\u30ed\u30b0+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "53",
+    "name": "\u3072\u307f\u3064\u7279\u8a13\u30ab\u30fc\u30c7",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "54",
+    "name": "\u3072\u307f\u3064\u7279\u8a13\u30ab\u30fc\u30c7+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "55",
+    "name": "\u30b2\u30fc\u30bb\u30f3\u306e\u6226\u5229\u54c1",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfStage,do:concentration+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "56",
+    "name": "\u30b2\u30fc\u30bb\u30f3\u306e\u6226\u5229\u54c1+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfStage,do:concentration+=4,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "57",
+    "name": "\u307f\u3061\u304f\u3055\u7814\u7a76\u30ce\u30fc\u30c8",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.5,do:stamina-=1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "58",
+    "name": "\u307f\u3061\u304f\u3055\u7814\u7a76\u30ce\u30fc\u30c8+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.65,do:stamina-=1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "59",
+    "name": "\u7b49\u8eab\u5927\u306e\u30ec\u30c7\u30a3\u30ea\u30c3\u30d7",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=5,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "60",
+    "name": "\u7b49\u8eab\u5927\u306e\u30ec\u30c7\u30a3\u30ea\u30c3\u30d7+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsRemaining<=3,do:parameter+=5,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "61",
+    "name": "\u7f8e\u9234\u304b\u3089\u306e\u8d08\u308a\u7269",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterVocalSpLesson,if:vocal>=400,do:upgradeRandomCard",
+    "sourceType": "support"
+  },
+  {
+    "id": "62",
+    "name": "\u6253\u5012\uff01\u58be\u7530\u6c38\u5e74\u79c1\u8ca1\u6cd5",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterOikomiLesson,if:vocal>=400,do:vocal+=26",
+    "sourceType": "support"
+  },
+  {
+    "id": "63",
+    "name": "\u624b\u4f5c\u308a\u306e\u3054\u8912\u7f8e",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterOikomiLesson,if:visual>=400,do:visual+=26",
+    "sourceType": "support"
+  },
+  {
+    "id": "64",
+    "name": "\u3075\u308f\u3075\u308f\u3067\u3082\u3053\u3082\u3053",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterDanceSPLesson,do:getRandomPDrinks2",
+    "sourceType": "support"
+  },
+  {
+    "id": "65",
+    "name": "\u304a\u59c9\u3055\u307e\u5927\u767e\u79d1",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterOikomiLesson,if:dance>=400,do:dance+=26",
+    "sourceType": "support"
+  },
+  {
+    "id": "66",
+    "name": "\u4f8b\u306eSSD\u306e\u79d8\u5bc6",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterDanceLesson,if:stamina>=maxStamina&0.5,do:dance+=13",
+    "sourceType": "support"
+  },
+  {
+    "id": "67",
+    "name": "\u4e00\u7dd2\u306b\u304a\u663c\u5bdd\u30dd\u30d7\u30ea",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterVocalLesson,if:stamina>=maxStamina*0.5,do:vocal+=13",
+    "sourceType": "support"
+  },
+  {
+    "id": "68",
+    "name": "\u79c1\u304c\u898b\u3064\u3051\u305f\u9038\u6750\u30e1\u30e2",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterVisualLesson,if:stamina>=maxStamina*0.5,do:visual+=13",
+    "sourceType": "support"
+  },
+  {
+    "id": "69",
+    "name": "\u671d\u4e00\u306e\u52a9\u3051\u821f",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:cardUpgraded,if:vocal>=400,do:pPoints+=15",
+    "sourceType": "support"
+  },
+  {
+    "id": "70",
+    "name": "\u8a93\u3044\u306e\u82b1\u3073\u3089",
+    "plan": "free",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterVisualSPLesson,if:visual>=400,do:upgradeRandomCard",
+    "sourceType": "support"
+  },
+  {
+    "id": "71",
+    "name": "\u5f97\u4f53\u306e\u3057\u308c\u306a\u3044\u30e2\u30ce",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:parameterMultiplier+=0.5,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "72",
+    "name": "\u661f\u306e\u30ea\u30c8\u30eb\u30d7\u30ea\u30f3\u30b9",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:fixedGenki+=2",
+    "sourceType": "support"
+  },
+  {
+    "id": "73",
+    "name": "\u6094\u3057\u3055\u306e\u8c61\u5fb4",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:parameterMultiplier+=0.5,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "74",
+    "name": "\u66c7\u308a\u3092\u306c\u3050\u3063\u305f\u30bf\u30aa\u30eb",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:activeCardUsed,if:isVocalTurn,do:stamina+=2,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "75",
+    "name": "\u30b9\u30ab\u30a6\u30c8\u906e\u308a\u5e3d",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isVocalTurn,do:drawCard,do:fixedGenki+=2,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "76",
+    "name": "\u4fe1\u983c\u306e\u8a3c",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:afterDate,do:stamina+=9",
+    "sourceType": "support"
+  },
+  {
+    "id": "77",
+    "name": "\u6e80\u958b\u30da\u30a2\u30d8\u30a2\u30d4\u30f3",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:activeCardUsed,if:isVisualTurn,do:stamina+=2,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "78",
+    "name": "\u4ef2\u76f4\u308a\u306e\u304d\u3063\u304b\u3051",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "support"
+  },
+  {
+    "id": "79",
+    "name": "\u5922\u306b\u3042\u3075\u308c\u305f\u5927\u8377\u7269",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "support"
+  },
+  {
+    "id": "80",
+    "name": "\u3053\u308c\u304c\u3001\u79c1",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "81",
+    "name": "\u3053\u308c\u304c\u3001\u79c1+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "82",
+    "name": "\u5929\u5ddd\u30e9\u30fc\u30e1\u30f3\u5de1\u308a",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isVocalTurn,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "support"
+  },
+  {
+    "id": "83",
+    "name": "\u30c6\u30af\u30ce\u30c9\u30c3\u30b0",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=2,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "84",
+    "name": "\u30c6\u30af\u30ce\u30c9\u30c3\u30b0+",
+    "plan": "logic",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=3,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "85",
+    "name": "\u67f4\u72ac\u30dd\u30b7\u30a7\u30c3\u30c8",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "86",
+    "name": "\u67f4\u72ac\u30dd\u30b7\u30a7\u30c3\u30c8+",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "87",
+    "name": "\u8ee2\u304c\u308a\u7d9a\u3051\u308b\u5143\u6c17\u306e\u6e90",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=3,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "88",
+    "name": "\u8ee2\u304c\u308a\u7d9a\u3051\u308b\u5143\u6c17\u306e\u6e90+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=5,do:cardUsesRemaining+=1,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "89",
+    "name": "\u6700\u9ad8\u306b\u30cf\u30c3\u30d4\u30fc\u306e\u6e90",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=5,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "90",
+    "name": "\u6700\u9ad8\u306b\u30cf\u30c3\u30d4\u30fc\u306e\u6e90+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=11,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "91",
+    "name": "\u30c0\u30d6\u30eb\u30dc\u30c8\u30eb",
+    "plan": "sense",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:cardReceived,if:cardEffects&goodCondition,do:dance+=6",
+    "sourceType": "support"
+  },
+  {
+    "id": "92",
+    "name": "\u8679\u304b\u3051\u308b\u30af\u30ed\u30b9",
+    "plan": "free",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:activeCardUsed,if:isDanceTurn,do:stamina+=2,limit:3",
+    "sourceType": "support"
+  },
+  {
+    "id": "93",
+    "name": "\u52dd\u3061\u3078\u306e\u3053\u3060\u308f\u308a",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:staminaDecreased,do:goodImpression+=2,limit:4",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "94",
+    "name": "\u52dd\u3061\u3078\u306e\u3053\u3060\u308f\u308a+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:staminaDecreased,do:goodImpression+=2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "95",
+    "name": "\u54b2\u5b63\u30aa\u30b9\u30b9\u30e1\u30de\u30c3\u30c8",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:cardReceived,if:cardEffects&goodImpression,do:visual+=6",
+    "sourceType": "support"
+  },
+  {
+    "id": "96",
+    "name": "\u6700\u5f8c\u306e\u590f\u306e\u601d\u3044\u51fa",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=10,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "97",
+    "name": "\u6700\u5f8c\u306e\u590f\u306e\u601d\u3044\u51fa+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=14,limit:1",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "98",
+    "name": "\u30ab\u30a8\u30eb\u5370\u306e\u6247\u98a8\u6a5f",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*2.7,do:stamina-=2,limit:4",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "99",
+    "name": "\u30ab\u30a8\u30eb\u5370\u306e\u6247\u98a8\u6a5f+",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*3.4,do:stamina-=2,limit:4",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "100",
+    "name": "\u8ca0\u3051\u305a\u5acc\u3044\u306e\u52f2\u7ae0",
+    "plan": "logic",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:parameter+=motivation*0.5",
+    "sourceType": "support"
+  },
+  {
+    "id": "101",
+    "name": "\u304d\u307f\u3068\u5206\u3051\u5408\u3046\u590f",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:2",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "102",
+    "name": "\u304d\u307f\u3068\u5206\u3051\u5408\u3046\u590f+",
+    "plan": "sense",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "type": "stage",
+    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:3",
+    "sourceType": "pIdol"
+  },
+  {
+    "id": "103",
+    "name": "\u53ef\u611b\u3044\u96a0\u3057\u30d0\u30b9\u30bf\u30aa\u30eb",
+    "plan": "logic",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "type": "produce",
+    "effects": "at:cardReceived,if:cardEffects&motivation,do:vocal+=6",
+    "sourceType": "support"
+  }
+]
