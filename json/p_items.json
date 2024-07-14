@@ -5,7 +5,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterLesson,do:rewardCardOptions+=1",
     "sourceType": "produce"
   },
@@ -15,7 +15,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterSPLesson,do:stamina-=3,do:upgradeSelectedCard",
     "sourceType": "produce"
   },
@@ -25,7 +25,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=2,limit:1",
     "sourceType": "produce"
   },
@@ -35,7 +35,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:cardUsesRemaining+=1,do:goodCondition+=2,limit:1",
     "sourceType": "produce"
   },
@@ -45,7 +45,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodImpression>=3,do:cardUsesRemaining+=1,do:goodImpression+=3,limit:1",
     "sourceType": "produce"
   },
@@ -55,7 +55,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:motivation>=5,do:cardUsesRemaining+=1,do:motivation+=3,limit:1",
     "sourceType": "produce"
   },
@@ -65,7 +65,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=6,limit:1",
     "sourceType": "pIdol"
   },
@@ -75,7 +75,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=11,limit:1",
     "sourceType": "pIdol"
   },
@@ -85,7 +85,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=4,limit:1",
     "sourceType": "pIdol"
   },
@@ -95,7 +95,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=6,limit:1",
     "sourceType": "pIdol"
   },
@@ -105,7 +105,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -115,7 +115,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:3",
     "sourceType": "pIdol"
   },
@@ -125,7 +125,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=1,limit:2",
     "sourceType": "pIdol"
   },
@@ -135,7 +135,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -145,7 +145,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:goodImpressionIncreased,do:goodImpression+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -155,7 +155,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:goodImpressionIncreased,do:goodImpression+=5,limit:1",
     "sourceType": "pIdol"
   },
@@ -165,7 +165,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:motivationIncreased,do:motivation+=2,limit:1",
     "sourceType": "pIdol"
   },
@@ -175,7 +175,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:motivationIncreased,do:motivation+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -185,7 +185,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,do:concentration+=1,limit:2",
     "sourceType": "pIdol"
   },
@@ -195,7 +195,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,do:concentration+=1,limit:3",
     "sourceType": "pIdol"
   },
@@ -205,7 +205,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.5,do:stamina-=1",
     "sourceType": "pIdol"
   },
@@ -215,7 +215,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.7,do:stamina-=1",
     "sourceType": "pIdol"
   },
@@ -225,7 +225,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:1",
     "sourceType": "pIdol"
   },
@@ -235,7 +235,7 @@
     "plan": "sense",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -245,7 +245,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=9,limit:1",
     "sourceType": "pIdol"
   },
@@ -255,7 +255,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=12,limit:1",
     "sourceType": "pIdol"
   },
@@ -265,7 +265,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=3,limit:2",
     "sourceType": "pIdol"
   },
@@ -275,7 +275,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=4,limit:2",
     "sourceType": "pIdol"
   },
@@ -285,7 +285,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=4,limit:1",
     "sourceType": "pIdol"
   },
@@ -295,7 +295,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=5,limit:1",
     "sourceType": "pIdol"
   },
@@ -305,7 +305,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:goodConditionIncreased,do:goodCondition+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -315,7 +315,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:goodConditionIncreased,do:goodCondition+=4,limit:1",
     "sourceType": "pIdol"
   },
@@ -325,7 +325,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -335,7 +335,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=4,limit:1",
     "sourceType": "pIdol"
   },
@@ -345,7 +345,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.6,do:stamina-=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -355,7 +355,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.7,do:stamina-=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -365,7 +365,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:concentrationIncreased,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -375,7 +375,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:concentrationIncreased,do:concentration+=2,limit:2",
     "sourceType": "pIdol"
   },
@@ -385,7 +385,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:genki>=7,do:motivation+=5,limit:1",
     "sourceType": "pIdol"
   },
@@ -395,7 +395,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:genki>=7,do:motivation+=6,limit:1",
     "sourceType": "pIdol"
   },
@@ -405,7 +405,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:3",
     "sourceType": "pIdol"
   },
@@ -415,7 +415,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:4",
     "sourceType": "pIdol"
   },
@@ -425,7 +425,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -435,7 +435,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1",
     "sourceType": "pIdol"
   },
@@ -445,7 +445,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -455,7 +455,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -465,7 +465,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=3,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -475,7 +475,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=5,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -485,7 +485,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,do:genki+=1,limit:2",
     "sourceType": "pIdol"
   },
@@ -495,7 +495,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=3,do:genki+=1,limit:2",
     "sourceType": "pIdol"
   },
@@ -505,7 +505,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression*0.3,limit:1",
     "sourceType": "pIdol"
   },
@@ -515,7 +515,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression,limit:1",
     "sourceType": "pIdol"
   },
@@ -525,7 +525,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:motivationIncreased,do:motivation+=3,limit:2",
     "sourceType": "pIdol"
   },
@@ -535,7 +535,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:motivationIncreased,do:motivation+=3,limit:3",
     "sourceType": "pIdol"
   },
@@ -545,7 +545,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfStage,do:concentration+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -555,7 +555,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfStage,do:concentration+=4,limit:1",
     "sourceType": "pIdol"
   },
@@ -565,7 +565,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.5,do:stamina-=1",
     "sourceType": "pIdol"
   },
@@ -575,7 +575,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.65,do:stamina-=1",
     "sourceType": "pIdol"
   },
@@ -585,7 +585,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=5,limit:2",
     "sourceType": "pIdol"
   },
@@ -595,7 +595,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsRemaining<=3,do:parameter+=5,limit:3",
     "sourceType": "pIdol"
   },
@@ -605,7 +605,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterVocalSpLesson,if:vocal>=400,do:upgradeRandomCard",
     "sourceType": "support"
   },
@@ -615,7 +615,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterOikomiLesson,if:vocal>=400,do:vocal+=26",
     "sourceType": "support"
   },
@@ -625,7 +625,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterOikomiLesson,if:visual>=400,do:visual+=26",
     "sourceType": "support"
   },
@@ -635,7 +635,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterDanceSPLesson,do:getRandomPDrinks2",
     "sourceType": "support"
   },
@@ -645,7 +645,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterOikomiLesson,if:dance>=400,do:dance+=26",
     "sourceType": "support"
   },
@@ -655,7 +655,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterDanceLesson,if:stamina>=maxStamina&0.5,do:dance+=13",
     "sourceType": "support"
   },
@@ -665,7 +665,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterVocalLesson,if:stamina>=maxStamina*0.5,do:vocal+=13",
     "sourceType": "support"
   },
@@ -675,7 +675,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterVisualLesson,if:stamina>=maxStamina*0.5,do:visual+=13",
     "sourceType": "support"
   },
@@ -685,7 +685,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:cardUpgraded,if:vocal>=400,do:pPoints+=15",
     "sourceType": "support"
   },
@@ -695,7 +695,7 @@
     "plan": "free",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterVisualSPLesson,if:visual>=400,do:upgradeRandomCard",
     "sourceType": "support"
   },
@@ -705,7 +705,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isVisualTurn,do:parameterMultiplier+=0.5,limit:3",
     "sourceType": "support"
   },
@@ -715,7 +715,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isVisualTurn,do:fixedGenki+=2",
     "sourceType": "support"
   },
@@ -725,7 +725,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isDanceTurn,do:parameterMultiplier+=0.5,limit:3",
     "sourceType": "support"
   },
@@ -735,7 +735,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:activeCardUsed,if:isVocalTurn,do:stamina+=2,limit:3",
     "sourceType": "support"
   },
@@ -745,7 +745,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isVocalTurn,do:drawCard,do:fixedGenki+=2,limit:3",
     "sourceType": "support"
   },
@@ -755,7 +755,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:afterDate,do:stamina+=9",
     "sourceType": "support"
   },
@@ -765,7 +765,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:activeCardUsed,if:isVisualTurn,do:stamina+=2,limit:3",
     "sourceType": "support"
   },
@@ -775,7 +775,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isVisualTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support"
   },
@@ -785,7 +785,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isDanceTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support"
   },
@@ -795,7 +795,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:2",
     "sourceType": "pIdol"
   },
@@ -805,7 +805,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:3",
     "sourceType": "pIdol"
   },
@@ -815,7 +815,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isVocalTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support"
   },
@@ -825,7 +825,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=2,limit:1",
     "sourceType": "pIdol"
   },
@@ -835,7 +835,7 @@
     "plan": "logic",
     "rarity": "R",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=3,limit:1",
     "sourceType": "pIdol"
   },
@@ -845,7 +845,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:2",
     "sourceType": "pIdol"
   },
@@ -855,7 +855,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:3",
     "sourceType": "pIdol"
   },
@@ -865,7 +865,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=3,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -875,7 +875,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=5,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol"
   },
@@ -885,7 +885,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=5,limit:1",
     "sourceType": "pIdol"
   },
@@ -895,7 +895,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=11,limit:1",
     "sourceType": "pIdol"
   },
@@ -905,7 +905,7 @@
     "plan": "sense",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:cardReceived,if:cardEffects&goodCondition,do:dance+=6",
     "sourceType": "support"
   },
@@ -915,7 +915,7 @@
     "plan": "free",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:activeCardUsed,if:isDanceTurn,do:stamina+=2,limit:3",
     "sourceType": "support"
   },
@@ -925,7 +925,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:staminaDecreased,do:goodImpression+=2,limit:4",
     "sourceType": "pIdol"
   },
@@ -935,7 +935,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:staminaDecreased,do:goodImpression+=2",
     "sourceType": "pIdol"
   },
@@ -945,7 +945,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:cardReceived,if:cardEffects&goodImpression,do:visual+=6",
     "sourceType": "support"
   },
@@ -955,7 +955,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=3,do:genki+=10,limit:1",
     "sourceType": "pIdol"
   },
@@ -965,7 +965,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:concentration>=3,do:genki+=14,limit:1",
     "sourceType": "pIdol"
   },
@@ -975,7 +975,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*2.7,do:stamina-=2,limit:4",
     "sourceType": "pIdol"
   },
@@ -985,7 +985,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*3.4,do:stamina-=2,limit:4",
     "sourceType": "pIdol"
   },
@@ -995,7 +995,7 @@
     "plan": "logic",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:isDanceTurn,do:parameter+=motivation*0.5",
     "sourceType": "support"
   },
@@ -1005,7 +1005,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "FALSE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:2",
     "sourceType": "pIdol"
   },
@@ -1015,7 +1015,7 @@
     "plan": "sense",
     "rarity": "SSR",
     "upgraded": "TRUE",
-    "type": "stage",
+    "mode": "stage",
     "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:3",
     "sourceType": "pIdol"
   },
@@ -1025,7 +1025,7 @@
     "plan": "logic",
     "rarity": "SR",
     "upgraded": "FALSE",
-    "type": "produce",
+    "mode": "produce",
     "effects": "at:cardReceived,if:cardEffects&motivation,do:vocal+=6",
     "sourceType": "support"
   }

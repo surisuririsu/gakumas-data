@@ -1,3 +1,1 @@
-import P_ITEMS from "./data/pItems.js";
-
-console.log(P_ITEMS[0].effects);
+export { default as PItems } from "./data/pItems.js";

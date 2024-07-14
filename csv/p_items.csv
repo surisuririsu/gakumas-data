@@ -1,4 +1,4 @@
-id,name,plan,rarity,upgraded,type,effects,sourceType
+id,name,plan,rarity,upgraded,mode,effects,sourceType
 1,はつぼしブローチ,free,SSR,FALSE,produce,"at:afterLesson,do:rewardCardOptions+=1",produce
 2,はつぼしブレスレット,free,SSR,FALSE,produce,"at:afterSPLesson,do:stamina-=3,do:upgradeSelectedCard",produce
 3,はつぼし手帳,sense,SSR,FALSE,stage,"at:startOfTurn,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=2,limit:1",produce
