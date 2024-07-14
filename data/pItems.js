@@ -16,11 +16,11 @@ function serializeEffects(effects) {
       }
       return exp.join(",");
     })
-    .join("|");
+    .join(";");
 }
 
 function deserializeEffects(effectsString) {
-  return effectsString.split("|").map((effectString) =>
+  return effectsString.split(";").map((effectString) =>
     effectString.split(",").reduce((acc, cur) => {
       const [expKey, expValue] = cur.split(":");
       if (expKey == "at") {
