@@ -43,6 +43,7 @@ P_ITEMS.forEach(async (pItem) => {
   pItem.id = parseInt(pItem.id, 10);
   pItem.upgraded = pItem.upgraded == "TRUE";
   pItem.effects = deserializeEffects(pItem.effects);
+  pItem.pIdolId = parseInt(pItem.pIdolId, 10);
   pItem.icon = await import(`../images/pItems/${pItem.id}.png`);
 });
 
@@ -60,12 +61,13 @@ class PItems {
     return P_ITEMS_BY_ID[id];
   }
 
-  static getFiltered({ rarities, plans, modes, sourceTypes }) {
+  static getFiltered({ rarities, plans, modes, sourceTypes, pIdolIds }) {
     return P_ITEMS.filter((pItem) => {
       if (rarities && !rarities.includes(pItem.rarity)) return false;
       if (plans && !plans.includes(pItem.plan)) return false;
       if (modes && !modes.includes(pItem.mode)) return false;
       if (sourceTypes && !sourceTypes.includes(pItem.sourceType)) return false;
+      if (pIdolIds && !pIdolIds.includes(pItem.pIdolId)) return false;
       return true;
     });
   }

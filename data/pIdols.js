@@ -1,4 +1,4 @@
-import P_IDOLS from "../json/idols.json" with { mode: "json" };
+import P_IDOLS from "../json/p_idols.json" with { mode: "json" };
 
 P_IDOLS.forEach((pIdol) => {
   pIdol.id = parseInt(pIdol.id, 10);
