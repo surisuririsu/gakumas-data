@@ -60,10 +60,10 @@ class PItems {
     return P_ITEMS_BY_ID[id];
   }
 
-  static getFiltered({ plans, rarities, modes, sourceTypes }) {
+  static getFiltered({ rarities, plans, modes, sourceTypes }) {
     return P_ITEMS.filter((pItem) => {
-      if (plans && !plans.includes(pItem.plan)) return false;
       if (rarities && !rarities.includes(pItem.rarity)) return false;
+      if (plans && !plans.includes(pItem.plan)) return false;
       if (modes && !modes.includes(pItem.mode)) return false;
       if (sourceTypes && !sourceTypes.includes(pItem.sourceType)) return false;
       return true;
