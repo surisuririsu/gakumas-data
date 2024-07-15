@@ -1,50 +1,15 @@
 import P_ITEMS from "../json/p_items.json" with { mode: "json" };
-
-function serializeEffects(effects) {
-  return effects
-    .map((effect) => {
-      const exp = [];
-      exp.push(`at:${effect.phase}`);
-      effect.conditions.forEach((condition) => {
-        exp.push(`if:${condition}`);
-      });
-      effect.actions.forEach((action) => {
-        exp.push(`do:${action}`);
-      });
-      if (effect.limit) {
-        exp.push(`limit:${effect.limit}`);
-      }
-      return exp.join(",");
-    })
-    .join(";");
-}
-
-function deserializeEffects(effectsString) {
-  return effectsString.split(";").map((effectString) =>
-    effectString.split(",").reduce((acc, cur) => {
-      const [expKey, expValue] = cur.split(":");
-      if (expKey == "at") {
-        acc.phase = expValue;
-      } else if (expKey == "if") {
-        if (!acc.conditions) acc.conditions = [];
-        acc.conditions.push(expValue);
-      } else if (expKey == "do") {
-        if (!acc.actions) acc.actions = [];
-        acc.actions.push(expValue);
-      } else if (expKey == "limit") {
-        acc.limit = parseInt(expValue, 10);
-      }
-      return acc;
-    }, {})
-  );
-}
+import ICONS from "../images/pItems/imports";
+import { getPItemContestPower } from "../utils/contestPower";
+import { deserializeEffectSequence } from "../utils/effects";
 
 P_ITEMS.forEach(async (pItem) => {
   pItem.id = parseInt(pItem.id, 10);
   pItem.upgraded = pItem.upgraded == "TRUE";
-  pItem.effects = deserializeEffects(pItem.effects);
+  pItem.effects = deserializeEffectSequence(pItem.effects);
   pItem.pIdolId = parseInt(pItem.pIdolId, 10);
-  pItem.icon = await import(`../images/pItems/${pItem.id}.png`);
+  pItem.icon = ICONS[pItem.id];
+  pItem.contestPower = getPItemContestPower(pItem);
 });
 
 const P_ITEMS_BY_ID = P_ITEMS.reduce((acc, cur) => {

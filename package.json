@@ -2,6 +2,6 @@
   "name": "gakumas-data",
   "packageManager": "yarn@3.5.0",
   "scripts": {
-    "build": "python -m scripts.csv_to_json"
+    "generate": "python -m scripts.csv_to_json && python -m scripts.generate_image_imports"
   }
 }

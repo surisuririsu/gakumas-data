@@ -1,8 +1,9 @@
 import IDOLS from "../json/idols.json" with { mode: "json" };
+import ICONS from "../images/idols/imports";
 
 IDOLS.forEach(async (idol) => {
   idol.id = parseInt(idol.id, 10);
-  idol.icon = await import(`../images/idols/${idol.id}.png`);
+  idol.icon = ICONS[idol.id];
 });
 
 const IDOLS_BY_ID = IDOLS.reduce((acc, cur) => {
