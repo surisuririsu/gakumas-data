@@ -13,7 +13,7 @@ SKILL_CARDS.forEach((skillCard, i) => {
   skillCard.limit = parseInt(skillCard.limit, 10) || null;
   skillCard.unique = skillCard.unique == "TRUE";
   skillCard.forceInitialHand = skillCard.forceInitialHand == "TRUE";
-  skillCard.pIdolId = parseInt(skillCard.pIdolId, 10);
+  skillCard.pIdolId = parseInt(skillCard.pIdolId, 10) || null;
   skillCard.icon = ICONS[skillCard.id];
   skillCard.contestPower = getSkillCardContestPower(skillCard);
 });

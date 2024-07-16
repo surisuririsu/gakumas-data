@@ -7,7 +7,7 @@ P_ITEMS.forEach(async (pItem) => {
   pItem.id = parseInt(pItem.id, 10);
   pItem.upgraded = pItem.upgraded == "TRUE";
   pItem.effects = deserializeEffectSequence(pItem.effects);
-  pItem.pIdolId = parseInt(pItem.pIdolId, 10);
+  pItem.pIdolId = parseInt(pItem.pIdolId, 10) || null;
   pItem.icon = ICONS[pItem.id];
   pItem.contestPower = getPItemContestPower(pItem);
 });
