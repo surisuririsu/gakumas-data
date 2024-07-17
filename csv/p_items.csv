@@ -112,3 +112,5 @@ id,name,rarity,upgraded,plan,mode,effects,sourceType,pIdolId
 111,初星ライト（紫）,N,FALSE,logic,stage,"at:startOfTurn,do:motivation+=4",contest,
 112,初星オブジェ（銀）,N,FALSE,sense,stage,"at:cardUsed,if:cardEffects&halfStamina,do:concentration+=3,do:goodCondition+=3,do:directStamina-=3,limit:3",contest,
 113,初星ライト（紫）,N,FALSE,logic,stage,"at:activeCardUsed:do:motivation+=3,limit:4",contest,
+114,初星オブジェ（紫）,N,FALSE,sense,stage,"at:startOfTurn,do:concentration+=5,do:doubleStamina+=1,limit:2",contest,
+115,初星ライト（オレンジ）,N,FALSE,logic,stage,"at:startOfTurn,do:goodImpression+=4,do:nullifyGenki+=1,limit:6",contest,

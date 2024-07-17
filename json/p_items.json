@@ -1241,5 +1241,27 @@
     "effects": "at:activeCardUsed:do:motivation+=3,limit:4",
     "sourceType": "contest",
     "pIdolId": ""
+  },
+  {
+    "id": "114",
+    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u7d2b\uff09",
+    "rarity": "N",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "stage",
+    "effects": "at:startOfTurn,do:concentration+=5,do:doubleStamina+=1,limit:2",
+    "sourceType": "contest",
+    "pIdolId": ""
+  },
+  {
+    "id": "115",
+    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u30aa\u30ec\u30f3\u30b8\uff09",
+    "rarity": "N",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "effects": "at:startOfTurn,do:goodImpression+=4,do:nullifyGenki+=1,limit:6",
+    "sourceType": "contest",
+    "pIdolId": ""
   }
 ]
