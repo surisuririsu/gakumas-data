@@ -286,5 +286,13 @@
     "rarity": "SSR",
     "plan": "sense",
     "recommendedEffect": "goodCondition"
+  },
+  {
+    "id": "37",
+    "idolId": "8",
+    "title": "\u30b3\u30f3\u30c8\u30e9\u30b9\u30c8",
+    "rarity": "SSR",
+    "plan": "sense",
+    "recommendedEffect": "concentration"
   }
 ]

@@ -6,9 +6,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterLesson,do:rewardCardOptions+=1",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterLesson,do:rewardCardOptions+=1"
   },
   {
     "id": "2",
@@ -17,9 +17,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterSPLesson,do:stamina-=3,do:upgradeSelectedCard",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterSPLesson,do:stamina-=3,do:upgradeSelectedCard"
   },
   {
     "id": "3",
@@ -28,9 +28,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=2,limit:1",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=2,limit:1"
   },
   {
     "id": "4",
@@ -39,9 +39,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:cardUsesRemaining+=1,do:goodCondition+=2,limit:1",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:cardUsesRemaining+=1,do:goodCondition+=2,limit:1"
   },
   {
     "id": "5",
@@ -50,9 +50,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodImpression>=3,do:cardUsesRemaining+=1,do:goodImpression+=3,limit:1",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:goodImpression>=3,do:cardUsesRemaining+=1,do:goodImpression+=3,limit:1"
   },
   {
     "id": "6",
@@ -61,9 +61,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:motivation>=5,do:cardUsesRemaining+=1,do:motivation+=3,limit:1",
     "sourceType": "produce",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:motivation>=5,do:cardUsesRemaining+=1,do:motivation+=3,limit:1"
   },
   {
     "id": "7",
@@ -72,9 +72,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=6,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "1"
+    "pIdolId": "1",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=6,limit:1"
   },
   {
     "id": "8",
@@ -83,9 +83,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=11,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "1"
+    "pIdolId": "1",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=11,limit:1"
   },
   {
     "id": "9",
@@ -94,9 +94,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=4,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "2"
+    "pIdolId": "2",
+    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=4,limit:1"
   },
   {
     "id": "10",
@@ -105,9 +105,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=6,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "2"
+    "pIdolId": "2",
+    "effects": "at:startOfTurn,if:concentration>=3,do:concentration+=6,limit:1"
   },
   {
     "id": "11",
@@ -116,9 +116,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "3"
+    "pIdolId": "3",
+    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:2"
   },
   {
     "id": "12",
@@ -127,9 +127,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "3"
+    "pIdolId": "3",
+    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:3"
   },
   {
     "id": "13",
@@ -138,9 +138,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=1,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "4"
+    "pIdolId": "4",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=1,limit:2"
   },
   {
     "id": "14",
@@ -149,9 +149,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "4"
+    "pIdolId": "4",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,limit:2"
   },
   {
     "id": "15",
@@ -160,9 +160,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:goodImpressionIncreased,do:goodImpression+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "5"
+    "pIdolId": "5",
+    "effects": "at:goodImpressionIncreased,do:goodImpression+=3,limit:1"
   },
   {
     "id": "16",
@@ -171,9 +171,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:goodImpressionIncreased,do:goodImpression+=5,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "5"
+    "pIdolId": "5",
+    "effects": "at:goodImpressionIncreased,do:goodImpression+=5,limit:1"
   },
   {
     "id": "17",
@@ -182,9 +182,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:motivationIncreased,do:motivation+=2,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "6"
+    "pIdolId": "6",
+    "effects": "at:motivationIncreased,do:motivation+=2,limit:1"
   },
   {
     "id": "18",
@@ -193,9 +193,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:motivationIncreased,do:motivation+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "6"
+    "pIdolId": "6",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:1"
   },
   {
     "id": "19",
@@ -204,9 +204,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,do:concentration+=1,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "7"
+    "pIdolId": "7",
+    "effects": "at:startOfTurn,do:concentration+=1,limit:2"
   },
   {
     "id": "20",
@@ -215,9 +215,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,do:concentration+=1,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "7"
+    "pIdolId": "7",
+    "effects": "at:startOfTurn,do:concentration+=1,limit:3"
   },
   {
     "id": "21",
@@ -226,9 +226,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.5,do:stamina-=1",
     "sourceType": "pIdol",
-    "pIdolId": "8"
+    "pIdolId": "8",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.5,do:stamina-=1"
   },
   {
     "id": "22",
@@ -237,9 +237,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.7,do:stamina-=1",
     "sourceType": "pIdol",
-    "pIdolId": "8"
+    "pIdolId": "8",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.7,do:stamina-=1"
   },
   {
     "id": "23",
@@ -248,9 +248,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "9"
+    "pIdolId": "9",
+    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:1"
   },
   {
     "id": "24",
@@ -259,9 +259,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "9"
+    "pIdolId": "9",
+    "effects": "at:activeCardUsed,if:stamina>=maxStamina*0.5,do:concentration+=3,limit:1"
   },
   {
     "id": "25",
@@ -270,9 +270,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=9,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "10"
+    "pIdolId": "10",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=9,limit:1"
   },
   {
     "id": "26",
@@ -281,9 +281,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=12,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "10"
+    "pIdolId": "10",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=12,limit:1"
   },
   {
     "id": "27",
@@ -292,9 +292,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=3,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "11"
+    "pIdolId": "11",
+    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=3,limit:2"
   },
   {
     "id": "28",
@@ -303,9 +303,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=4,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "11"
+    "pIdolId": "11",
+    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=4,limit:2"
   },
   {
     "id": "29",
@@ -314,9 +314,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=4,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "12"
+    "pIdolId": "12",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=4,limit:1"
   },
   {
     "id": "30",
@@ -325,9 +325,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=5,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "12"
+    "pIdolId": "12",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=5,limit:1"
   },
   {
     "id": "31",
@@ -336,9 +336,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:goodConditionIncreased,do:goodCondition+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "13"
+    "pIdolId": "13",
+    "effects": "at:goodConditionIncreased,do:goodCondition+=3,limit:1"
   },
   {
     "id": "32",
@@ -347,9 +347,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:goodConditionIncreased,do:goodCondition+=4,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "13"
+    "pIdolId": "13",
+    "effects": "at:goodConditionIncreased,do:goodCondition+=4,limit:1"
   },
   {
     "id": "33",
@@ -358,9 +358,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "14"
+    "pIdolId": "14",
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=3,limit:1"
   },
   {
     "id": "34",
@@ -369,9 +369,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=4,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "14"
+    "pIdolId": "14",
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=4,limit:1"
   },
   {
     "id": "35",
@@ -380,9 +380,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.6,do:stamina-=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "15"
+    "pIdolId": "15",
+    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.6,do:stamina-=2,limit:2"
   },
   {
     "id": "36",
@@ -391,9 +391,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.7,do:stamina-=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "15"
+    "pIdolId": "15",
+    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.7,do:stamina-=2,limit:2"
   },
   {
     "id": "37",
@@ -402,9 +402,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:concentrationIncreased,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "16"
+    "pIdolId": "16",
+    "effects": "at:concentrationIncreased,if:stamina>=maxStamina*0.5,do:concentration+=2,limit:2"
   },
   {
     "id": "38",
@@ -413,9 +413,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:concentrationIncreased,do:concentration+=2,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "16"
+    "pIdolId": "16",
+    "effects": "at:concentrationIncreased,do:concentration+=2,limit:2"
   },
   {
     "id": "39",
@@ -424,9 +424,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=5,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "17"
+    "pIdolId": "17",
+    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=5,limit:1"
   },
   {
     "id": "40",
@@ -435,9 +435,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=6,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "17"
+    "pIdolId": "17",
+    "effects": "at:startOfTurn,if:genki>=7,do:motivation+=6,limit:1"
   },
   {
     "id": "41",
@@ -446,9 +446,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "18"
+    "pIdolId": "18",
+    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:3"
   },
   {
     "id": "42",
@@ -457,9 +457,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:4",
     "sourceType": "pIdol",
-    "pIdolId": "18"
+    "pIdolId": "18",
+    "effects": "at:startOfTurn,if:concentration>=5,do:stamina+=2,limit:4"
   },
   {
     "id": "43",
@@ -468,9 +468,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "19"
+    "pIdolId": "19",
+    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "44",
@@ -479,9 +479,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "19"
+    "pIdolId": "19",
+    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1"
   },
   {
     "id": "45",
@@ -490,9 +490,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "20"
+    "pIdolId": "20",
+    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=1,limit:1"
   },
   {
     "id": "46",
@@ -501,9 +501,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "20"
+    "pIdolId": "20",
+    "effects": "at:cardUsed,if:concentration>=5,do:cardUsesRemaining+=1,do:concentration+=3,limit:1"
   },
   {
     "id": "47",
@@ -512,9 +512,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=3,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "21"
+    "pIdolId": "21",
+    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=3,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "48",
@@ -523,9 +523,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=5,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "21"
+    "pIdolId": "21",
+    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=5,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "49",
@@ -534,9 +534,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,do:genki+=1,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "22"
+    "pIdolId": "22",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,do:genki+=1,limit:2"
   },
   {
     "id": "50",
@@ -545,9 +545,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=3,do:genki+=1,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "22"
+    "pIdolId": "22",
+    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=3,do:genki+=1,limit:2"
   },
   {
     "id": "51",
@@ -556,9 +556,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression*0.3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "23"
+    "pIdolId": "23",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression*0.3,limit:1"
   },
   {
     "id": "52",
@@ -567,9 +567,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "23"
+    "pIdolId": "23",
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression,limit:1"
   },
   {
     "id": "53",
@@ -578,9 +578,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:motivationIncreased,do:motivation+=3,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "24"
+    "pIdolId": "24",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:2"
   },
   {
     "id": "54",
@@ -589,9 +589,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:motivationIncreased,do:motivation+=3,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "24"
+    "pIdolId": "24",
+    "effects": "at:motivationIncreased,do:motivation+=3,limit:3"
   },
   {
     "id": "55",
@@ -600,9 +600,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfStage,do:concentration+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "25"
+    "pIdolId": "25",
+    "effects": "at:startOfStage,do:concentration+=3,limit:1"
   },
   {
     "id": "56",
@@ -611,9 +611,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfStage,do:concentration+=4,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "25"
+    "pIdolId": "25",
+    "effects": "at:startOfStage,do:concentration+=4,limit:1"
   },
   {
     "id": "57",
@@ -622,9 +622,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.5,do:stamina-=1",
     "sourceType": "pIdol",
-    "pIdolId": "26"
+    "pIdolId": "26",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.5,do:stamina-=1"
   },
   {
     "id": "58",
@@ -633,9 +633,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.65,do:stamina-=1",
     "sourceType": "pIdol",
-    "pIdolId": "26"
+    "pIdolId": "26",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.65,do:stamina-=1"
   },
   {
     "id": "59",
@@ -644,9 +644,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=5,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "27"
+    "pIdolId": "27",
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=5,limit:2"
   },
   {
     "id": "60",
@@ -655,9 +655,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsRemaining<=3,do:parameter+=5,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "27"
+    "pIdolId": "27",
+    "effects": "at:startOfTurn,if:turnsRemaining<=3,do:parameter+=5,limit:3"
   },
   {
     "id": "61",
@@ -666,9 +666,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterVocalSpLesson,if:vocal>=400,do:upgradeRandomCard",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterVocalSpLesson,if:vocal>=400,do:upgradeRandomCard"
   },
   {
     "id": "62",
@@ -677,9 +677,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterOikomiLesson,if:vocal>=400,do:vocal+=26",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterOikomiLesson,if:vocal>=400,do:vocal+=26"
   },
   {
     "id": "63",
@@ -688,9 +688,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterOikomiLesson,if:visual>=400,do:visual+=26",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterOikomiLesson,if:visual>=400,do:visual+=26"
   },
   {
     "id": "64",
@@ -699,9 +699,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterDanceSPLesson,do:getRandomPDrinks2",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterDanceSPLesson,do:getRandomPDrinks2"
   },
   {
     "id": "65",
@@ -710,9 +710,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterOikomiLesson,if:dance>=400,do:dance+=26",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterOikomiLesson,if:dance>=400,do:dance+=26"
   },
   {
     "id": "66",
@@ -721,9 +721,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterDanceLesson,if:stamina>=maxStamina&0.5,do:dance+=13",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterDanceLesson,if:stamina>=maxStamina&0.5,do:dance+=13"
   },
   {
     "id": "67",
@@ -732,9 +732,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterVocalLesson,if:stamina>=maxStamina*0.5,do:vocal+=13",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterVocalLesson,if:stamina>=maxStamina*0.5,do:vocal+=13"
   },
   {
     "id": "68",
@@ -743,9 +743,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterVisualLesson,if:stamina>=maxStamina*0.5,do:visual+=13",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterVisualLesson,if:stamina>=maxStamina*0.5,do:visual+=13"
   },
   {
     "id": "69",
@@ -754,9 +754,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:cardUpgraded,if:vocal>=400,do:pPoints+=15",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:cardUpgraded,if:vocal>=400,do:pPoints+=15"
   },
   {
     "id": "70",
@@ -765,9 +765,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterVisualSPLesson,if:visual>=400,do:upgradeRandomCard",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterVisualSPLesson,if:visual>=400,do:upgradeRandomCard"
   },
   {
     "id": "71",
@@ -776,9 +776,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isVisualTurn,do:parameterBuff50+=1,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:parameterBuff50+=1,limit:3"
   },
   {
     "id": "72",
@@ -787,9 +787,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isVisualTurn,do:fixedGenki+=2",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:fixedGenki+=2"
   },
   {
     "id": "73",
@@ -798,9 +798,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isDanceTurn,do:parameterBuff50+=1,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:parameterBuff50+=1,limit:3"
   },
   {
     "id": "74",
@@ -809,9 +809,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:activeCardUsed,if:isVocalTurn,do:stamina+=2,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:activeCardUsed,if:isVocalTurn,do:stamina+=2,limit:3"
   },
   {
     "id": "75",
@@ -820,9 +820,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isVocalTurn,do:drawCard,do:fixedGenki+=2,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVocalTurn,do:drawCard,do:fixedGenki+=2,limit:3"
   },
   {
     "id": "76",
@@ -831,9 +831,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "produce",
-    "effects": "at:afterDate,do:stamina+=9",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:afterDate,do:stamina+=9"
   },
   {
     "id": "77",
@@ -842,9 +842,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:activeCardUsed,if:isVisualTurn,do:stamina+=2,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:activeCardUsed,if:isVisualTurn,do:stamina+=2,limit:3"
   },
   {
     "id": "78",
@@ -853,9 +853,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isVisualTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVisualTurn,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "79",
@@ -864,9 +864,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isDanceTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "80",
@@ -875,9 +875,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "28"
+    "pIdolId": "28",
+    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:2"
   },
   {
     "id": "81",
@@ -886,9 +886,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "28"
+    "pIdolId": "28",
+    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:3"
   },
   {
     "id": "82",
@@ -897,9 +897,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isVocalTurn,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVocalTurn,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "83",
@@ -908,9 +908,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=2,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "29"
+    "pIdolId": "29",
+    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=2,limit:1"
   },
   {
     "id": "84",
@@ -919,9 +919,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=3,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "29"
+    "pIdolId": "29",
+    "effects": "at:afterCardUsed,if:motivation>=3,do:motivation+=3,limit:1"
   },
   {
     "id": "85",
@@ -930,9 +930,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "30"
+    "pIdolId": "30",
+    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:2"
   },
   {
     "id": "86",
@@ -941,9 +941,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "30"
+    "pIdolId": "30",
+    "effects": "at:startOfTurn,if:turnsElapsed%2==1,do:genki+=5,limit:3"
   },
   {
     "id": "87",
@@ -952,9 +952,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=3,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "31"
+    "pIdolId": "31",
+    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=3,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "88",
@@ -963,9 +963,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=5,do:cardUsesRemaining+=1,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "31"
+    "pIdolId": "31",
+    "effects": "at:afterMentalCardUsed,if:motivation>=5,do:motivation+=5,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "89",
@@ -974,9 +974,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=5,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "32"
+    "pIdolId": "32",
+    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=5,limit:1"
   },
   {
     "id": "90",
@@ -985,9 +985,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=11,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "32"
+    "pIdolId": "32",
+    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=11,limit:1"
   },
   {
     "id": "91",
@@ -996,9 +996,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "produce",
-    "effects": "at:cardReceived,if:cardEffects&goodCondition,do:dance+=6",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&goodCondition,do:dance+=6"
   },
   {
     "id": "92",
@@ -1007,9 +1007,9 @@
     "upgraded": "FALSE",
     "plan": "free",
     "mode": "stage",
-    "effects": "at:activeCardUsed,if:isDanceTurn,do:stamina+=2,limit:3",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:activeCardUsed,if:isDanceTurn,do:stamina+=2,limit:3"
   },
   {
     "id": "93",
@@ -1018,9 +1018,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:staminaDecreased,do:goodImpression+=2,limit:4",
     "sourceType": "pIdol",
-    "pIdolId": "33"
+    "pIdolId": "33",
+    "effects": "at:staminaDecreased,do:goodImpression+=2,limit:4"
   },
   {
     "id": "94",
@@ -1029,9 +1029,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:staminaDecreased,do:goodImpression+=2",
     "sourceType": "pIdol",
-    "pIdolId": "33"
+    "pIdolId": "33",
+    "effects": "at:staminaDecreased,do:goodImpression+=2"
   },
   {
     "id": "95",
@@ -1040,9 +1040,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "produce",
-    "effects": "at:cardReceived,if:cardEffects&goodImpression,do:visual+=6",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&goodImpression,do:visual+=6"
   },
   {
     "id": "96",
@@ -1051,9 +1051,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=10,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "34"
+    "pIdolId": "34",
+    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=10,limit:1"
   },
   {
     "id": "97",
@@ -1062,9 +1062,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=14,limit:1",
     "sourceType": "pIdol",
-    "pIdolId": "34"
+    "pIdolId": "34",
+    "effects": "at:startOfTurn,if:concentration>=3,do:genki+=14,limit:1"
   },
   {
     "id": "98",
@@ -1073,9 +1073,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*2.7,do:stamina-=2,limit:4",
     "sourceType": "pIdol",
-    "pIdolId": "35"
+    "pIdolId": "35",
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*2.7,do:stamina-=2,limit:4"
   },
   {
     "id": "99",
@@ -1084,9 +1084,9 @@
     "upgraded": "TRUE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*3.4,do:stamina-=2,limit:4",
     "sourceType": "pIdol",
-    "pIdolId": "35"
+    "pIdolId": "35",
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*3.4,do:stamina-=2,limit:4"
   },
   {
     "id": "100",
@@ -1095,9 +1095,9 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:isDanceTurn,do:parameter+=motivation*0.5",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:parameter+=motivation*0.5"
   },
   {
     "id": "101",
@@ -1106,9 +1106,9 @@
     "upgraded": "FALSE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:2",
     "sourceType": "pIdol",
-    "pIdolId": "36"
+    "pIdolId": "36",
+    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:2"
   },
   {
     "id": "102",
@@ -1117,9 +1117,9 @@
     "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:3",
     "sourceType": "pIdol",
-    "pIdolId": "36"
+    "pIdolId": "36",
+    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:3"
   },
   {
     "id": "103",
@@ -1128,140 +1128,52 @@
     "upgraded": "FALSE",
     "plan": "logic",
     "mode": "produce",
-    "effects": "at:cardReceived,if:cardEffects&motivation,do:vocal+=6",
     "sourceType": "support",
-    "pIdolId": ""
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&motivation,do:vocal+=6"
   },
   {
     "id": "104",
-    "name": "\u521d\u661f\u30d0\u30c3\u30c1\uff08\u8d64\uff09",
-    "rarity": "N",
+    "name": "\u307e\u3060\u898b\u306c\u4e16\u754c\u3078",
+    "rarity": "SSR",
     "upgraded": "FALSE",
-    "plan": "free",
+    "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsElapsed==7,do:parameter+=15,do:genki+=15,limit:1",
-    "sourceType": "contest",
-    "pIdolId": ""
+    "sourceType": "pIdol",
+    "pIdolId": "37",
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction-=3,do:upgradeAllCards,limit:1"
   },
   {
     "id": "105",
-    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u7d2b\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
+    "name": "\u307e\u3060\u898b\u306c\u4e16\u754c\u3078+",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
     "plan": "sense",
     "mode": "stage",
-    "effects": "at:startOfTurn,do:goodCondition+=3,do:parameterBuff50+=4,limit:1",
-    "sourceType": "contest",
-    "pIdolId": ""
+    "sourceType": "pIdol",
+    "pIdolId": "37",
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction-=3,do:upgradeAllCards,limit:1"
   },
   {
     "id": "106",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u30aa\u30ec\u30f3\u30b8\uff09",
-    "rarity": "N",
+    "name": "\u30aa\u30fc\u30d0\u30fc\u30d1\u30ef\u30fc\u30dc\u30fc\u30eb",
+    "rarity": "SSR",
     "upgraded": "FALSE",
-    "plan": "logic",
+    "plan": "sense",
     "mode": "stage",
-    "effects": "at:afterGoodImpressionIncreased,if:goodImpression>=10,do:goodImpression+=4,do:parameter+=goodImpression*0.5",
-    "sourceType": "contest",
-    "pIdolId": ""
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isVocalTurn,do:concentration+=4,do:stamina-=2,limit:1"
   },
   {
     "id": "107",
-    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u7d2b\uff09",
-    "rarity": "N",
+    "name": "\u30a6\u30c1\u30e5\u30a6\u30b8\u30f3\u30c7\u30a2\u30eb",
+    "rarity": "SR",
     "upgraded": "FALSE",
     "plan": "sense",
-    "mode": "stage",
-    "effects": "at:afterCardUsed,if:cardEffects&perfectCondition,if:goodCondition>=4,do:cardUsesRemaining+=1",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "108",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u7d2b\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "logic",
-    "mode": "stage",
-    "effects": "at:cardUsed,if:cardsUsed%2==0,do:parameter+=genki*0.5",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "109",
-    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u9280\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "sense",
-    "mode": "stage",
-    "effects": "at:startOfTurn,if:turnsElapsed==7,do:concentration+=2,limit:1",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "110",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u30aa\u30ec\u30f3\u30b8\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "logic",
-    "mode": "stage",
-    "effects": "at:activeCardUsed,do:parameter+=goodImpression*1.7,limit:3",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "111",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u7d2b\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "logic",
-    "mode": "stage",
-    "effects": "at:startOfTurn,do:motivation+=4",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "112",
-    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u9280\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "sense",
-    "mode": "stage",
-    "effects": "at:cardUsed,if:cardEffects&halfStamina,do:concentration+=3,do:goodCondition+=3,do:directStamina-=3,limit:3",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "113",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u7d2b\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "logic",
-    "mode": "stage",
-    "effects": "at:activeCardUsed:do:motivation+=3,limit:4",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "114",
-    "name": "\u521d\u661f\u30aa\u30d6\u30b8\u30a7\uff08\u7d2b\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "sense",
-    "mode": "stage",
-    "effects": "at:startOfTurn,do:concentration+=5,do:doubleStamina+=1,limit:2",
-    "sourceType": "contest",
-    "pIdolId": ""
-  },
-  {
-    "id": "115",
-    "name": "\u521d\u661f\u30e9\u30a4\u30c8\uff08\u30aa\u30ec\u30f3\u30b8\uff09",
-    "rarity": "N",
-    "upgraded": "FALSE",
-    "plan": "logic",
-    "mode": "stage",
-    "effects": "at:startOfTurn,do:goodImpression+=4,do:nullifyGenki+=1,limit:6",
-    "sourceType": "contest",
-    "pIdolId": ""
+    "mode": "produce",
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&concentration,do:vocal+=6"
   }
 ]

@@ -4,6 +4,10 @@ import image_100 from "./100.png";
 import image_101 from "./101.png";
 import image_102 from "./102.png";
 import image_103 from "./103.png";
+import image_104 from "./104.png";
+import image_105 from "./105.png";
+import image_106 from "./106.png";
+import image_107 from "./107.png";
 import image_11 from "./11.png";
 import image_12 from "./12.png";
 import image_13 from "./13.png";
@@ -109,6 +113,10 @@ const IMAGES = {
   101: image_101,
   102: image_102,
   103: image_103,
+  104: image_104,
+  105: image_105,
+  106: image_106,
+  107: image_107,
   11: image_11,
   12: image_12,
   13: image_13,
