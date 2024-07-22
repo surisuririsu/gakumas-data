@@ -1,6 +1,6 @@
 import glob
 
-image_dirs = ["idols", "pItems", "skillCards"]
+image_dirs = ["idols", "pItems/icons", "pItems/details", "skillCards/icons", "skillCards/details"]
 
 for dir in image_dirs:
   ids = [path.split("\\")[1].split(".")[0] for path in glob.glob(f"images/{dir}/*.png")]

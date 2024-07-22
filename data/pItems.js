@@ -1,5 +1,6 @@
 import P_ITEMS from "../json/p_items.json" with { mode: "json" };
-import ICONS from "../images/pItems/imports";
+import ICONS from "../images/pItems/icons/imports";
+import DETAILS from "../images/pItems/details/imports";
 import { getPItemContestPower } from "../utils/contestPower";
 import { deserializeEffectSequence } from "../utils/effects";
 
@@ -9,6 +10,7 @@ P_ITEMS.forEach(async (pItem) => {
   pItem.effects = deserializeEffectSequence(pItem.effects);
   pItem.pIdolId = parseInt(pItem.pIdolId, 10) || null;
   pItem.icon = ICONS[pItem.id];
+  pItem.details = DETAILS[pItem.id];
   pItem.contestPower = getPItemContestPower(pItem);
 });
 

@@ -1,5 +1,6 @@
 import SKILL_CARDS from "../json/skill_cards.json" with { mode: "json" };
-import ICONS from "../images/skillCards/imports";
+import ICONS from "../images/skillCards/icons/imports";
+import DETAILS from "../images/skillCards/details/imports";
 import { getSkillCardContestPower } from "../utils/contestPower";
 import { deserializeEffect, deserializeEffectSequence } from "../utils/effects";
 
@@ -15,6 +16,7 @@ SKILL_CARDS.forEach((skillCard, i) => {
   skillCard.forceInitialHand = skillCard.forceInitialHand == "TRUE";
   skillCard.pIdolId = parseInt(skillCard.pIdolId, 10) || null;
   skillCard.icon = ICONS[skillCard.id];
+  skillCard.details = DETAILS[skillCard.id];
   skillCard.contestPower = getSkillCardContestPower(skillCard);
 });
 
