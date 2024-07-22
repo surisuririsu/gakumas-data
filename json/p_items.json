@@ -1141,7 +1141,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "37",
-    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction-=3,do:upgradeAllCards,limit:1"
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=5,do:staminaReduction+=2,do:upgradeAllCards,limit:1"
   },
   {
     "id": "105",
@@ -1152,7 +1152,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "37",
-    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction-=3,do:upgradeAllCards,limit:1"
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction+=3,do:upgradeAllCards,limit:1"
   },
   {
     "id": "106",

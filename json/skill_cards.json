@@ -5300,7 +5300,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=2",
-    "effects": "do:concentrationMultiplier=2.6;if:stamina<=maxStamina*0.5,do:genki+=12",
+    "effects": "do:concentrationMultiplier=2.3,do:parameter+=5;if:stamina<=maxStamina*0.5,do:genki+=6",
     "limit": "1"
   },
   {
@@ -5317,7 +5317,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=2",
-    "effects": "do:concentrationMultiplier=2.6;if:stamina<=maxStamina*0.5,do:genki+=12",
+    "effects": "do:concentrationMultiplier=2.6,do:parameter+=8;if:stamina<=maxStamina*0.5,do:genki+=12",
     "limit": "1"
   }
 ]
