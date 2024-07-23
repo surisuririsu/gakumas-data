@@ -4,7 +4,7 @@ import DETAILS from "../images/skillCards/details/imports";
 import { getSkillCardContestPower } from "../utils/contestPower";
 import { deserializeEffect, deserializeEffectSequence } from "../utils/effects";
 
-SKILL_CARDS.forEach((skillCard, i) => {
+SKILL_CARDS.forEach((skillCard) => {
   skillCard.id = parseInt(skillCard.id, 10);
   skillCard.unlockPlv = parseInt(skillCard.unlockPlv, 10);
   skillCard.upgraded = skillCard.upgraded == "TRUE";
