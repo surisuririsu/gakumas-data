@@ -19,7 +19,7 @@ for dir in image_dirs:
     f.write("\n")
     f.write("const IMAGES = {\n")
     for id in ids:
-      f.write(f"  {id}: image_{id},\n")
+      f.write(f"  '{id}': image_{id},\n")
     f.write("};\n")
     f.write("\n")
     f.write("export default IMAGES;\n")
