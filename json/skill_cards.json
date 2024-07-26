@@ -2590,7 +2590,7 @@
     "type": "active",
     "plan": "logic",
     "unlockPlv": "44",
-    "upgraded": "FALSE",
+    "upgraded": "TRUE",
     "unique": "TRUE",
     "sourceType": "produce",
     "pIdolId": "",

@@ -7,6 +7,7 @@ import image_14 from "./14.png";
 import image_15 from "./15.png";
 import image_16 from "./16.png";
 import image_17 from "./17.png";
+import image_18 from "./18.png";
 import image_19 from "./19.png";
 import image_2 from "./2.png";
 import image_20 from "./20.png";
@@ -41,6 +42,7 @@ const IMAGES = {
   15: image_15,
   16: image_16,
   17: image_17,
+  18: image_18,
   19: image_19,
   2: image_2,
   20: image_20,

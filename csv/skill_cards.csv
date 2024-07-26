@@ -151,7 +151,7 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 150,開花,SSR,active,logic,12,FALSE,TRUE,produce,,FALSE,,do:stamina-=5,"do:motivation+=6,do:parameter+=motivation*2",1
 151,開花+,SSR,active,logic,12,TRUE,TRUE,produce,,FALSE,,do:stamina-=5,"do:motivation+=8,do:parameter+=motivation*3",1
 152,届いて！,SSR,active,logic,44,FALSE,TRUE,produce,,FALSE,,do:directStamina-=2,"do:parameter+=genki*1.6,do:genki=0",1
-153,届いて！+,SSR,active,logic,44,FALSE,TRUE,produce,,FALSE,,do:directStamina-=2,"do:parameter+=genki*2.2,do:genki=0",1
+153,届いて！+,SSR,active,logic,44,TRUE,TRUE,produce,,FALSE,,do:directStamina-=2,"do:parameter+=genki*2.2,do:genki=0",1
 154,テレビ出演,SSR,mental,free,5,FALSE,TRUE,produce,,FALSE,,do:stamina-=1,"do:genki+=3,do:halfStamina+=4",1
 155,テレビ出演+,SSR,mental,free,5,TRUE,TRUE,produce,,FALSE,,do:stamina-=1,"do:genki+=5,do:halfStamina+=5",1
 156,叶えたい夢,SSR,mental,free,10,FALSE,TRUE,produce,,FALSE,,do:directStamina-=1,"do:genki+=8,do:staminaReduction+=1",1
