@@ -10,16 +10,16 @@ import image_8 from "./8.png";
 import image_9 from "./9.png";
 
 const IMAGES = {
-  1: image_1,
-  10: image_10,
-  2: image_2,
-  3: image_3,
-  4: image_4,
-  5: image_5,
-  6: image_6,
-  7: image_7,
-  8: image_8,
-  9: image_9,
+  '1': image_1,
+  '10': image_10,
+  '2': image_2,
+  '3': image_3,
+  '4': image_4,
+  '5': image_5,
+  '6': image_6,
+  '7': image_7,
+  '8': image_8,
+  '9': image_9,
 };
 
 export default IMAGES;
