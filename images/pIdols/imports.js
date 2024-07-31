@@ -30,6 +30,7 @@ import image_37 from "./37.png";
 import image_5 from "./5.png";
 import image_6 from "./6.png";
 import image_7 from "./7.png";
+import image_8 from "./8.png";
 import image_9 from "./9.png";
 
 const IMAGES = {
@@ -65,6 +66,7 @@ const IMAGES = {
   '5': image_5,
   '6': image_6,
   '7': image_7,
+  '8': image_8,
   '9': image_9,
 };
 
