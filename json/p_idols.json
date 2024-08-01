@@ -294,5 +294,21 @@
     "rarity": "SSR",
     "plan": "sense",
     "recommendedEffect": "concentration"
+  },
+  {
+    "id": "38",
+    "idolId": "1",
+    "title": "\u51a0\u83ca",
+    "rarity": "SSR",
+    "plan": "logic",
+    "recommendedEffect": "goodImpression"
+  },
+  {
+    "id": "39",
+    "idolId": "5",
+    "title": "\u51a0\u83ca",
+    "rarity": "SSR",
+    "plan": "sense",
+    "recommendedEffect": "goodCondition"
   }
 ]
