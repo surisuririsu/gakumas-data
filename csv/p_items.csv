@@ -106,3 +106,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,effects
 105,まだ見ぬ世界へ+,SSR,TRUE,sense,stage,pIdol,37,"at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction+=3,do:upgradeAllCards,limit:1"
 106,オーバーパワーボール,SSR,FALSE,sense,stage,support,,"at:startOfTurn,if:isVocalTurn,do:concentration+=4,do:stamina-=2,limit:1"
 107,ウチュウジンデアル,SR,FALSE,sense,produce,support,,"at:cardReceived,if:cardEffects&concentration,do:vocal+=6"
+108,敗れ知らずのポイ,SSR,FALSE,logic,stage,pIdol,38,"at:startOfTurn,if:goodImpression>=6,do:stamina+=4,limit:2"
+109,敗れ知らずのポイ+,SSR,TRUE,logic,stage,pIdol,38,"at:startOfTurn,if:goodImpression>=6,do:stamina+=5,limit:2"
+110,瓶の中のきらめき,SSR,FALSE,sense,stage,pIdol,39,"at:endOfTurn,if:goodCondition>=6,do:goodCondition+=2,limit:3"
+111,瓶の中のきらめき+,SSR,TRUE,sense,stage,pIdol,39,"at:endOfTurn,if:goodCondition>=3,do:goodCondition+=2,limit:4"

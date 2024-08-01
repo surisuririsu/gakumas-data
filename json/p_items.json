@@ -1175,5 +1175,49 @@
     "sourceType": "support",
     "pIdolId": "",
     "effects": "at:cardReceived,if:cardEffects&concentration,do:vocal+=6"
+  },
+  {
+    "id": "108",
+    "name": "\u6557\u308c\u77e5\u3089\u305a\u306e\u30dd\u30a4",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "38",
+    "effects": "at:startOfTurn,if:goodImpression>=6,do:stamina+=4,limit:2"
+  },
+  {
+    "id": "109",
+    "name": "\u6557\u308c\u77e5\u3089\u305a\u306e\u30dd\u30a4+",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "38",
+    "effects": "at:startOfTurn,if:goodImpression>=6,do:stamina+=5,limit:2"
+  },
+  {
+    "id": "110",
+    "name": "\u74f6\u306e\u4e2d\u306e\u304d\u3089\u3081\u304d",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "39",
+    "effects": "at:endOfTurn,if:goodCondition>=6,do:goodCondition+=2,limit:3"
+  },
+  {
+    "id": "111",
+    "name": "\u74f6\u306e\u4e2d\u306e\u304d\u3089\u3081\u304d+",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "39",
+    "effects": "at:endOfTurn,if:goodCondition>=3,do:goodCondition+=2,limit:4"
   }
 ]

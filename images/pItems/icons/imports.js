@@ -8,7 +8,11 @@ import image_104 from "./104.png";
 import image_105 from "./105.png";
 import image_106 from "./106.png";
 import image_107 from "./107.png";
+import image_108 from "./108.png";
+import image_109 from "./109.png";
 import image_11 from "./11.png";
+import image_110 from "./110.png";
+import image_111 from "./111.png";
 import image_12 from "./12.png";
 import image_13 from "./13.png";
 import image_14 from "./14.png";
@@ -117,7 +121,11 @@ const IMAGES = {
   '105': image_105,
   '106': image_106,
   '107': image_107,
+  '108': image_108,
+  '109': image_109,
   '11': image_11,
+  '110': image_110,
+  '111': image_111,
   '12': image_12,
   '13': image_13,
   '14': image_14,
