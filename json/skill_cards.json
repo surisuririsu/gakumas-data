@@ -12,8 +12,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9",
     "limit": ""
   },
   {
@@ -29,8 +29,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=14",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=14",
     "limit": ""
   },
   {
@@ -46,8 +46,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=2,do:genki+=2",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=2,do:genki+=2",
     "limit": ""
   },
   {
@@ -63,8 +63,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=6,do:genki+=4",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=6,do:genki+=4",
     "limit": ""
   },
   {
@@ -79,9 +79,9 @@
     "sourceType": "default",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=25",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=25",
     "limit": "1"
   },
   {
@@ -96,9 +96,9 @@
     "sourceType": "default",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=37",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=37",
     "limit": "1"
   },
   {
@@ -114,8 +114,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=8,do:parameter+=8",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=8,do:score+=8",
     "limit": "1"
   },
   {
@@ -131,8 +131,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=10,do:parameter+=10",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=10,do:score+=10",
     "limit": "1"
   },
   {
@@ -148,8 +148,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=2,do:parameter+=goodImpression",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=2,do:score+=goodImpressionTurns",
     "limit": "1"
   },
   {
@@ -165,8 +165,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=3,do:parameter+=goodImpression*1.2",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=3,do:score+=goodImpressionTurns*1.2",
     "limit": "1"
   },
   {
@@ -182,8 +182,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=5",
-    "effects": "do:parameter+=genki",
+    "cost": "do:stamina-=5",
+    "effects": "do:score+=genki",
     "limit": "1"
   },
   {
@@ -199,8 +199,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:parameter+=genki*1.1",
+    "cost": "do:stamina-=3",
+    "effects": "do:score+=genki*1.1",
     "limit": "1"
   },
   {
@@ -250,8 +250,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=1,do:goodCondition+=2",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=1,do:goodConditionTurns+=2",
     "limit": ""
   },
   {
@@ -267,8 +267,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=1,do:goodCondition+=3",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=1,do:goodConditionTurns+=3",
     "limit": ""
   },
   {
@@ -284,7 +284,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
+    "cost": "do:cost-=1",
     "effects": "do:genki+=1,do:concentration+=2",
     "limit": ""
   },
@@ -301,7 +301,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
+    "cost": "do:cost-=1",
     "effects": "do:genki+=1,do:concentration+=3",
     "limit": ""
   },
@@ -318,8 +318,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:genki+=1,do:goodImpression+=2",
+    "cost": "do:cost-=2",
+    "effects": "do:genki+=1,do:goodImpressionTurns+=2",
     "limit": ""
   },
   {
@@ -335,8 +335,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:genki+=2,do:goodImpression+=3",
+    "cost": "do:cost-=2",
+    "effects": "do:genki+=2,do:goodImpressionTurns+=3",
     "limit": ""
   },
   {
@@ -352,7 +352,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=1,do:motivation+=2",
     "limit": ""
   },
@@ -369,7 +369,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=2,do:motivation+=3",
     "limit": ""
   },
@@ -403,8 +403,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=6,do:goodCondition+=2",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=6,do:goodConditionTurns+=2",
     "limit": ""
   },
   {
@@ -420,8 +420,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9,do:goodCondition+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9,do:goodConditionTurns+=3",
     "limit": ""
   },
   {
@@ -437,8 +437,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=13",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=13",
     "limit": ""
   },
   {
@@ -454,8 +454,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=21",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=21",
     "limit": ""
   },
   {
@@ -471,8 +471,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=6,do:concentration+=2",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=6,do:concentration+=2",
     "limit": ""
   },
   {
@@ -488,8 +488,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9,do:concentration+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9,do:concentration+=3",
     "limit": ""
   },
   {
@@ -505,8 +505,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:parameter+=10",
+    "cost": "do:cost-=2",
+    "effects": "do:score+=10",
     "limit": ""
   },
   {
@@ -522,8 +522,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:parameter+=16",
+    "cost": "do:cost-=2",
+    "effects": "do:score+=16",
     "limit": ""
   },
   {
@@ -539,8 +539,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=6;if:goodCondition>=1,do:concentration+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=6;if:goodConditionTurns>=1,do:concentration+=3",
     "limit": ""
   },
   {
@@ -556,8 +556,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9;if:goodCondition>=1,do:concentration+=4",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9;if:goodConditionTurns>=1,do:concentration+=4",
     "limit": ""
   },
   {
@@ -573,8 +573,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:concentrationMultiplier=1.5,do:parameter+=17",
+    "cost": "do:cost-=4",
+    "effects": "do:concentrationMultiplier=1.5,do:score+=17",
     "limit": "1"
   },
   {
@@ -590,8 +590,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:concentrationMultiplier=2,do:parameter+=23",
+    "cost": "do:cost-=4",
+    "effects": "do:concentrationMultiplier=2,do:score+=23",
     "limit": "1"
   },
   {
@@ -606,9 +606,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=27",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=27",
     "limit": "1"
   },
   {
@@ -623,9 +623,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=38",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=38",
     "limit": "1"
   },
   {
@@ -641,8 +641,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=7,do:goodImpression+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=7,do:goodImpressionTurns+=3",
     "limit": ""
   },
   {
@@ -658,8 +658,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9,do:goodImpression+=4",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9,do:goodImpressionTurns+=4",
     "limit": ""
   },
   {
@@ -675,8 +675,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:motivation+=3,do:parameter+=genki*0.6",
+    "cost": "do:stamina-=4",
+    "effects": "do:motivation+=3,do:score+=genki*0.6",
     "limit": "1"
   },
   {
@@ -692,8 +692,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:motivation+=4,do:parameter+=genki*0.8",
+    "cost": "do:stamina-=4",
+    "effects": "do:motivation+=4,do:score+=genki*0.8",
     "limit": "1"
   },
   {
@@ -709,8 +709,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=10,do:motivation+=3",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=10,do:motivation+=3",
     "limit": ""
   },
   {
@@ -726,8 +726,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=15,do:motivation+=4",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=15,do:motivation+=4",
     "limit": ""
   },
   {
@@ -743,8 +743,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=goodImpression*1.5",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=goodImpressionTurns*1.5",
     "limit": "1"
   },
   {
@@ -760,8 +760,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=goodImpression*2",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=goodImpressionTurns*2",
     "limit": "1"
   },
   {
@@ -777,8 +777,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:parameter+=genki*1.1",
+    "cost": "do:stamina-=4",
+    "effects": "do:score+=genki*1.1",
     "limit": "1"
   },
   {
@@ -794,8 +794,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:parameter+=genki*1.2",
+    "cost": "do:stamina-=3",
+    "effects": "do:score+=genki*1.2",
     "limit": "1"
   },
   {
@@ -812,7 +812,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=2,do:halfStamina+=2",
+    "effects": "do:genki+=2,do:halfCostTurns+=2",
     "limit": ""
   },
   {
@@ -829,7 +829,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=2,do:halfStamina+=3",
+    "effects": "do:genki+=2,do:halfCostTurns+=3",
     "limit": ""
   },
   {
@@ -846,7 +846,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=3;if:stamina>=maxStamina*0.5,do:staminaReduction+=1",
+    "effects": "do:genki+=3;if:stamina>=maxStamina*0.5,do:costReduction+=1",
     "limit": "1"
   },
   {
@@ -863,7 +863,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=6;if:stamina>=maxStamina*0.5,do:staminaReduction+=1",
+    "effects": "do:genki+=6;if:stamina>=maxStamina*0.5,do:costReduction+=1",
     "limit": "1"
   },
   {
@@ -879,7 +879,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:concentration+=3",
     "limit": ""
   },
@@ -896,7 +896,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=1,do:concentration+=4",
     "limit": ""
   },
@@ -913,8 +913,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodCondition+=3;if:goodCondition,do:concentration+=1",
+    "cost": "do:cost-=2",
+    "effects": "do:goodConditionTurns+=3;if:goodConditionTurns,do:concentration+=1",
     "limit": ""
   },
   {
@@ -930,8 +930,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodCondition+=4;if:goodCondition,do:concentration+=1",
+    "cost": "do:cost-=2",
+    "effects": "do:goodConditionTurns+=4;if:goodConditionTurns,do:concentration+=1",
     "limit": ""
   },
   {
@@ -947,8 +947,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:concentration+=2;if:concentration>=3,do:goodCondition+=3",
+    "cost": "do:cost-=3",
+    "effects": "do:concentration+=2;if:concentration>=3,do:goodConditionTurns+=3",
     "limit": ""
   },
   {
@@ -964,8 +964,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:concentration+=3;if:concentration>=3,do:goodCondition+=3",
+    "cost": "do:cost-=3",
+    "effects": "do:concentration+=3;if:concentration>=3,do:goodConditionTurns+=3",
     "limit": ""
   },
   {
@@ -981,8 +981,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:genki+=2,do:goodImpression+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:genki+=2,do:goodImpressionTurns+=3",
     "limit": ""
   },
   {
@@ -998,8 +998,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=2,do:goodImpression+=4",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=2,do:goodImpressionTurns+=4",
     "limit": ""
   },
   {
@@ -1015,7 +1015,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=1,do:motivation+=3",
     "limit": ""
   },
@@ -1032,7 +1032,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=2,do:motivation+=4",
     "limit": ""
   },
@@ -1083,8 +1083,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodImpression+=3;if:goodImpression>=3,do:motivation+=2",
+    "cost": "do:cost-=2",
+    "effects": "do:goodImpressionTurns+=3;if:goodImpressionTurns>=3,do:motivation+=2",
     "limit": ""
   },
   {
@@ -1100,8 +1100,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodImpression+=4;if:goodImpression>=3,do:motivation+=3",
+    "cost": "do:cost-=2",
+    "effects": "do:goodImpressionTurns+=4;if:goodImpressionTurns>=3,do:motivation+=3",
     "limit": ""
   },
   {
@@ -1117,8 +1117,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=5;if:motivation>=3,do:goodImpression+=3",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=5;if:motivation>=3,do:goodImpressionTurns+=3",
     "limit": ""
   },
   {
@@ -1134,8 +1134,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=7;if:motivation>=3,do:goodImpression+=4",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=7;if:motivation>=3,do:goodImpressionTurns+=4",
     "limit": ""
   },
   {
@@ -1151,8 +1151,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:motivation+=3;if:motivation>=6,do:goodImpression+=4",
+    "cost": "do:cost-=4",
+    "effects": "do:motivation+=3;if:motivation>=6,do:goodImpressionTurns+=4",
     "limit": ""
   },
   {
@@ -1168,8 +1168,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:motivation+=4;if:motivation>=6,do:goodImpression+=5",
+    "cost": "do:cost-=4",
+    "effects": "do:motivation+=4;if:motivation>=6,do:goodImpressionTurns+=5",
     "limit": ""
   },
   {
@@ -1185,8 +1185,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=8,do:genki+=7",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=8,do:genki+=7",
     "limit": ""
   },
   {
@@ -1202,8 +1202,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=12,do:genki+=10",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=12,do:genki+=10",
     "limit": ""
   },
   {
@@ -1219,8 +1219,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=18",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=18",
     "limit": "1"
   },
   {
@@ -1236,8 +1236,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=27",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=27",
     "limit": "1"
   },
   {
@@ -1253,8 +1253,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=5,do:goodCondition+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=5,do:goodConditionTurns+=3",
     "limit": ""
   },
   {
@@ -1270,8 +1270,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9,do:goodCondition+=4",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9,do:goodConditionTurns+=4",
     "limit": ""
   },
   {
@@ -1287,8 +1287,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=11,do:concentration+=3",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=11,do:concentration+=3",
     "limit": ""
   },
   {
@@ -1304,8 +1304,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=18,do:concentration+=4",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=18,do:concentration+=4",
     "limit": ""
   },
   {
@@ -1321,8 +1321,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=13;if:concentration>=6,do:parameter+=15",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=13;if:concentration>=6,do:score+=15",
     "limit": "1"
   },
   {
@@ -1338,8 +1338,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:parameter+=13;if:concentration>=6,do:parameter+=15",
+    "cost": "do:cost-=2",
+    "effects": "do:score+=13;if:concentration>=6,do:score+=15",
     "limit": "1"
   },
   {
@@ -1355,8 +1355,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:parameter+=26,do:goodCondition+=1",
+    "cost": "do:stamina-=4",
+    "effects": "do:score+=26,do:goodConditionTurns+=1",
     "limit": "1"
   },
   {
@@ -1372,8 +1372,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:parameter+=40,do:goodCondition+=1",
+    "cost": "do:stamina-=4",
+    "effects": "do:score+=40,do:goodConditionTurns+=1",
     "limit": "1"
   },
   {
@@ -1389,8 +1389,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=30,do:genki+=10,do:doubleStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=30,do:genki+=10,do:doubleCostTurns+=2",
     "limit": ""
   },
   {
@@ -1406,8 +1406,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=40,do:genki+=10,do:doubleStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=40,do:genki+=10,do:doubleCostTurns+=2",
     "limit": ""
   },
   {
@@ -1423,8 +1423,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=12,do:genki+=7,do:concentration+=5,do:doubleStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=12,do:genki+=7,do:concentration+=5,do:doubleCostTurns+=2",
     "limit": ""
   },
   {
@@ -1440,8 +1440,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=12,do:genki+=7,do:concentration+=7,do:doubleStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=12,do:genki+=7,do:concentration+=7,do:doubleCostTurns+=2",
     "limit": ""
   },
   {
@@ -1458,7 +1458,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "do:parameter+=6,do:goodCondition+=2,do:cardUsesRemaining+=1",
+    "effects": "do:score+=6,do:goodConditionTurns+=2,do:cardUsesRemaining+=1",
     "limit": ""
   },
   {
@@ -1475,7 +1475,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=2",
-    "effects": "do:parameter+=6,do:goodCondition+=3,do:cardUsesRemaining+=1",
+    "effects": "do:score+=6,do:goodConditionTurns+=3,do:cardUsesRemaining+=1",
     "limit": ""
   },
   {
@@ -1491,8 +1491,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=4,do:parameter+=goodImpression*0.6",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=4,do:score+=goodImpressionTurns*0.6",
     "limit": ""
   },
   {
@@ -1508,8 +1508,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=5,do:parameter+=goodImpression*0.8",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=5,do:score+=goodImpressionTurns*0.8",
     "limit": ""
   },
   {
@@ -1525,8 +1525,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:genki+=9,do:parameter+=genki*0.4",
+    "cost": "do:stamina-=3",
+    "effects": "do:genki+=9,do:score+=genki*0.4",
     "limit": "1"
   },
   {
@@ -1542,8 +1542,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:genki+=11,do:parameter+=genki*0.7",
+    "cost": "do:stamina-=3",
+    "effects": "do:genki+=11,do:score+=genki*0.7",
     "limit": "1"
   },
   {
@@ -1559,8 +1559,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:parameter+=genki*1.3,do:genki=genki/2",
+    "cost": "do:stamina-=3",
+    "effects": "do:score+=genki*1.3,do:genki=genki/2",
     "limit": "1"
   },
   {
@@ -1576,8 +1576,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:parameter+=genki*1.8,do:genki=genki/2",
+    "cost": "do:stamina-=3",
+    "effects": "do:score+=genki*1.8,do:genki=genki/2",
     "limit": "1"
   },
   {
@@ -1593,8 +1593,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=5,do:parameter+=goodImpression*2,do:doubleStamina+=2",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=5,do:score+=goodImpressionTurns*2,do:doubleCostTurns+=2",
     "limit": "1"
   },
   {
@@ -1610,8 +1610,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=5,do:parameter+=goodImpression*2.5,do:doubleStamina+=2",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=5,do:score+=goodImpressionTurns*2.5,do:doubleCostTurns+=2",
     "limit": "1"
   },
   {
@@ -1628,7 +1628,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=3",
-    "effects": "do:parameter+=goodImpression*0.9,do:cardUsesRemaining+=1",
+    "effects": "do:score+=goodImpressionTurns*0.9,do:cardUsesRemaining+=1",
     "limit": ""
   },
   {
@@ -1645,7 +1645,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=2",
-    "effects": "do:parameter+=goodImpression*1.2,do:cardUsesRemaining+=1",
+    "effects": "do:score+=goodImpressionTurns*1.2,do:cardUsesRemaining+=1",
     "limit": ""
   },
   {
@@ -1661,7 +1661,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
+    "cost": "do:stamina-=1",
     "effects": "do:cardUsesRemaining+=1,do:drawCard,do:drawCard",
     "limit": "1"
   },
@@ -1679,7 +1679,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:cardUsesRemaining+=1,do:drawCard,do:drawCard,do:halfStamina+=1",
+    "effects": "do:cardUsesRemaining+=1,do:drawCard,do:drawCard,do:halfCostTurns+=1",
     "limit": "1"
   },
   {
@@ -1696,7 +1696,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=11,do:nullifyGenki+=2,do:halfStamina+=3",
+    "effects": "do:genki+=11,do:nullifyGenkiTurns+=2,do:halfCostTurns+=3",
     "limit": "1"
   },
   {
@@ -1713,7 +1713,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=13,do:nullifyGenki+=2,do:halfStamina+=4",
+    "effects": "do:genki+=13,do:nullifyGenkiTurns+=2,do:halfCostTurns+=4",
     "limit": "1"
   },
   {
@@ -1729,7 +1729,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:genki+=6,do:concentration+=3",
     "limit": "1"
   },
@@ -1746,7 +1746,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:genki+=8,do:concentration+=4",
     "limit": "1"
   },
@@ -1763,8 +1763,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=6,do:goodCondition+=3",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=6,do:goodConditionTurns+=3",
     "limit": "1"
   },
   {
@@ -1780,8 +1780,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:genki+=8,do:goodCondition+=4",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=8,do:goodConditionTurns+=4",
     "limit": "1"
   },
   {
@@ -1797,8 +1797,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:perfectCondition+=3;at:activeCardUsed,do:fixedGenki+=2",
+    "cost": "do:cost-=4",
+    "effects": "do:perfectConditionTurns+=3;at:activeCardUsed,do:fixedGenki+=2",
     "limit": "1"
   },
   {
@@ -1814,8 +1814,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:perfectCondition+=4;at:activeCardUsed,do:fixedGenki+=2",
+    "cost": "do:cost-=3",
+    "effects": "do:perfectConditionTurns+=4;at:activeCardUsed,do:fixedGenki+=2",
     "limit": "1"
   },
   {
@@ -1831,7 +1831,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
+    "cost": "do:cost-=4",
     "effects": "do:concentration+=2;at:activeCardUsed,do:concentration+=1",
     "limit": "1"
   },
@@ -1848,7 +1848,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:concentration+=3;at:activeCardUsed,do:concentration+=1",
     "limit": "1"
   },
@@ -1865,8 +1865,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:concentration+=3,do:goodCondition+=2",
+    "cost": "do:cost-=4",
+    "effects": "do:concentration+=3,do:goodConditionTurns+=2",
     "limit": "1"
   },
   {
@@ -1882,8 +1882,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:concentration+=4,do:goodCondition+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:concentration+=4,do:goodConditionTurns+=3",
     "limit": "1"
   },
   {
@@ -1899,8 +1899,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodCondition+=5",
+    "cost": "do:cost-=3",
+    "effects": "do:goodConditionTurns+=5",
     "limit": "1"
   },
   {
@@ -1916,8 +1916,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodCondition+=7",
+    "cost": "do:cost-=3",
+    "effects": "do:goodConditionTurns+=7",
     "limit": "1"
   },
   {
@@ -1933,7 +1933,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=3,do:concentration+=4",
     "limit": "1"
   },
@@ -1950,7 +1950,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=5,do:concentration+=5",
     "limit": "1"
   },
@@ -1967,7 +1967,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=2",
+    "cost": "do:goodConditionTurns-=2",
     "effects": "do:concentration+=4,do:cardUsesRemaining+=1",
     "limit": ""
   },
@@ -1984,7 +1984,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=1",
+    "cost": "do:goodConditionTurns-=1",
     "effects": "do:concentration+=5,do:cardUsesRemaining+=1",
     "limit": ""
   },
@@ -2001,7 +2001,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=2",
+    "cost": "do:goodConditionTurns-=2",
     "effects": "do:genki+=2,do:concentration+=7",
     "limit": "1"
   },
@@ -2018,7 +2018,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=2",
+    "cost": "do:goodConditionTurns-=2",
     "effects": "do:genki+=4,do:concentration+=9",
     "limit": "1"
   },
@@ -2035,7 +2035,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:genki+=2,do:motivation+=4",
     "limit": ""
   },
@@ -2052,7 +2052,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:genki+=4,do:motivation+=5",
     "limit": ""
   },
@@ -2069,8 +2069,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:genki+=3,do:goodImpression+=4",
+    "cost": "do:cost-=5",
+    "effects": "do:genki+=3,do:goodImpressionTurns+=4",
     "limit": ""
   },
   {
@@ -2086,8 +2086,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:genki+=6,do:goodImpression+=5",
+    "cost": "do:cost-=5",
+    "effects": "do:genki+=6,do:goodImpressionTurns+=5",
     "limit": ""
   },
   {
@@ -2103,8 +2103,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=6",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=6",
     "limit": ""
   },
   {
@@ -2120,8 +2120,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=8",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=8",
     "limit": ""
   },
   {
@@ -2137,8 +2137,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=3;at:mentalCardUsed,do:goodImpression+=1",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=3;at:mentalCardUsed,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -2154,8 +2154,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=5;at:mentalCardUsed,do:goodImpression+=1",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=5;at:mentalCardUsed,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -2171,7 +2171,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:motivation+=3;at:mentalCardUsed,do:motivation+=1",
     "limit": "1"
   },
@@ -2188,7 +2188,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:motivation+=5;at:mentalCardUsed,do:motivation+=1",
     "limit": "1"
   },
@@ -2205,8 +2205,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=4,do:motivation+=3",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=4,do:motivation+=3",
     "limit": "1"
   },
   {
@@ -2222,8 +2222,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:goodImpression+=5,do:motivation+=4",
+    "cost": "do:cost-=5",
+    "effects": "do:goodImpressionTurns+=5,do:motivation+=4",
     "limit": "1"
   },
   {
@@ -2240,7 +2240,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=11,do:motivation+=5,do:doubleStamina+=2",
+    "effects": "do:genki+=11,do:motivation+=5,do:doubleCostTurns+=2",
     "limit": "1"
   },
   {
@@ -2257,7 +2257,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=11,do:motivation+=7,do:doubleStamina+=2",
+    "effects": "do:genki+=11,do:motivation+=7,do:doubleCostTurns+=2",
     "limit": "1"
   },
   {
@@ -2273,7 +2273,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
+    "cost": "do:cost-=4",
     "effects": "do:genki+=7,do:motivation+=4",
     "limit": "1"
   },
@@ -2290,7 +2290,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
+    "cost": "do:cost-=4",
     "effects": "do:genki+=11,do:motivation+=5",
     "limit": "1"
   },
@@ -2307,8 +2307,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=1,do:goodImpression+=4",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=1,do:goodImpressionTurns+=4",
     "limit": "1"
   },
   {
@@ -2324,8 +2324,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=2,do:goodImpression+=5",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=2,do:goodImpressionTurns+=5",
     "limit": "1"
   },
   {
@@ -2341,7 +2341,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=2",
+    "cost": "do:goodImpressionTurns-=2",
     "effects": "do:motivation+=4,do:cardUsesRemaining+=1",
     "limit": ""
   },
@@ -2358,7 +2358,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=1",
+    "cost": "do:goodImpressionTurns-=1",
     "effects": "do:motivation+=5,do:cardUsesRemaining+=1",
     "limit": ""
   },
@@ -2375,8 +2375,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=15;if:concentration>=3,do:parameter+=15",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=15;if:concentration>=3,do:score+=15",
     "limit": "1"
   },
   {
@@ -2392,8 +2392,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=15;if:concentration>=3,do:concentrationMultiplier=1.5,do:parameter+=34",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=15;if:concentration>=3,do:concentrationMultiplier=1.5,do:score+=34",
     "limit": "1"
   },
   {
@@ -2408,9 +2408,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=38",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=38",
     "limit": ""
   },
   {
@@ -2425,9 +2425,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=54",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=54",
     "limit": ""
   },
   {
@@ -2443,8 +2443,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=10",
-    "effects": "do:goodCondition+=4;at:startOfTurn,do:parameter+=32,limit:1",
+    "cost": "do:cost-=10",
+    "effects": "do:goodConditionTurns+=4;at:startOfTurn,do:score+=32,limit:1",
     "limit": "1"
   },
   {
@@ -2460,8 +2460,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=10",
-    "effects": "do:goodCondition+=7;at:startOfTurn,do:parameter+=40,limit:1",
+    "cost": "do:cost-=10",
+    "effects": "do:goodConditionTurns+=7;at:startOfTurn,do:score+=40,limit:1",
     "limit": "1"
   },
   {
@@ -2476,9 +2476,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=8",
-    "effects": "do:perfectCondition+=2;at:startOfTurn,do:parameter+=38;limit:1",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=8",
+    "effects": "do:perfectConditionTurns+=2;at:startOfTurn,do:score+=38;limit:1",
     "limit": "1"
   },
   {
@@ -2493,9 +2493,9 @@
     "sourceType": "produce",
     "pIdolId": "",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=7",
-    "effects": "do:perfectCondition+=3;at:startOfTurn,do:parameter+=47;limit:1",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=7",
+    "effects": "do:perfectConditionTurns+=3;at:startOfTurn,do:score+=47;limit:1",
     "limit": "1"
   },
   {
@@ -2511,8 +2511,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:goodImpression+=5,do:parameter+=goodImpression",
+    "cost": "do:cost-=6",
+    "effects": "do:goodImpressionTurns+=5,do:score+=goodImpressionTurns",
     "limit": "1"
   },
   {
@@ -2528,8 +2528,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:goodImpression+=6,do:parameter+=goodImpression*1.7",
+    "cost": "do:cost-=6",
+    "effects": "do:goodImpressionTurns+=6,do:score+=goodImpressionTurns*1.7",
     "limit": "1"
   },
   {
@@ -2545,8 +2545,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:motivation+=6,do:parameter+=motivation*2",
+    "cost": "do:cost-=5",
+    "effects": "do:motivation+=6,do:score+=motivation*2",
     "limit": "1"
   },
   {
@@ -2562,8 +2562,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:motivation+=8,do:parameter+=motivation*3",
+    "cost": "do:cost-=5",
+    "effects": "do:motivation+=8,do:score+=motivation*3",
     "limit": "1"
   },
   {
@@ -2579,8 +2579,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=2",
-    "effects": "do:parameter+=genki*1.6,do:genki=0",
+    "cost": "do:stamina-=2",
+    "effects": "do:score+=genki*1.6,do:genki=0",
     "limit": "1"
   },
   {
@@ -2596,8 +2596,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=2",
-    "effects": "do:parameter+=genki*2.2,do:genki=0",
+    "cost": "do:stamina-=2",
+    "effects": "do:score+=genki*2.2,do:genki=0",
     "limit": "1"
   },
   {
@@ -2613,8 +2613,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=3,do:halfStamina+=4",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=3,do:halfCostTurns+=4",
     "limit": "1"
   },
   {
@@ -2630,8 +2630,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:genki+=5,do:halfStamina+=5",
+    "cost": "do:cost-=1",
+    "effects": "do:genki+=5,do:halfCostTurns+=5",
     "limit": "1"
   },
   {
@@ -2647,8 +2647,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
-    "effects": "do:genki+=8,do:staminaReduction+=1",
+    "cost": "do:stamina-=1",
+    "effects": "do:genki+=8,do:costReduction+=1",
     "limit": "1"
   },
   {
@@ -2664,8 +2664,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
-    "effects": "do:genki+=9,do:staminaReduction+=2",
+    "cost": "do:stamina-=1",
+    "effects": "do:genki+=9,do:costReduction+=2",
     "limit": "1"
   },
   {
@@ -2681,7 +2681,7 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=6,do:nullifyDebuff+=1",
     "limit": "1"
   },
@@ -2698,8 +2698,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:genki+=6,do:nullifyDebuff+=1;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=2",
+    "effects": "do:genki+=6,do:nullifyDebuff+=1;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -2715,8 +2715,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:exchangeAllCards,do:halfStamina+=4,do:cardUsesRemaining+=1",
+    "cost": "do:cost-=5",
+    "effects": "do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2732,8 +2732,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:exchangeAllCards,do:halfStamina+=4,do:cardUsesRemaining+=1",
+    "cost": "do:cost-=2",
+    "effects": "do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2749,8 +2749,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=1",
-    "effects": "at:cardUsed,do:cardEffectTimes+=1,limit:1;do:cardUsesRemaining+=1",
+    "cost": "do:goodConditionTurns-=1",
+    "effects": "at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2766,8 +2766,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=1",
-    "effects": "genki+=8;at:cardUsed,do:cardEffectTimes+=1,limit:1;do:cardUsesRemaining+=1",
+    "cost": "do:goodConditionTurns-=1",
+    "effects": "genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2784,7 +2784,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "do:perfectCondition+=4,do:halfStamina+=2,do:cardUsesRemaining+=1",
+    "effects": "do:perfectConditionTurns+=4,do:halfCostTurns+=2,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2801,7 +2801,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "do:perfectCondition+=5,do:halfStamina+=5,do:cardUsesRemaining+=1",
+    "effects": "do:perfectConditionTurns+=5,do:halfCostTurns+=5,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2817,8 +2817,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:concentration+=4,do:goodCondition+=2,do:halfStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "do:concentration+=4,do:goodConditionTurns+=2,do:halfCostTurns+=2",
     "limit": "1"
   },
   {
@@ -2834,8 +2834,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:concentration+=5,do:goodCondition+=3,do:halfStamina+=3",
+    "cost": "do:cost-=5",
+    "effects": "do:concentration+=5,do:goodConditionTurns+=3,do:halfCostTurns+=3",
     "limit": "1"
   },
   {
@@ -2851,7 +2851,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
+    "cost": "do:cost-=6",
     "effects": "do:concentration+=1;at:endOfTurn,if:concentration>=3,do:concentration+=2",
     "limit": "1"
   },
@@ -2868,7 +2868,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:concentration+=1;at:endOfTurn,if:concentration>=3,do:concentration+=2",
     "limit": "1"
   },
@@ -2885,8 +2885,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=2",
-    "effects": "do:turnsRemaining+=1,do:cardUseseRemaining+=1",
+    "cost": "do:goodImpressionTurns-=2",
+    "effects": "do:turnsRemaining+=1,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2902,8 +2902,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=1",
-    "effects": "do:turnsRemaining+=1,do:cardUseseRemaining+=1,do:drawCard",
+    "cost": "do:goodImpressionTurns-=1",
+    "effects": "do:turnsRemaining+=1,do:cardUsesRemaining+=1,do:drawCard",
     "limit": "1"
   },
   {
@@ -2920,7 +2920,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=3",
-    "effects": "do:goodImpression+=5,do:cardUsesRemaining+=1",
+    "effects": "do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2937,7 +2937,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=3",
-    "effects": "do:goodImpression+=7,do:cardUsesRemaining+=1,do:drawCard",
+    "effects": "do:goodImpressionTurns+=7,do:cardUsesRemaining+=1,do:drawCard",
     "limit": "1"
   },
   {
@@ -2953,8 +2953,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=3,do:motivation+=3,do:halfStamina+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=3,do:motivation+=3,do:halfCostTurns+=3",
     "limit": "1"
   },
   {
@@ -2970,8 +2970,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=5,do:motivation+=3,do:halfStamina+=3",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=5,do:motivation+=3,do:halfCostTurns+=3",
     "limit": "1"
   },
   {
@@ -2987,7 +2987,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=2",
+    "cost": "do:goodImpressionTurns-=2",
     "effects": "do:genki+=9,do:genki+=9",
     "limit": "1"
   },
@@ -3004,7 +3004,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=1",
+    "cost": "do:goodImpressionTurns-=1",
     "effects": "do:genki+=10,do:genki+=10",
     "limit": "1"
   },
@@ -3021,8 +3021,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=10",
-    "effects": "do:goodImpression+=8,do:motivation+=5",
+    "cost": "do:cost-=10",
+    "effects": "do:goodImpressionTurns+=8,do:motivation+=5",
     "limit": "1"
   },
   {
@@ -3038,8 +3038,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=9",
-    "effects": "do:goodImpression+=10,do:motivation+=6",
+    "cost": "do:cost-=9",
+    "effects": "do:goodImpressionTurns+=10,do:motivation+=6",
     "limit": "1"
   },
   {
@@ -3055,8 +3055,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=9",
-    "effects": "do:goodImpression+=1;at:endOfTurn,if:goodImpression>=3,do:goodImpression+=3",
+    "cost": "do:cost-=9",
+    "effects": "do:goodImpressionTurns+=1;at:endOfTurn,if:goodImpressionTurns>=3,do:goodImpressionTurns+=3",
     "limit": "1"
   },
   {
@@ -3072,8 +3072,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=9",
-    "effects": "do:goodImpression+=4;at:endOfTurn,if:goodImpression>=3,do:goodImpression+=3",
+    "cost": "do:cost-=9",
+    "effects": "do:goodImpressionTurns+=4;at:endOfTurn,if:goodImpressionTurns>=3,do:goodImpressionTurns+=3",
     "limit": "1"
   },
   {
@@ -3089,8 +3089,8 @@
     "pIdolId": "1",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=17",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=17",
     "limit": "1"
   },
   {
@@ -3106,8 +3106,8 @@
     "pIdolId": "1",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=25",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=25",
     "limit": "1"
   },
   {
@@ -3123,8 +3123,8 @@
     "pIdolId": "2",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=7,do:concentration+=3",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=7,do:concentration+=3",
     "limit": "1"
   },
   {
@@ -3140,8 +3140,8 @@
     "pIdolId": "2",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=7,do:concentration+=5",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=7,do:concentration+=5",
     "limit": "1"
   },
   {
@@ -3157,8 +3157,8 @@
     "pIdolId": "3",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=2,do:goodImpression+=5",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=2,do:goodImpressionTurns+=5",
     "limit": "1"
   },
   {
@@ -3174,8 +3174,8 @@
     "pIdolId": "3",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=6,do:goodImpression+=6",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=6,do:goodImpressionTurns+=6",
     "limit": "1"
   },
   {
@@ -3191,8 +3191,8 @@
     "pIdolId": "4",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=8;if:goodCondition>=1,do:parameter+=3",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=8;if:goodConditionTurns>=1,do:score+=3",
     "limit": "1"
   },
   {
@@ -3208,8 +3208,8 @@
     "pIdolId": "4",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=13;if:goodCondition>=1,do:parameter+=5",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=13;if:goodConditionTurns>=1,do:score+=5",
     "limit": "1"
   },
   {
@@ -3225,8 +3225,8 @@
     "pIdolId": "5",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodImpression+=1;at:endOfTurn,do:goodImpression+=1",
+    "cost": "do:cost-=3",
+    "effects": "do:goodImpressionTurns+=1;at:endOfTurn,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -3242,8 +3242,8 @@
     "pIdolId": "5",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodImpression+=2;at:endOfTurn,do:goodImpression+=1",
+    "cost": "do:cost-=2",
+    "effects": "do:goodImpressionTurns+=2;at:endOfTurn,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -3259,8 +3259,8 @@
     "pIdolId": "6",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=2,do:parameter+=genki&0.5,do:motivation+=2",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=2,do:score+=genki&0.5,do:motivation+=2",
     "limit": "1"
   },
   {
@@ -3276,8 +3276,8 @@
     "pIdolId": "6",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=2,do:parameter+=genki&0.7,do:motivation+=3",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=2,do:score+=genki&0.7,do:motivation+=3",
     "limit": "1"
   },
   {
@@ -3293,8 +3293,8 @@
     "pIdolId": "7",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=10;if:concentration>=6,do:parameter+=10",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=10;if:concentration>=6,do:score+=10",
     "limit": "1"
   },
   {
@@ -3310,8 +3310,8 @@
     "pIdolId": "7",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=12,do:parameter+=12",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=12,do:score+=12",
     "limit": "1"
   },
   {
@@ -3362,7 +3362,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=2,do:genki+=1,do:stamina+=2",
+    "effects": "do:score+=2,do:genki+=1,do:cost+=2",
     "limit": "1"
   },
   {
@@ -3379,7 +3379,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=3,do:genki+=4,do:stamina+=2",
+    "effects": "do:score+=3,do:genki+=4,do:cost+=2",
     "limit": "1"
   },
   {
@@ -3395,8 +3395,8 @@
     "pIdolId": "10",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=18,do:goodCondition+=3",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=18,do:goodConditionTurns+=3",
     "limit": "1"
   },
   {
@@ -3412,8 +3412,8 @@
     "pIdolId": "10",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=26,do:goodCondition+=4",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=26,do:goodConditionTurns+=4",
     "limit": "1"
   },
   {
@@ -3429,8 +3429,8 @@
     "pIdolId": "11",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=12;if:concentration>=3,do:parameter+=12",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=12;if:concentration>=3,do:score+=12",
     "limit": "1"
   },
   {
@@ -3446,8 +3446,8 @@
     "pIdolId": "11",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:parameter+=12;if:concentration>=3,do:parameter+=12",
+    "cost": "do:cost-=2",
+    "effects": "do:score+=12;if:concentration>=3,do:score+=12",
     "limit": "1"
   },
   {
@@ -3463,8 +3463,8 @@
     "pIdolId": "12",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=6",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=6",
     "limit": "1"
   },
   {
@@ -3480,8 +3480,8 @@
     "pIdolId": "12",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodImpression+=8",
+    "cost": "do:cost-=4",
+    "effects": "do:goodImpressionTurns+=8",
     "limit": "1"
   },
   {
@@ -3498,7 +3498,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=4;if:goodCondition>=1,do:concentration+=3",
+    "effects": "do:score+=4;if:goodConditionTurns>=1,do:concentration+=3",
     "limit": "1"
   },
   {
@@ -3515,7 +3515,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=6;if:goodCondition>=1,do:concentration+=4",
+    "effects": "do:score+=6;if:goodConditionTurns>=1,do:concentration+=4",
     "limit": "1"
   },
   {
@@ -3531,8 +3531,8 @@
     "pIdolId": "14",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodImpression+=2,do:parameter+=goodImpression*1.2",
+    "cost": "do:cost-=3",
+    "effects": "do:goodImpressionTurns+=2,do:score+=goodImpressionTurns*1.2",
     "limit": "1"
   },
   {
@@ -3548,8 +3548,8 @@
     "pIdolId": "14",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodImpression+=2,do:parameter+=goodImpression*1.6",
+    "cost": "do:cost-=3",
+    "effects": "do:goodImpressionTurns+=2,do:score+=goodImpressionTurns*1.6",
     "limit": "1"
   },
   {
@@ -3565,7 +3565,7 @@
     "pIdolId": "15",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=1,do:motivation+=5",
     "limit": "1"
   },
@@ -3582,7 +3582,7 @@
     "pIdolId": "15",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:genki+=4,do:motivation+=6",
     "limit": "1"
   },
@@ -3599,8 +3599,8 @@
     "pIdolId": "16",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:concentrationMultiplier=2,do:parameter+=17",
+    "cost": "do:cost-=3",
+    "effects": "do:concentrationMultiplier=2,do:score+=17",
     "limit": "1"
   },
   {
@@ -3616,8 +3616,8 @@
     "pIdolId": "16",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:concentrationMultiplier=2.5,do:parameter+=24",
+    "cost": "do:cost-=3",
+    "effects": "do:concentrationMultiplier=2.5,do:score+=24",
     "limit": "1"
   },
   {
@@ -3633,8 +3633,8 @@
     "pIdolId": "17",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:genki+=6,do:parameter+=motivation*2.5",
+    "cost": "do:cost-=4",
+    "effects": "do:genki+=6,do:score+=motivation*2.5",
     "limit": "1"
   },
   {
@@ -3650,8 +3650,8 @@
     "pIdolId": "17",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:genki+=7,do:parameter+=motivation*3.5",
+    "cost": "do:cost-=4",
+    "effects": "do:genki+=7,do:score+=motivation*3.5",
     "limit": "1"
   },
   {
@@ -3667,7 +3667,7 @@
     "pIdolId": "18",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
+    "cost": "do:cost-=6",
     "effects": "do:genki+=10,do:concentration+=4",
     "limit": "1"
   },
@@ -3684,7 +3684,7 @@
     "pIdolId": "18",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
+    "cost": "do:cost-=5",
     "effects": "do:genki+=12,do:concentration+=5",
     "limit": "1"
   },
@@ -3701,8 +3701,8 @@
     "pIdolId": "19",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=34",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=34",
     "limit": "1"
   },
   {
@@ -3718,8 +3718,8 @@
     "pIdolId": "19",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:parameter+=48",
+    "cost": "do:cost-=6",
+    "effects": "do:score+=48",
     "limit": "1"
   },
   {
@@ -3735,8 +3735,8 @@
     "pIdolId": "20",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=7",
-    "effects": "do:parameter+=14,do:concentration+=5",
+    "cost": "do:cost-=7",
+    "effects": "do:score+=14,do:concentration+=5",
     "limit": "1"
   },
   {
@@ -3752,8 +3752,8 @@
     "pIdolId": "20",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=15,do:concentration+=5",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=15,do:concentration+=5",
     "limit": "1"
   },
   {
@@ -3769,8 +3769,8 @@
     "pIdolId": "21",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:genki+=2,do:goodImpression+=7",
+    "cost": "do:cost-=6",
+    "effects": "do:genki+=2,do:goodImpressionTurns+=7",
     "limit": "1"
   },
   {
@@ -3786,8 +3786,8 @@
     "pIdolId": "21",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:genki+=4,do:goodImpression+=9",
+    "cost": "do:cost-=6",
+    "effects": "do:genki+=4,do:goodImpressionTurns+=9",
     "limit": "1"
   },
   {
@@ -3803,8 +3803,8 @@
     "pIdolId": "22",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=12;if:goodCondition>=1,do:parameter+=14",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=12;if:goodConditionTurns>=1,do:score+=14",
     "limit": "1"
   },
   {
@@ -3820,8 +3820,8 @@
     "pIdolId": "22",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=18;if:goodCondition>=1,do:parameter+=20",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=18;if:goodConditionTurns>=1,do:score+=20",
     "limit": "1"
   },
   {
@@ -3837,8 +3837,8 @@
     "pIdolId": "23",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:goodImpression+=3;at:endOfTurn,do:goodImpression+=1",
+    "cost": "do:cost-=3",
+    "effects": "do:goodImpressionTurns+=3;at:endOfTurn,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -3854,8 +3854,8 @@
     "pIdolId": "23",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:goodImpression+=4;at:endOfTurn,do:goodImpression+=1",
+    "cost": "do:cost-=2",
+    "effects": "do:goodImpressionTurns+=4;at:endOfTurn,do:goodImpressionTurns+=1",
     "limit": "1"
   },
   {
@@ -3871,8 +3871,8 @@
     "pIdolId": "24",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=2,do:parameter+=genki,do:motivation+=2",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=2,do:score+=genki,do:motivation+=2",
     "limit": ""
   },
   {
@@ -3888,8 +3888,8 @@
     "pIdolId": "24",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=5,do:parameter+=genki*1.2,do:motivation+=3",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=5,do:score+=genki*1.2,do:motivation+=3",
     "limit": ""
   },
   {
@@ -3905,8 +3905,8 @@
     "pIdolId": "25",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=7,do:parameter+=7;if:concentration>=6,do:parameter+=7",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=7,do:score+=7;if:concentration>=6,do:score+=7",
     "limit": ""
   },
   {
@@ -3922,8 +3922,8 @@
     "pIdolId": "25",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=9,do:parameter+=9;if:concentration>=6,do:parameter+=9",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=9,do:score+=9;if:concentration>=6,do:score+=9",
     "limit": ""
   },
   {
@@ -3973,7 +3973,7 @@
     "pIdolId": "27",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
+    "cost": "do:cost-=4",
     "effects": "do:concentration+=4,do:stamina+=4",
     "limit": ""
   },
@@ -3990,7 +3990,7 @@
     "pIdolId": "27",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:concentration+=5,do:stamina+=5",
     "limit": ""
   },
@@ -4007,8 +4007,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "if:clearRatio<=1",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=6,do:genki+=6;at:startOfTurn,do:drawCard,limit:1",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=6,do:genki+=6;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4024,8 +4024,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "if:clearRatio<=1",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=10,do:genki+=9;at:startOfTurn,do:drawCard,limit:1",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=10,do:genki+=9;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4042,7 +4042,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "if:genki==0",
     "cost": "",
-    "effects": "do:genki+=5,do:halfStamina+=2;at:startOfTurn,do:drawCard,limit:1",
+    "effects": "do:genki+=5,do:halfCostTurns+=2;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4059,7 +4059,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "if:genki==0",
     "cost": "",
-    "effects": "do:genki+=6,do:halfStamina+=3;at:startOfTurn,do:drawCard,limit:1",
+    "effects": "do:genki+=6,do:halfCostTurns+=3;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4075,8 +4075,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "if:stamina>=maxStamina*0.5",
-    "cost": "do:stamina-=5",
-    "effects": "do:parameter+=4,do:genki+=5;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=5",
+    "effects": "do:score+=4,do:genki+=5;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4092,8 +4092,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "if:stamina>=maxStamina*0.5",
-    "cost": "do:stamina-=2",
-    "effects": "do:parameter+=4,do:genki+=5;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=2",
+    "effects": "do:score+=4,do:genki+=5;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4109,8 +4109,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "if:turnsElapsed>=2",
-    "cost": "do:stamina-=3",
-    "effects": "do:parameter+=3,do:halfStamina+=2;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=3",
+    "effects": "do:score+=3,do:halfCostTurns+=2;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4127,7 +4127,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "if:turnsElapsed>=2",
     "cost": "",
-    "effects": "do:parameter+=3,do:halfStamina+=2;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "effects": "do:score+=3,do:halfCostTurns+=2;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4143,7 +4143,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
@@ -4177,7 +4177,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
+    "cost": "do:cost-=4",
     "effects": "do:addRandomUpgradedCardToHand,do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
@@ -4194,7 +4194,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
+    "cost": "do:cost-=1",
     "effects": "do:addRandomUpgradedCardToHand,do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
@@ -4211,7 +4211,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
+    "cost": "do:cost-=3",
     "effects": "do:stamina+=3,do:cardUsesRemaining+=1",
     "limit": "1"
   },
@@ -4228,7 +4228,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
+    "cost": "do:cost-=2",
     "effects": "do:stamina+=5,do:cardUsesRemaining+=1",
     "limit": "1"
   },
@@ -4246,7 +4246,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=3,do:genki+=3;at:startOfTurn,do:drawCard,limit:2",
+    "effects": "do:score+=3,do:genki+=3;at:startOfTurn,do:drawCard,limit:2",
     "limit": "1"
   },
   {
@@ -4263,7 +4263,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:parameter+=6,do:genki+=5;at:startOfTurn,do:drawCard,limit:2",
+    "effects": "do:score+=6,do:genki+=5;at:startOfTurn,do:drawCard,limit:2",
     "limit": "1"
   },
   {
@@ -4279,8 +4279,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:cardUsesRemaining+=1,do:upgradeAllCards",
+    "cost": "do:cost-=3",
+    "effects": "do:cardUsesRemaining+=1,do:upgradeHand",
     "limit": "1"
   },
   {
@@ -4296,8 +4296,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=1",
-    "effects": "do:cardUsesRemaining+=1,do:drawCard,do:upgradeAllCards",
+    "cost": "do:cost-=1",
+    "effects": "do:cardUsesRemaining+=1,do:drawCard,do:upgradeHand",
     "limit": "1"
   },
   {
@@ -4313,8 +4313,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=3",
-    "effects": "do:staminaReduction+=1,do:cardUsesRemaining+=1",
+    "cost": "do:cost-=3",
+    "effects": "do:costReduction+=1,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -4331,7 +4331,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:staminaReduction+=1,do:cardUsesRemaining+=1",
+    "effects": "do:costReduction+=1,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -4347,8 +4347,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:concentration+=3,do:goodCondition+=2;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=6",
+    "effects": "do:concentration+=3,do:goodConditionTurns+=2;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4364,8 +4364,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:concentration+=4,do:goodCondition+=4;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=6",
+    "effects": "do:concentration+=4,do:goodConditionTurns+=4;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4381,8 +4381,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=7",
-    "effects": "do:goodImpression+=4,do:motivation+=3;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=7",
+    "effects": "do:goodImpressionTurns+=4,do:motivation+=3;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4398,8 +4398,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "do:goodImpression+=5,do:motivation+=4;at:startOfTurn,do:upgradeAllCards,limit:1",
+    "cost": "do:cost-=6",
+    "effects": "do:goodImpressionTurns+=5,do:motivation+=4;at:startOfTurn,do:upgradeHand,limit:1",
     "limit": "1"
   },
   {
@@ -4415,8 +4415,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:halfStamina+=2,do:cardUsesRemaining+=1",
+    "cost": "do:cost-=5",
+    "effects": "do:halfCostTurns+=2,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -4432,8 +4432,8 @@
     "pIdolId": "",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:halfStamina+=4,do:cardUsesRemaining+=1",
+    "cost": "do:cost-=4",
+    "effects": "do:halfCostTurns+=4,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -4449,8 +4449,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:genki+=3;at:startOfTurn,do:upgradeAllCards,limit:2",
+    "cost": "do:cost-=5",
+    "effects": "do:genki+=3;at:startOfTurn,do:upgradeHand,limit:2",
     "limit": "1"
   },
   {
@@ -4466,8 +4466,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:genki+=3;at:startOfTurn,do:upgradeAllCards,limit:2",
+    "cost": "do:cost-=2",
+    "effects": "do:genki+=3;at:startOfTurn,do:upgradeHand,limit:2",
     "limit": "1"
   },
   {
@@ -4483,8 +4483,8 @@
     "pIdolId": "28",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:goodImpression+=8",
+    "cost": "do:cost-=8",
+    "effects": "do:goodImpressionTurns+=8",
     "limit": "1"
   },
   {
@@ -4500,8 +4500,8 @@
     "pIdolId": "28",
     "forceInitialHand": "TRUE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:goodImpression+=10",
+    "cost": "do:cost-=8",
+    "effects": "do:goodImpressionTurns+=10",
     "limit": "1"
   },
   {
@@ -4551,7 +4551,7 @@
     "pIdolId": "29",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:genki+=cardsUsed*3+2",
     "limit": "1"
   },
@@ -4568,7 +4568,7 @@
     "pIdolId": "29",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:genki+=cardsUsed*4+4",
     "limit": "1"
   },
@@ -4585,8 +4585,8 @@
     "pIdolId": "30",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=3,do:parameter+=genki",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=3,do:score+=genki",
     "limit": "1"
   },
   {
@@ -4602,8 +4602,8 @@
     "pIdolId": "30",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:genki+=3,do:parameter+=genki*1.4",
+    "cost": "do:stamina-=4",
+    "effects": "do:genki+=3,do:score+=genki*1.4",
     "limit": "1"
   },
   {
@@ -4619,7 +4619,7 @@
     "pIdolId": "31",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:genki+=5*cardsUsed+2",
     "limit": "1"
   },
@@ -4636,7 +4636,7 @@
     "pIdolId": "31",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:genki+=8*cardsUsed+2",
     "limit": "1"
   },
@@ -4653,8 +4653,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodCondition+=3,do:concentration+=2;if:stamina>=maxStamina*0.5;at:startOfTurn,do:drawCard,limit:1",
+    "cost": "do:cost-=4",
+    "effects": "do:goodConditionTurns+=3,do:concentration+=2;if:stamina>=maxStamina*0.5;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4670,8 +4670,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodCondition+=4,do:concentration+=3;if:stamina>=maxStamina*0.5;at:startOfTurn,do:drawCard,limit:1",
+    "cost": "do:cost-=4",
+    "effects": "do:goodConditionTurns+=4,do:concentration+=3;if:stamina>=maxStamina*0.5;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4687,7 +4687,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
+    "cost": "do:stamina-=1",
     "effects": "do:genki+=3,do:cardUsesRemaining+=1",
     "limit": "1"
   },
@@ -4704,7 +4704,7 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
+    "cost": "do:stamina-=1",
     "effects": "do:genki+=8,do:cardUsesRemaining+=1",
     "limit": "1"
   },
@@ -4721,8 +4721,8 @@
     "pIdolId": "32",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodCondition+=3,do:perfectCondition+=4",
+    "cost": "do:cost-=4",
+    "effects": "do:goodConditionTurns+=3,do:perfectConditionTurns+=4",
     "limit": "1"
   },
   {
@@ -4738,8 +4738,8 @@
     "pIdolId": "32",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=4",
-    "effects": "do:goodCondition+=4,do:perfectCondition+=5",
+    "cost": "do:cost-=4",
+    "effects": "do:goodConditionTurns+=4,do:perfectConditionTurns+=5",
     "limit": "1"
   },
   {
@@ -4755,8 +4755,8 @@
     "pIdolId": "33",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=5",
-    "effects": "do:parameter+=goodImpression*2.5",
+    "cost": "do:stamina-=5",
+    "effects": "do:score+=goodImpressionTurns*2.5",
     "limit": "1"
   },
   {
@@ -4772,8 +4772,8 @@
     "pIdolId": "33",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:parameter+=goodImpression*2.6",
+    "cost": "do:stamina-=3",
+    "effects": "do:score+=goodImpressionTurns*2.6",
     "limit": "1"
   },
   {
@@ -4789,8 +4789,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
-    "effects": "do:goodImpression+=5",
+    "cost": "do:stamina-=1",
+    "effects": "do:goodImpressionTurns+=5",
     "limit": "1"
   },
   {
@@ -4806,8 +4806,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=1",
-    "effects": "do:goodImpression+=6;at:startOfTurn,do:drawCard,limit:1",
+    "cost": "do:stamina-=1",
+    "effects": "do:goodImpressionTurns+=6;at:startOfTurn,do:drawCard,limit:1",
     "limit": "1"
   },
   {
@@ -4823,8 +4823,8 @@
     "pIdolId": "34",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:parameter+=9,do:parameter+=9,do:parameter+=9",
+    "cost": "do:cost-=8",
+    "effects": "do:score+=9,do:score+=9,do:score+=9",
     "limit": "1"
   },
   {
@@ -4840,8 +4840,8 @@
     "pIdolId": "34",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:parameter+=14,do:parameter+=14,do:parameter+=14",
+    "cost": "do:cost-=8",
+    "effects": "do:score+=14,do:score+=14,do:score+=14",
     "limit": "1"
   },
   {
@@ -4857,7 +4857,7 @@
     "pIdolId": "35",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:motivation+=7;if:motivation>=6,do:motivation+=3",
     "limit": "1"
   },
@@ -4874,7 +4874,7 @@
     "pIdolId": "35",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
+    "cost": "do:stamina-=3",
     "effects": "do:motivation+=8;if:motivation>=3,do:motivation+=5",
     "limit": "1"
   },
@@ -4891,8 +4891,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=7",
-    "effects": "do:goodCondition+=3,do:concentration+=4",
+    "cost": "do:cost-=7",
+    "effects": "do:goodConditionTurns+=3,do:concentration+=4",
     "limit": "1"
   },
   {
@@ -4908,8 +4908,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=7",
-    "effects": "do:goodCondition+=4,do:concentration+=5",
+    "cost": "do:cost-=7",
+    "effects": "do:goodConditionTurns+=4,do:concentration+=5",
     "limit": "1"
   },
   {
@@ -4925,8 +4925,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:goodImpression+=7",
+    "cost": "do:cost-=8",
+    "effects": "do:goodImpressionTurns+=7",
     "limit": "1"
   },
   {
@@ -4942,8 +4942,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=8",
-    "effects": "do:goodImpression+=9",
+    "cost": "do:cost-=8",
+    "effects": "do:goodImpressionTurns+=9",
     "limit": "1"
   },
   {
@@ -4960,7 +4960,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "do:parameter+=25,do:genki+=15,do:nullifyGenki+=2",
+    "effects": "do:score+=25,do:genki+=15,do:nullifyGenkiTurns+=2",
     "limit": "1"
   },
   {
@@ -4977,7 +4977,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "do:parameter+=40,do:genki+=15,do:nullifyGenki+=2",
+    "effects": "do:score+=40,do:genki+=15,do:nullifyGenkiTurns+=2",
     "limit": "1"
   },
   {
@@ -4993,8 +4993,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:genki+=7,do:goodCondition+=4",
+    "cost": "do:stamina-=3",
+    "effects": "do:genki+=7,do:goodConditionTurns+=4",
     "limit": ""
   },
   {
@@ -5010,8 +5010,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=3",
-    "effects": "do:genki+=9,do:goodCondition+=5",
+    "cost": "do:stamina-=3",
+    "effects": "do:genki+=9,do:goodConditionTurns+=5",
     "limit": ""
   },
   {
@@ -5027,8 +5027,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:motivation+=3,do:goodImpression+=3,do:cardUsesRemaining+=1",
+    "cost": "do:stamina-=4",
+    "effects": "do:motivation+=3,do:goodImpressionTurns+=3,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -5044,8 +5044,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=4",
-    "effects": "do:motivation+=4,do:goodImpression+=5,do:cardUsesRemaining+=1",
+    "cost": "do:stamina-=4",
+    "effects": "do:motivation+=4,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -5062,7 +5062,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=3",
-    "effects": "do:goodImpression+=4,do:cardUsesRemaining+=1",
+    "effects": "do:goodImpressionTurns+=4,do:cardUsesRemaining+=1",
     "limit": ""
   },
   {
@@ -5079,7 +5079,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=3",
-    "effects": "do:goodImpression+=5,do:cardUsesRemaining+=1;if:goodImpression>=10,do:goodImpression+=2",
+    "effects": "do:goodImpressionTurns+=5,do:cardUsesRemaining+=1;if:goodImpressionTurns>=10,do:goodImpressionTurns+=2",
     "limit": ""
   },
   {
@@ -5096,7 +5096,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=3",
-    "effects": "at:activeCardUsed,do:parameter+=4",
+    "effects": "at:activeCardUsed,do:score+=4",
     "limit": "1"
   },
   {
@@ -5113,7 +5113,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:concentration-=2",
-    "effects": "at:startOfTurn,do:drawCard,limit:1;at:activeCardUsed,do:parameter+=5",
+    "effects": "at:startOfTurn,do:drawCard,limit:1;at:activeCardUsed,do:score+=5",
     "limit": "1"
   },
   {
@@ -5129,8 +5129,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=1",
-    "effects": "do:parameter+=3,do:parameter+=3,do:concentration+=4",
+    "cost": "do:goodConditionTurns-=1",
+    "effects": "do:score+=3,do:score+=3,do:concentration+=4",
     "limit": ""
   },
   {
@@ -5146,8 +5146,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodCondition-=1",
-    "effects": "do:parameter+=4,do:parameter+=4,do:concentration+=6",
+    "cost": "do:goodConditionTurns-=1",
+    "effects": "do:score+=4,do:score+=4,do:concentration+=6",
     "limit": ""
   },
   {
@@ -5164,7 +5164,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=4",
-    "effects": "do:cardUsesRemaining+=1;at:cardUsed,do:parameter+=goodImpression*0.3",
+    "effects": "do:cardUsesRemaining+=1;at:cardUsed,do:score+=goodImpressionTurns*0.3",
     "limit": "1"
   },
   {
@@ -5181,7 +5181,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:motivation-=4",
-    "effects": "do:cardUsesRemaining+=1;at:cardUsed,do:parameter+=goodImpression*0.5",
+    "effects": "do:cardUsesRemaining+=1;at:cardUsed,do:score+=goodImpressionTurns*0.5",
     "limit": "1"
   },
   {
@@ -5197,8 +5197,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=4",
-    "effects": "do:genki+=9,do:parameter+=genki,do:parameter+=motivation*1.5",
+    "cost": "do:goodImpressionTurns-=4",
+    "effects": "do:genki+=9,do:score+=genki,do:score+=motivation*1.5",
     "limit": "1"
   },
   {
@@ -5214,8 +5214,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:goodImpression-=4",
-    "effects": "do:genki+=14,do:parameter+=genki*1.3,do:parameter+=motivation*2",
+    "cost": "do:goodImpressionTurns-=4",
+    "effects": "do:genki+=14,do:score+=genki*1.3,do:score+=motivation*2",
     "limit": "1"
   },
   {
@@ -5231,8 +5231,8 @@
     "pIdolId": "36",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=6",
-    "effects": "at:activeCardUsed,do:cardEffectTimes+=1,limit:1,ttl:1;do:goodCondition+=3,do:halfStamina+=2",
+    "cost": "do:cost-=6",
+    "effects": "at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=3,do:halfCostTurns+=2",
     "limit": "1"
   },
   {
@@ -5248,8 +5248,8 @@
     "pIdolId": "36",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "at:activeCardUsed,do:cardEffectTimes+=1,limit:1,ttl:1;do:goodCondition+=5,do:halfStamina+=2",
+    "cost": "do:cost-=5",
+    "effects": "at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=5,do:halfCostTurns+=2",
     "limit": "1"
   },
   {
@@ -5265,8 +5265,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=6",
-    "effects": "do:parameter+=33;if:goodCondition>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=4,limit:1",
+    "cost": "do:stamina-=6",
+    "effects": "do:score+=33;if:goodConditionTurns>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=4,limit:1",
     "limit": "1"
   },
   {
@@ -5282,8 +5282,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=6",
-    "effects": "do:parameter+=45;if:goodCondition>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=6,limit:1",
+    "cost": "do:stamina-=6",
+    "effects": "do:score+=45;if:goodConditionTurns>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=6,limit:1",
     "limit": "1"
   },
   {
@@ -5299,8 +5299,8 @@
     "pIdolId": "37",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:concentrationMultiplier=2.3,do:parameter+=5;if:stamina<=maxStamina*0.5,do:genki+=6",
+    "cost": "do:cost-=2",
+    "effects": "do:concentrationMultiplier=2.3,do:score+=5;if:stamina<=maxStamina*0.5,do:genki+=6",
     "limit": "1"
   },
   {
@@ -5316,8 +5316,8 @@
     "pIdolId": "37",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=2",
-    "effects": "do:concentrationMultiplier=2.6,do:parameter+=8;if:stamina<=maxStamina*0.5,do:genki+=12",
+    "cost": "do:cost-=2",
+    "effects": "do:concentrationMultiplier=2.6,do:score+=8;if:stamina<=maxStamina*0.5,do:genki+=12",
     "limit": "1"
   },
   {
@@ -5333,8 +5333,8 @@
     "pIdolId": "38",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=2",
-    "effects": "do:goodImpression+=3,do:cardUsesRemaining+=1,do:drawCard",
+    "cost": "do:stamina-=2",
+    "effects": "do:goodImpressionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",
     "limit": "1"
   },
   {
@@ -5350,8 +5350,8 @@
     "pIdolId": "38",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:directStamina-=2",
-    "effects": "do:cardUsesRemaining+=1,do:goodImpression+=5,do:drawCard",
+    "cost": "do:stamina-=2",
+    "effects": "do:cardUsesRemaining+=1,do:goodImpressionTurns+=5,do:drawCard",
     "limit": "1"
   },
   {
@@ -5366,9 +5366,9 @@
     "sourceType": "pIdol",
     "pIdolId": "39",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=9,do:parameter+=goodCondition*2",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=9,do:score+=goodConditionTurns*2",
     "limit": "1"
   },
   {
@@ -5383,9 +5383,9 @@
     "sourceType": "pIdol",
     "pIdolId": "39",
     "forceInitialHand": "FALSE",
-    "conditions": "if:goodCondition>=1",
-    "cost": "do:stamina-=4",
-    "effects": "do:parameter+=12,do:parameter+=goodCondition*3",
+    "conditions": "if:goodConditionTurns>=1",
+    "cost": "do:cost-=4",
+    "effects": "do:score+=12,do:score+=goodConditionTurns*3",
     "limit": "1"
   },
   {
@@ -5401,8 +5401,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:concentrationMultiplier=1.5,do:parameter+=7,do:concentration+=4",
+    "cost": "do:cost-=5",
+    "effects": "do:concentrationMultiplier=1.5,do:score+=7,do:concentration+=4",
     "limit": "1"
   },
   {
@@ -5418,8 +5418,8 @@
     "pIdolId": "",
     "forceInitialHand": "FALSE",
     "conditions": "",
-    "cost": "do:stamina-=5",
-    "effects": "do:concentrationMultiplier=1.5,do:parameter+=13,do:concentration+=5",
+    "cost": "do:cost-=5",
+    "effects": "do:concentrationMultiplier=1.5,do:score+=13,do:concentration+=5",
     "limit": "1"
   }
 ]

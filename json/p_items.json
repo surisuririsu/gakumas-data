@@ -41,7 +41,7 @@
     "mode": "stage",
     "sourceType": "produce",
     "pIdolId": "",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:cardUsesRemaining+=1,do:goodCondition+=2,limit:1"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:cardUsesRemaining+=1,do:goodConditionTurns+=2,limit:1"
   },
   {
     "id": "5",
@@ -52,7 +52,7 @@
     "mode": "stage",
     "sourceType": "produce",
     "pIdolId": "",
-    "effects": "at:startOfTurn,if:goodImpression>=3,do:cardUsesRemaining+=1,do:goodImpression+=3,limit:1"
+    "effects": "at:startOfTurn,if:goodImpressionTurns>=3,do:cardUsesRemaining+=1,do:goodImpressionTurns+=3,limit:1"
   },
   {
     "id": "6",
@@ -74,7 +74,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "1",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=6,limit:1"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:score+=6,limit:1"
   },
   {
     "id": "8",
@@ -85,7 +85,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "1",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:parameter+=11,limit:1"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:score+=11,limit:1"
   },
   {
     "id": "9",
@@ -118,7 +118,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "3",
-    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:2"
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=6,do:goodImpressionTurns+=2,limit:2"
   },
   {
     "id": "12",
@@ -129,7 +129,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "3",
-    "effects": "at:endOfTurn,if:goodImpression>=6,do:goodImpression+=2,limit:3"
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=6,do:goodImpressionTurns+=2,limit:3"
   },
   {
     "id": "13",
@@ -140,7 +140,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "4",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=1,limit:2"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:concentration+=1,limit:2"
   },
   {
     "id": "14",
@@ -151,7 +151,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "4",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,limit:2"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:concentration+=2,limit:2"
   },
   {
     "id": "15",
@@ -162,7 +162,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "5",
-    "effects": "at:goodImpressionIncreased,do:goodImpression+=3,limit:1"
+    "effects": "at:goodImpressionTurnsIncreased,do:goodImpressionTurns+=3,limit:1"
   },
   {
     "id": "16",
@@ -173,7 +173,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "5",
-    "effects": "at:goodImpressionIncreased,do:goodImpression+=5,limit:1"
+    "effects": "at:goodImpressionTurnsIncreased,do:goodImpressionTurns+=5,limit:1"
   },
   {
     "id": "17",
@@ -228,7 +228,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "8",
-    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.5,do:stamina-=1"
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=genki*0.5,do:stamina-=1"
   },
   {
     "id": "22",
@@ -239,7 +239,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "8",
-    "effects": "at:startOfTurn,if:turnsRemaining==1,do:parameter+=genki*0.7,do:stamina-=1"
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=genki*0.7,do:stamina-=1"
   },
   {
     "id": "23",
@@ -272,7 +272,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "10",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=9,limit:1"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:genki+=9,limit:1"
   },
   {
     "id": "26",
@@ -283,7 +283,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "10",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:genki+=12,limit:1"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:genki+=12,limit:1"
   },
   {
     "id": "27",
@@ -294,7 +294,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "11",
-    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=3,limit:2"
+    "effects": "at:startOfTurn,if:genki==0,do:cost-=1,do:concentration+=3,limit:2"
   },
   {
     "id": "28",
@@ -305,7 +305,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "11",
-    "effects": "at:startOfTurn,if:genki==0,do:stamina-=1,do:concentration+=4,limit:2"
+    "effects": "at:startOfTurn,if:genki==0,do:cost-=1,do:concentration+=4,limit:2"
   },
   {
     "id": "29",
@@ -316,7 +316,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "12",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=4,limit:1"
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpressionTurns+=4,limit:1"
   },
   {
     "id": "30",
@@ -327,7 +327,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "12",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression+=5,limit:1"
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpressionTurns+=5,limit:1"
   },
   {
     "id": "31",
@@ -338,7 +338,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "13",
-    "effects": "at:goodConditionIncreased,do:goodCondition+=3,limit:1"
+    "effects": "at:goodConditionTurnsIncreased,do:goodConditionTurns+=3,limit:1"
   },
   {
     "id": "32",
@@ -349,7 +349,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "13",
-    "effects": "at:goodConditionIncreased,do:goodCondition+=4,limit:1"
+    "effects": "at:goodConditionTurnsIncreased,do:goodConditionTurns+=4,limit:1"
   },
   {
     "id": "33",
@@ -360,7 +360,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "14",
-    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=3,limit:1"
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpressionTurns+=3,limit:1"
   },
   {
     "id": "34",
@@ -371,7 +371,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "14",
-    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpression+=4,limit:1"
+    "effects": "at:endOfTurn,if:stamina>=maxStamina*0.5,do:goodImpressionTurns+=4,limit:1"
   },
   {
     "id": "35",
@@ -382,7 +382,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "15",
-    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.6,do:stamina-=2,limit:2"
+    "effects": "at:afterActiveCardUsed,do:score+=genki*0.6,do:stamina-=2,limit:2"
   },
   {
     "id": "36",
@@ -393,7 +393,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "15",
-    "effects": "at:afterActiveCardUsed,do:parameter+=genki*0.7,do:stamina-=2,limit:2"
+    "effects": "at:afterActiveCardUsed,do:score+=genki*0.7,do:stamina-=2,limit:2"
   },
   {
     "id": "37",
@@ -470,7 +470,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "19",
-    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,limit:1"
+    "effects": "at:afterActiveCardUsed,do:goodConditionTurns+=1,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "44",
@@ -481,7 +481,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "19",
-    "effects": "at:afterActiveCardUsed,do:goodCondition+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1"
+    "effects": "at:afterActiveCardUsed,do:goodConditionTurns+=1,do:cardUsesRemaining+=1,do:genki+=5,limit:1"
   },
   {
     "id": "45",
@@ -514,7 +514,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "21",
-    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=3,do:cardUsesRemaining+=1,limit:1"
+    "effects": "at:afterCardUsed,if:goodImpressionTurns>=6,do:goodImpressionTurns+=3,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "48",
@@ -525,7 +525,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "21",
-    "effects": "at:afterCardUsed,if:goodImpression>=6,do:goodImpression+=5,do:cardUsesRemaining+=1,limit:1"
+    "effects": "at:afterCardUsed,if:goodImpressionTurns>=6,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1,limit:1"
   },
   {
     "id": "49",
@@ -536,7 +536,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "22",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=2,do:genki+=1,limit:2"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:concentration+=2,do:genki+=1,limit:2"
   },
   {
     "id": "50",
@@ -547,7 +547,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "22",
-    "effects": "at:startOfTurn,if:goodCondition>=1,do:concentration+=3,do:genki+=1,limit:2"
+    "effects": "at:startOfTurn,if:goodConditionTurns>=1,do:concentration+=3,do:genki+=1,limit:2"
   },
   {
     "id": "51",
@@ -558,7 +558,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "23",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression*0.3,limit:1"
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpressionTurns*=1.5,do:score+=goodImpressionTurns*0.3,limit:1"
   },
   {
     "id": "52",
@@ -569,7 +569,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "23",
-    "effects": "at:endOfTurn,if:genki>=7,do:goodImpression*=1.5,do:parameter+=goodImpression,limit:1"
+    "effects": "at:endOfTurn,if:genki>=7,do:goodImpressionTurns*=1.5,do:score+=goodImpressionTurns,limit:1"
   },
   {
     "id": "53",
@@ -624,7 +624,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "26",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.5,do:stamina-=1"
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:score+=genki*0.5,do:stamina-=1"
   },
   {
     "id": "58",
@@ -635,7 +635,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "26",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=genki*0.65,do:stamina-=1"
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:score+=genki*0.65,do:stamina-=1"
   },
   {
     "id": "59",
@@ -646,7 +646,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "27",
-    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:parameter+=5,limit:2"
+    "effects": "at:startOfTurn,if:turnsRemaining<=2,do:score+=5,limit:2"
   },
   {
     "id": "60",
@@ -657,7 +657,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "27",
-    "effects": "at:startOfTurn,if:turnsRemaining<=3,do:parameter+=5,limit:3"
+    "effects": "at:startOfTurn,if:turnsRemaining<=3,do:score+=5,limit:3"
   },
   {
     "id": "61",
@@ -701,7 +701,7 @@
     "mode": "produce",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:afterDanceSPLesson,do:getRandomPDrinks2"
+    "effects": "at:afterDanceSPLesson,do:getRandomPDrinks=2"
   },
   {
     "id": "65",
@@ -778,7 +778,7 @@
     "mode": "stage",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:startOfTurn,if:isVisualTurn,do:parameterBuff50+=1,limit:3"
+    "effects": "at:startOfTurn,if:isVisualTurn,do:oneTurnScoreBuff+=0.5,limit:3"
   },
   {
     "id": "72",
@@ -800,7 +800,7 @@
     "mode": "stage",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:startOfTurn,if:isDanceTurn,do:parameterBuff50+=1,limit:3"
+    "effects": "at:startOfTurn,if:isDanceTurn,do:oneTurnScoreBuff+=0.5,limit:3"
   },
   {
     "id": "74",
@@ -877,7 +877,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "28",
-    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:2"
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=10,do:score+=goodImpressionTurns,do:genki+=3,limit:2"
   },
   {
     "id": "81",
@@ -888,7 +888,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "28",
-    "effects": "at:endOfTurn,if:goodImpression>=10,do:parameter+=goodImpression,do:genki+=3,limit:3"
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=10,do:score+=goodImpressionTurns,do:genki+=3,limit:3"
   },
   {
     "id": "82",
@@ -976,7 +976,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "32",
-    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=5,limit:1"
+    "effects": "at:cardUsed,if:usedCardId==278,do:goodConditionTurns+=3,do:fixedGenki+=5,limit:1"
   },
   {
     "id": "90",
@@ -987,7 +987,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "32",
-    "effects": "at:cardUsed,if:usedCardId==((adrenalinezenkai)),do:goodCondition+=3,do:fixedGenki+=11,limit:1"
+    "effects": "at:cardUsed,if:usedCardId==278,do:goodConditionTurns+=3,do:fixedGenki+=11,limit:1"
   },
   {
     "id": "91",
@@ -998,7 +998,7 @@
     "mode": "produce",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:cardReceived,if:cardEffects&goodCondition,do:dance+=6"
+    "effects": "at:cardReceived,if:cardEffects&goodConditionTurns,do:dance+=6"
   },
   {
     "id": "92",
@@ -1020,7 +1020,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "33",
-    "effects": "at:staminaDecreased,do:goodImpression+=2,limit:4"
+    "effects": "at:staminaDecreased,do:goodImpressionTurns+=2,limit:4"
   },
   {
     "id": "94",
@@ -1031,7 +1031,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "33",
-    "effects": "at:staminaDecreased,do:goodImpression+=2"
+    "effects": "at:staminaDecreased,do:goodImpressionTurns+=2"
   },
   {
     "id": "95",
@@ -1042,7 +1042,7 @@
     "mode": "produce",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:cardReceived,if:cardEffects&goodImpression,do:visual+=6"
+    "effects": "at:cardReceived,if:cardEffects&goodImpressionTurns,do:visual+=6"
   },
   {
     "id": "96",
@@ -1075,7 +1075,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "35",
-    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*2.7,do:stamina-=2,limit:4"
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:score+=motivation*2.7,do:stamina-=2,limit:4"
   },
   {
     "id": "99",
@@ -1086,7 +1086,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "35",
-    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:parameter+=motivation*3.4,do:stamina-=2,limit:4"
+    "effects": "at:afterActiveCardUsed,if:motivation>=12,do:score+=motivation*3.4,do:stamina-=2,limit:4"
   },
   {
     "id": "100",
@@ -1097,7 +1097,7 @@
     "mode": "stage",
     "sourceType": "support",
     "pIdolId": "",
-    "effects": "at:startOfTurn,if:isDanceTurn,do:parameter+=motivation*0.5"
+    "effects": "at:startOfTurn,if:isDanceTurn,do:score+=motivation*0.5"
   },
   {
     "id": "101",
@@ -1108,7 +1108,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "36",
-    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:2"
+    "effects": "at:startOfTurn,if:halfCostTurns>=1,do:perfectCondition+=1,do:drawCard,limit:2"
   },
   {
     "id": "102",
@@ -1119,7 +1119,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "36",
-    "effects": "at:startOfTurn,if:halfStamina>=1,do:perfectCondition+=1,do:drawCard,limit:3"
+    "effects": "at:startOfTurn,if:halfCostTurns>=1,do:perfectCondition+=1,do:drawCard,limit:3"
   },
   {
     "id": "103",
@@ -1141,7 +1141,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "37",
-    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=5,do:staminaReduction+=2,do:upgradeAllCards,limit:1"
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=5,do:costReduction+=2,do:upgradeHand,limit:1"
   },
   {
     "id": "105",
@@ -1152,7 +1152,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "37",
-    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:staminaReduction+=3,do:upgradeAllCards,limit:1"
+    "effects": "at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=7,do:costReduction+=3,do:upgradeHand,limit:1"
   },
   {
     "id": "106",
@@ -1185,7 +1185,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "38",
-    "effects": "at:startOfTurn,if:goodImpression>=6,do:stamina+=4,limit:2"
+    "effects": "at:startOfTurn,if:goodImpressionTurns>=6,do:stamina+=4,limit:2"
   },
   {
     "id": "109",
@@ -1196,7 +1196,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "38",
-    "effects": "at:startOfTurn,if:goodImpression>=6,do:stamina+=5,limit:2"
+    "effects": "at:startOfTurn,if:goodImpressionTurns>=6,do:stamina+=5,limit:2"
   },
   {
     "id": "110",
@@ -1207,7 +1207,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "39",
-    "effects": "at:endOfTurn,if:goodCondition>=6,do:goodCondition+=2,limit:3"
+    "effects": "at:endOfTurn,if:goodConditionTurns>=6,do:goodConditionTurns+=2,limit:3"
   },
   {
     "id": "111",
@@ -1218,6 +1218,6 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "39",
-    "effects": "at:endOfTurn,if:goodCondition>=3,do:goodCondition+=2,limit:4"
+    "effects": "at:endOfTurn,if:goodConditionTurns>=3,do:goodConditionTurns+=2,limit:4"
   }
 ]
