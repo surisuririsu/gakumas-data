@@ -4,7 +4,7 @@ import DETAILS from "../images/pItems/details/imports";
 import { getPItemContestPower } from "../utils/contestPower";
 import { deserializeEffectSequence } from "../utils/effects";
 
-P_ITEMS.forEach(async (pItem) => {
+P_ITEMS.forEach((pItem) => {
   pItem.id = parseInt(pItem.id, 10);
   pItem.upgraded = pItem.upgraded == "TRUE";
   pItem.effects = deserializeEffectSequence(pItem.effects);

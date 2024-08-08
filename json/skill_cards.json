@@ -3260,7 +3260,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=4",
-    "effects": "do:genki+=2,do:score+=genki&0.5,do:motivation+=2",
+    "effects": "do:genki+=2,do:score+=genki*0.5,do:motivation+=2",
     "limit": "1"
   },
   {
@@ -3277,7 +3277,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=4",
-    "effects": "do:genki+=2,do:score+=genki&0.7,do:motivation+=3",
+    "effects": "do:genki+=2,do:score+=genki*0.7,do:motivation+=3",
     "limit": "1"
   },
   {
@@ -5266,7 +5266,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=6",
-    "effects": "do:score+=33;if:goodConditionTurns>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=4,limit:1",
+    "effects": "do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=4,limit:1",
     "limit": "1"
   },
   {
@@ -5283,7 +5283,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=6",
-    "effects": "do:score+=45;if:goodConditionTurns>=4;at:startOfTurn,if:effectTurnsElapsed==2,stamina+=6,limit:1",
+    "effects": "do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=6,limit:1",
     "limit": "1"
   },
   {

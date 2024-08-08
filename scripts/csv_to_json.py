@@ -1,7 +1,7 @@
 import csv
 import json
 
-data_types = ["idols", "p_idols", "p_items", "skill_cards"]
+data_types = ["idols", "p_idols", "p_items", "skill_cards", "stages"]
 
 for data_type in data_types:
   data = []
