@@ -2,6 +2,7 @@
   {
     "id": "1",
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b81",
+    "season": "1",
     "plan": "free",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "5,3,4",
@@ -11,6 +12,7 @@
   {
     "id": "2",
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b82",
+    "season": "1",
     "plan": "sense",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "4,2,2",
@@ -20,6 +22,7 @@
   {
     "id": "3",
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b83",
+    "season": "1",
     "plan": "logic",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "4,2,2",
@@ -29,6 +32,7 @@
   {
     "id": "4",
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b81",
+    "season": "2",
     "plan": "free",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "4,5,3",
@@ -38,6 +42,7 @@
   {
     "id": "5",
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b82",
+    "season": "2",
     "plan": "sense",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "4,5,3",
@@ -47,6 +52,7 @@
   {
     "id": "6",
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b83",
+    "season": "2",
     "plan": "logic",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "3,4,3",
@@ -56,6 +62,7 @@
   {
     "id": "7",
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b81",
+    "season": "3",
     "plan": "sense",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "3,3,4",
@@ -65,6 +72,7 @@
   {
     "id": "8",
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b82",
+    "season": "3",
     "plan": "logic",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "2,2,4",
@@ -74,6 +82,7 @@
   {
     "id": "9",
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b83",
+    "season": "3",
     "plan": "logic",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "2,2,4",
@@ -83,6 +92,7 @@
   {
     "id": "10",
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b81",
+    "season": "4",
     "plan": "sense",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,5,3",
@@ -92,6 +102,7 @@
   {
     "id": "11",
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b82",
+    "season": "4",
     "plan": "sense",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,5,3",
@@ -101,6 +112,7 @@
   {
     "id": "12",
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b83",
+    "season": "4",
     "plan": "logic",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,4,2",
@@ -110,6 +122,7 @@
   {
     "id": "13",
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b81",
+    "season": "5",
     "plan": "sense",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "4,3,3",
@@ -119,6 +132,7 @@
   {
     "id": "14",
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b82",
+    "season": "5",
     "plan": "sense",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "5,3,4",
@@ -128,6 +142,7 @@
   {
     "id": "15",
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b83",
+    "season": "5",
     "plan": "logic",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "5,3,4",
@@ -137,6 +152,7 @@
   {
     "id": "16",
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b81",
+    "season": "6",
     "plan": "free",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "1,4,3",
@@ -146,6 +162,7 @@
   {
     "id": "17",
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b82",
+    "season": "6",
     "plan": "sense",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "2,5,3",
@@ -155,6 +172,7 @@
   {
     "id": "18",
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b83",
+    "season": "6",
     "plan": "logic",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "2,6,4",
