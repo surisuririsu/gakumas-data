@@ -161,7 +161,7 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 160,仕切り直し,SSR,mental,free,40,FALSE,TRUE,produce,,FALSE,,do:cost-=5,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",1
 161,仕切り直し+,SSR,mental,free,40,TRUE,TRUE,produce,,FALSE,,do:cost-=2,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",1
 162,国民的アイドル,SSR,mental,sense,25,FALSE,TRUE,produce,,FALSE,,do:goodConditionTurns-=1,"at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",1
-163,国民的アイドル+,SSR,mental,sense,25,TRUE,TRUE,produce,,FALSE,,do:goodConditionTurns-=1,"genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",1
+163,国民的アイドル+,SSR,mental,sense,25,TRUE,TRUE,produce,,FALSE,,do:goodConditionTurns-=1,"do:genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",1
 164,魅惑の視線,SSR,mental,sense,30,FALSE,TRUE,produce,,FALSE,,do:concentration-=3,"do:perfectConditionTurns+=4,do:halfCostTurns+=2,do:cardUsesRemaining+=1",1
 165,魅惑の視線+,SSR,mental,sense,30,TRUE,TRUE,produce,,FALSE,,do:concentration-=3,"do:perfectConditionTurns+=5,do:halfCostTurns+=5,do:cardUsesRemaining+=1",1
 166,鳴り止まない拍手,SSR,mental,sense,38,FALSE,TRUE,produce,,FALSE,,do:cost-=5,"do:concentration+=4,do:goodConditionTurns+=2,do:halfCostTurns+=2",1
@@ -264,8 +264,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 263,薄れゆく壁+,SSR,mental,free,1,TRUE,TRUE,support,,FALSE,,do:cost-=2,"do:genki+=3;at:startOfTurn,do:upgradeHand,limit:2",1
 264,絡まる想い,SSR,mental,logic,1,FALSE,TRUE,pIdol,28,TRUE,,do:cost-=8,do:goodImpressionTurns+=8,1
 265,絡まる想い+,SSR,mental,logic,1,TRUE,TRUE,pIdol,28,TRUE,,do:cost-=8,do:goodImpressionTurns+=10,1
-266,なに聴いてるの？,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,,"do:genki+=2,stamina+=3",1
-267,なに聴いてるの？+,SR,active,logic,1,TRUE,TRUE,support,,FALSE,,,"do:genki+=2,stamina+=5",1
+266,なに聴いてるの？,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,,"do:genki+=2,do:stamina+=3",1
+267,なに聴いてるの？+,SR,active,logic,1,TRUE,TRUE,support,,FALSE,,,"do:genki+=2,do:stamina+=5",1
 268,未完の大器,R,mental,logic,1,FALSE,TRUE,pIdol,29,FALSE,,do:stamina-=3,do:genki+=cardsUsed*3+2,1
 269,未完の大器+,R,mental,logic,1,TRUE,TRUE,pIdol,29,FALSE,,do:stamina-=3,do:genki+=cardsUsed*4+4,1
 270,打倒お姉ちゃん,SR,active,logic,1,FALSE,TRUE,pIdol,30,FALSE,,do:stamina-=4,"do:genki+=3,do:score+=genki",1
@@ -308,8 +308,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 307,あのときの約束+,SSR,active,logic,54,TRUE,TRUE,produce,,FALSE,,do:goodImpressionTurns-=4,"do:genki+=14,do:score+=genki*1.3,do:score+=motivation*2",1
 308,入道雲と、きみ,SSR,active,sense,1,FALSE,TRUE,pIdol,36,FALSE,,do:cost-=6,"at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=3,do:halfCostTurns+=2",1
 309,入道雲と、きみ+,SSR,active,sense,1,TRUE,TRUE,pIdol,36,FALSE,,do:cost-=5,"at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=5,do:halfCostTurns+=2",1
-310,はじける水しぶき,SSR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=4,limit:1",1
-311,はじける水しぶき+,SSR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=6,limit:1",1
+310,はじける水しぶき,SSR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=4,limit:1",1
+311,はじける水しぶき+,SSR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=6,limit:1",1
 312,バスに揺られて,SSR,active,logic,1,FALSE,TRUE,pIdol,37,FALSE,,do:cost-=2,"do:concentrationMultiplier=2.3,do:score+=5;if:stamina<=maxStamina*0.5,do:genki+=6",1
 313,バスに揺られて+,SSR,active,logic,1,TRUE,TRUE,pIdol,37,FALSE,,do:cost-=2,"do:concentrationMultiplier=2.6,do:score+=8;if:stamina<=maxStamina*0.5,do:genki+=12",1
 314,金魚すくいで勝負,SSR,active,logic,1,FALSE,TRUE,pIdol,38,FALSE,,do:stamina-=2,"do:goodImpressionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",1

@@ -2767,7 +2767,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:goodConditionTurns-=1",
-    "effects": "genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
+    "effects": "do:genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -4518,7 +4518,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=2,stamina+=3",
+    "effects": "do:genki+=2,do:stamina+=3",
     "limit": "1"
   },
   {
@@ -4535,7 +4535,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "",
-    "effects": "do:genki+=2,stamina+=5",
+    "effects": "do:genki+=2,do:stamina+=5",
     "limit": "1"
   },
   {
@@ -5266,7 +5266,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=6",
-    "effects": "do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=4,limit:1",
+    "effects": "do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=4,limit:1",
     "limit": "1"
   },
   {
@@ -5283,7 +5283,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:stamina-=6",
-    "effects": "do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,stamina+=6,limit:1",
+    "effects": "do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=6,limit:1",
     "limit": "1"
   },
   {

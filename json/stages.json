@@ -17,7 +17,7 @@
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "4,2,2",
     "firstTurns": "vocal",
-    "effects": "at:startOfTurn,goodConditionTurns+=3,limit:1;at:startOfTurn,do:oneTurnScoreBuff+=0.5,limit:4"
+    "effects": "at:startOfTurn,do:goodConditionTurns+=3,limit:1;at:startOfTurn,do:oneTurnScoreBuff+=0.5,limit:4"
   },
   {
     "id": "3",
@@ -97,7 +97,7 @@
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,5,3",
     "firstTurns": "dance",
-    "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,stamina-=3,limit:3"
+    "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,do:stamina-=3,limit:3"
   },
   {
     "id": "11",
@@ -127,7 +127,7 @@
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "4,3,3",
     "firstTurns": "vocal,visual",
-    "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,stamina-=3,limit:3"
+    "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,do:stamina-=3,limit:3"
   },
   {
     "id": "14",
@@ -157,7 +157,7 @@
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "1,4,3",
     "firstTurns": "dance",
-    "effects": "at:startOfTurn,if:halfCostTurns>=0,permanentScoreBuff+=0.15"
+    "effects": "at:startOfTurn,if:halfCostTurns>=1,do:permanentScoreBuff+=0.15"
   },
   {
     "id": "17",

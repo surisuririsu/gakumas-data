@@ -17,6 +17,7 @@ export function serializeEffect(effect) {
 }
 
 export function deserializeEffect(effectString) {
+  if (!effectString.length) return {};
   return effectString.split(",").reduce((acc, cur) => {
     const [expKey, expValue] = cur.split(":");
     if (expKey == "at") {
@@ -31,6 +32,8 @@ export function deserializeEffect(effectString) {
       acc.limit = parseInt(expValue, 10);
     } else if (expKey == "ttl") {
       acc.ttl = parseInt(expValue, 10);
+    } else {
+      console.warn("Unrecognized effect segment", effectString);
     }
     return acc;
   }, {});
@@ -41,7 +44,7 @@ export function serializeEffectSequence(effectSequence) {
 }
 
 export function deserializeEffectSequence(effectSequenceString) {
-  return effectSequenceString
+  return effectSequenceString?.length
     ? effectSequenceString.split(";").map(deserializeEffect)
     : [];
 }
