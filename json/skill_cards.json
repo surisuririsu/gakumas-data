@@ -2750,7 +2750,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:goodConditionTurns-=1",
-    "effects": "at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
+    "effects": "do:doubleCardEffectCards+=1,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
@@ -2767,7 +2767,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "",
     "cost": "do:goodConditionTurns-=1",
-    "effects": "do:genki+=8;at:cardUsed,do:doubleCardEffectCards+=1,limit:1;do:cardUsesRemaining+=1",
+    "effects": "do:genki+=8,do:doubleCardEffectCards+=1,do:cardUsesRemaining+=1",
     "limit": "1"
   },
   {
