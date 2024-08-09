@@ -1,40 +1,40 @@
 id,idolId,title,rarity,plan,recommendedEffect
-1,1,学園生活,R,sense,goodCondition
+1,1,学園生活,R,sense,goodConditionTurns
 2,2,学園生活,R,sense,concentration
-3,3,学園生活,R,logic,goodImpression
-4,4,学園生活,R,sense,goodCondition
-5,5,学園生活,R,logic,goodImpression
+3,3,学園生活,R,logic,goodImpressionTurns
+4,4,学園生活,R,sense,goodConditionTurns
+5,5,学園生活,R,logic,goodImpressionTurns
 6,6,学園生活,R,logic,motivation
 7,7,学園生活,R,sense,concentration
 8,8,学園生活,R,logic,motivation
 9,9,学園生活,R,sense,concentration
-10,1,わたしが一番！,SR,sense,goodCondition
+10,1,わたしが一番！,SR,sense,goodConditionTurns
 11,2,一匹狼,SR,sense,concentration
-12,3,カワイイ♡はじめました,SR,logic,goodImpression
-13,4,はじまりはカッコよく,SR,sense,goodCondition
-14,5,一つ踏み出した先に,SR,logic,goodImpression
+12,3,カワイイ♡はじめました,SR,logic,goodImpressionTurns
+13,4,はじまりはカッコよく,SR,sense,goodConditionTurns
+14,5,一つ踏み出した先に,SR,logic,goodImpressionTurns
 15,6,胸を張って一歩ずつ,SR,logic,motivation
 16,7,夢へのリスタート,SR,sense,concentration
 17,8,一番向いてないこと,SR,logic,motivation
 18,9,『私らしさ』のはじまり,SR,sense,concentration
-19,1,Fighting My Way,SSR,sense,goodCondition
+19,1,Fighting My Way,SSR,sense,goodConditionTurns
 20,2,Luna say maybe,SSR,sense,concentration
-21,3,世界一可愛い私,SSR,logic,goodImpression
-22,4,Fluorite,SSR,sense,goodCondition
-23,5,白線,SSR,logic,goodImpression
+21,3,世界一可愛い私,SSR,logic,goodImpressionTurns
+22,4,Fluorite,SSR,sense,goodConditionTurns
+23,5,白線,SSR,logic,goodImpressionTurns
 24,6,Wonder Scale,SSR,logic,motivation
 25,7,Tame-Lie-One-Step,SSR,sense,concentration
 26,8,光景,SSR,logic,motivation
 27,9,clumsy trick,SSR,sense,concentration
-28,2,アイヴイ,SSR,logic,goodImpression
+28,2,アイヴイ,SSR,logic,goodImpressionTurns
 29,10,学園生活,R,logic,motivation
 30,10,アイドル、はじめっ！,SR,logic,motivation
 31,10,The Rolling Riceball,SSR,logic,motivation
-32,3,Yellow Big Bang！,SSR,sense,goodCondition
-33,1,Boom Boom Pow,SSR,logic,goodImpression
+32,3,Yellow Big Bang！,SSR,sense,goodConditionTurns
+33,1,Boom Boom Pow,SSR,logic,goodImpressionTurns
 34,4,キミとセミブルー,SSR,sense,concentration
 35,7,キミとセミブルー,SSR,logic,motivation
-36,9,キミとセミブルー,SSR,sense,goodCondition
+36,9,キミとセミブルー,SSR,sense,goodConditionTurns
 37,8,コントラスト,SSR,sense,concentration
-38,1,冠菊,SSR,logic,goodImpression
-39,5,冠菊,SSR,sense,goodCondition
+38,1,冠菊,SSR,logic,goodImpressionTurns
+39,5,冠菊,SSR,sense,goodConditionTurns
