@@ -1,7 +1,7 @@
 id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceInitialHand,conditions,cost,effects,limit
 1,アピールの基本,N,active,free,1,FALSE,FALSE,default,,FALSE,,do:cost-=4,do:score+=9,
 2,アピールの基本+,N,active,free,1,TRUE,FALSE,default,,FALSE,,do:cost-=3,do:score+=14,
-3,ポーズの基本,N,acitve,free,1,FALSE,FALSE,default,,FALSE,,do:cost-=3,"do:score+=2,do:genki+=2",
+3,ポーズの基本,N,active,free,1,FALSE,FALSE,default,,FALSE,,do:cost-=3,"do:score+=2,do:genki+=2",
 4,ポーズの基本+,N,active,free,1,TRUE,FALSE,default,,FALSE,,do:cost-=3,"do:score+=6,do:genki+=4",
 5,挑戦,N,active,sense,1,FALSE,FALSE,default,,FALSE,if:goodConditionTurns>=1,do:cost-=7,do:score+=25,1
 6,挑戦+,N,active,sense,1,TRUE,FALSE,default,,FALSE,if:goodConditionTurns>=1,do:cost-=7,do:score+=37,1
