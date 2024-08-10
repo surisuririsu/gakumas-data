@@ -1219,5 +1219,115 @@
     "sourceType": "pIdol",
     "pIdolId": "39",
     "effects": "at:endOfTurn,if:goodConditionTurns>=3,do:goodConditionTurns+=2,limit:4"
+  },
+  {
+    "id": "112",
+    "name": "\u3071\u3061\u3071\u3061\u7dda\u9999\u82b1\u706b",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "40",
+    "effects": "at:startOfTurn,if:turnsElapsed%3==1,if:goodImpressionTurns>=6,do:genki+=goodImpressionTurns,do:motivation+=2,do:stamina-=1,limit:4"
+  },
+  {
+    "id": "113",
+    "name": "\u3071\u3061\u3071\u3061\u7dda\u9999\u82b1\u706b+",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "40",
+    "effects": "at:startOfTurn,if:turnsElapsed%3==1,if:goodImpressionTurns>=6,do:genki+=goodImpressionTurns,do:motivation+=3,do:stamina-=1"
+  },
+  {
+    "id": "114",
+    "name": "873\u30b7\u30e5\u30fc\u30bf\u30fc",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:startOfTurn,if:isDanceTurn,do:goodImpressionTurns+=2,do:stamina+=1,limit:2"
+  },
+  {
+    "id": "115",
+    "name": "\u30cf\u30f3\u30bf\u30fc\u306e\u6226\u5229\u54c1",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "produce",
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:afterDanceSPLesson,if:dance>=400,do:pPoints+=60,limit:2"
+  },
+  {
+    "id": "116",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u54b2\u5b63",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "41",
+    "effects": "at:staminaDecreased,do:goodImpressionTurns+=2,limit:2"
+  },
+  {
+    "id": "117",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u54b2\u5b63+",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "41",
+    "effects": "at:staminaDecreased,do:goodImpressionTurns+=2,limit:3"
+  },
+  {
+    "id": "118",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u624b\u6bec",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "42",
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=6,do:score+=goodImpressionTurns,limit:2"
+  },
+  {
+    "id": "119",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u624b\u6bec+",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "plan": "logic",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "42",
+    "effects": "at:endOfTurn,if:goodImpressionTurns>=6,do:score+=goodImpressionTurns,limit:3"
+  },
+  {
+    "id": "120",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u3053\u3068\u306d",
+    "rarity": "R",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "43",
+    "effects": "at:cardUsed,if:usedCardId==326,do:goodConditionTurns+=2,limit:1"
+  },
+  {
+    "id": "121",
+    "name": "\u521d\u58f0\u306e\u8a3c\u30fb\u3053\u3068\u306d+",
+    "rarity": "R",
+    "upgraded": "TRUE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "43",
+    "effects": "at:cardUsed,if:usedCardId==326,do:goodConditionTurns+=2,do:fixedGenki+=5,limit:1"
   }
 ]

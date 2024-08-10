@@ -38,3 +38,7 @@ id,idolId,title,rarity,plan,recommendedEffect
 37,8,コントラスト,SSR,sense,concentration
 38,1,冠菊,SSR,logic,goodImpressionTurns
 39,5,冠菊,SSR,sense,goodConditionTurns
+40,3,冠菊,SSR,logic,goodImpressionTurns
+41,1,初声,R,logic,goodImpressionTurns
+42,2,初声,R,logic,goodImpressionTurns
+43,3,初声,R,sense,goodConditionTurns

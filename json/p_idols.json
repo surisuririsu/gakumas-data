@@ -310,5 +310,37 @@
     "rarity": "SSR",
     "plan": "sense",
     "recommendedEffect": "goodConditionTurns"
+  },
+  {
+    "id": "40",
+    "idolId": "3",
+    "title": "\u51a0\u83ca",
+    "rarity": "SSR",
+    "plan": "logic",
+    "recommendedEffect": "goodImpressionTurns"
+  },
+  {
+    "id": "41",
+    "idolId": "1",
+    "title": "\u521d\u58f0",
+    "rarity": "R",
+    "plan": "logic",
+    "recommendedEffect": "goodImpressionTurns"
+  },
+  {
+    "id": "42",
+    "idolId": "2",
+    "title": "\u521d\u58f0",
+    "rarity": "R",
+    "plan": "logic",
+    "recommendedEffect": "goodImpressionTurns"
+  },
+  {
+    "id": "43",
+    "idolId": "3",
+    "title": "\u521d\u58f0",
+    "rarity": "R",
+    "plan": "sense",
+    "recommendedEffect": "goodConditionTurns"
   }
 ]

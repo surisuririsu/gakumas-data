@@ -318,3 +318,11 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 317,はじめてのラムネ+,SSR,active,sense,1,TRUE,TRUE,pIdol,39,FALSE,if:goodConditionTurns>=1,do:cost-=4,"do:score+=12,do:score+=goodConditionTurns*3",1
 318,交わる感情,SSR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=5,"do:concentrationMultiplier=1.5,do:score+=7,do:concentration+=4",1
 319,交わる感情+,SSR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=5,"do:concentrationMultiplier=1.5,do:score+=13,do:concentration+=5",1
+320,夏の宵の線香花火,SSR,mental,logic,1,FALSE,TRUE,pIdol,40,TRUE,,do:stamina-=4,"do:goodImpressionTurns+=3,do:motivation+=2;at:afterCardUsed,if:cardEffects&genki,do:goodImpressionTurns+=1",1
+321,夏の宵の線香花火+,SSR,mental,logic,1,TRUE,TRUE,pIdol,40,TRUE,,do:stamina-=4,"do:goodImpressionTurns+=4,do:motivation+=3;at:afterCardUsed,if:cardEffects&genki,do:goodImpressionTurns+=1",1
+322,初めての未来,R,active,logic,1,FALSE,TRUE,pIdol,41,FALSE,,do:stamina-=5,do:score+=goodImpressionTurns*1.9,1
+323,初めての未来+,R,active,logic,1,TRUE,TRUE,pIdol,41,FALSE,,do:stamina-=3,do:score+=goodImpressionTurns*2,1
+324,初めての場所,R,mental,logic,1,FALSE,TRUE,pIdol,42,FALSE,,do:cost-=6,do:goodImpressionTurns+=6,1
+325,初めての場所,R,mental,logic,1,TRUE,TRUE,pIdol,42,FALSE,,do:cost-=6,do:goodImpressionTurns+=8,1
+326,初めてのご褒美,R,mental,sense,1,FALSE,TRUE,pIdol,43,FALSE,,do:cost-=4,"do:goodConditionTurns+=3,do:perfectConditionTurns+=2",1
+327,初めてのご褒美,R,mental,sense,1,TRUE,TRUE,pIdol,43,FALSE,,do:cost-=4,"do:goodConditionTurns+=4,do:perfectConditionTurns+=3",1
