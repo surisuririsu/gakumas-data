@@ -2478,7 +2478,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "if:goodConditionTurns>=1",
     "cost": "do:cost-=8",
-    "effects": "do:perfectConditionTurns+=2;at:startOfTurn,do:score+=38;limit:1",
+    "effects": "do:perfectConditionTurns+=2;at:startOfTurn,do:score+=38,limit:1",
     "limit": "1"
   },
   {
@@ -2495,7 +2495,7 @@
     "forceInitialHand": "FALSE",
     "conditions": "if:goodConditionTurns>=1",
     "cost": "do:cost-=7",
-    "effects": "do:perfectConditionTurns+=3;at:startOfTurn,do:score+=47;limit:1",
+    "effects": "do:perfectConditionTurns+=3;at:startOfTurn,do:score+=47,limit:1",
     "limit": "1"
   },
   {

@@ -28,6 +28,7 @@ import image_35 from "./35.png";
 import image_36 from "./36.png";
 import image_37 from "./37.png";
 import image_39 from "./39.png";
+import image_40 from "./40.png";
 import image_5 from "./5.png";
 import image_6 from "./6.png";
 import image_7 from "./7.png";
@@ -65,6 +66,7 @@ const IMAGES = {
   '36': image_36,
   '37': image_37,
   '39': image_39,
+  '40': image_40,
   '5': image_5,
   '6': image_6,
   '7': image_7,
