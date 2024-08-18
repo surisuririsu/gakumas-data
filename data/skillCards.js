@@ -8,7 +8,8 @@ SKILL_CARDS.forEach((skillCard) => {
   skillCard.id = parseInt(skillCard.id, 10);
   skillCard.unlockPlv = parseInt(skillCard.unlockPlv, 10);
   skillCard.upgraded = skillCard.upgraded == "TRUE";
-  skillCard.conditions = deserializeEffect(skillCard.conditions).conditions || [];
+  skillCard.conditions =
+    deserializeEffect(skillCard.conditions).conditions || [];
   skillCard.cost = deserializeEffect(skillCard.cost).actions || [];
   skillCard.effects = deserializeEffectSequence(skillCard.effects);
   skillCard.limit = parseInt(skillCard.limit, 10) || null;
@@ -16,7 +17,8 @@ SKILL_CARDS.forEach((skillCard) => {
   skillCard.forceInitialHand = skillCard.forceInitialHand == "TRUE";
   skillCard.pIdolId = parseInt(skillCard.pIdolId, 10) || null;
   skillCard.icon = ICONS[skillCard.id] || ICONS[`${skillCard.id}_1`];
-  skillCard.getDynamicIcon = idolId => ICONS[`${skillCard.id}_${idolId}`] || ICONS[skillCard.id];
+  skillCard.getDynamicIcon = (idolId) =>
+    ICONS[`${skillCard.id}_${idolId || 1}`] || ICONS[skillCard.id];
   skillCard.details = DETAILS[skillCard.id];
   skillCard.contestPower = getSkillCardContestPower(skillCard);
 });

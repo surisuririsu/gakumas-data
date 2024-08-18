@@ -1,12 +1,17 @@
 export function serializeEffect(effect) {
   const exp = [];
-  exp.push(`at:${effect.phase}`);
-  effect.conditions.forEach((condition) => {
-    exp.push(`if:${condition}`);
-  });
-  effect.actions.forEach((action) => {
-    exp.push(`do:${action}`);
-  });
+  if (effect.phase) exp.push(`at:${effect.phase}`);
+  if (effect.conditions) {
+    effect.conditions.forEach((condition) => {
+      exp.push(`if:${condition}`);
+    });
+  }
+  if (effect.actions) {
+    effect.actions.forEach((action) => {
+      exp.push(`do:${action}`);
+    });
+  }
+
   if (effect.limit) {
     exp.push(`limit:${effect.limit}`);
   }
