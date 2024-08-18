@@ -92,7 +92,7 @@ limit:2
 | 元気 | `genki` |
 | 体力 (元気適用) | `cost` |
 | スコア | `score` |
-| 使用済みカード数 | `cardsUsed` |
+| ステージ中使用したカード数 | `cardsUsed` |
 | 好調 | `goodConditionTurns` |
 | 絶好調 | `perfectConditionTurns` |
 | 集中 | `concentration` |
