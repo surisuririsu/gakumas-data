@@ -65,7 +65,7 @@ State changes to execute, marked with `do:`
 
 好印象の200%分スコア上昇
 ```
-do:score+=goodImpression*2
+do:score+=goodImpressionTurns*2
 ```
 
 ## Limit
