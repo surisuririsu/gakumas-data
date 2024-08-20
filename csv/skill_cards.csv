@@ -232,8 +232,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 231,ワンモアステップ+,SSR,active,sense,1,TRUE,TRUE,pIdol,25,FALSE,,do:cost-=3,"do:score+=9,do:score+=9;if:concentration>=6,do:score+=9",
 232,本気の趣味,SSR,mental,logic,1,FALSE,TRUE,pIdol,26,FALSE,,,"do:genki+=5;if:motivation>=3,do:genki+=4",
 233,本気の趣味+,SSR,mental,logic,1,TRUE,TRUE,pIdol,26,FALSE,,,"do:genki+=7;if:motivation>=3,do:genki+=7",
-234,距離感,SSR,mental,sense,1,FALSE,TRUE,pIdol,27,FALSE,,do:cost-=4,"do:concentration+=4,do:stamina+=4",
-235,距離感+,SSR,mental,sense,1,TRUE,TRUE,pIdol,27,FALSE,,do:cost-=3,"do:concentration+=5,do:stamina+=5",
+234,距離感,SSR,mental,sense,1,FALSE,TRUE,pIdol,27,FALSE,,do:cost-=4,"do:concentration+=4,do:fixedStamina+=4",
+235,距離感+,SSR,mental,sense,1,TRUE,TRUE,pIdol,27,FALSE,,do:cost-=3,"do:concentration+=5,do:fixedStamina+=5",
 236,お姉ちゃんだもの！,SR,active,free,1,FALSE,TRUE,support,,FALSE,if:clearRatio<=1,do:cost-=3,"do:score+=6,do:genki+=6;at:startOfTurn,do:drawCard,limit:1",1
 237,お姉ちゃんだもの！+,SR,active,free,1,TRUE,TRUE,support,,FALSE,if:clearRatio<=1,do:cost-=3,"do:score+=10,do:genki+=9;at:startOfTurn,do:drawCard,limit:1",1
 238,おアツイ視線,SR,mental,free,1,FALSE,TRUE,support,,FALSE,if:genki==0,,"do:genki+=5,do:halfCostTurns+=2;at:startOfTurn,do:drawCard,limit:1",1
@@ -246,8 +246,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 245,全力サポート+,SR,mental,free,1,TRUE,TRUE,support,,FALSE,,,"do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
 246,花萌ゆ季節,SSR,mental,free,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:addRandomUpgradedCardToHand,do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,limit:1",1
 247,花萌ゆ季節+,SSR,mental,free,1,TRUE,TRUE,support,,FALSE,,do:cost-=1,"do:addRandomUpgradedCardToHand,do:cardUsesRemaining+=1;at:startOfTurn,do:drawCard,limit:1",1
-248,陽だまりの生徒会室,SSR,mental,free,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:stamina+=3,do:cardUsesRemaining+=1",1
-249,陽だまりの生徒会室+,SSR,mental,free,1,TRUE,TRUE,support,,FALSE,,do:cost-=2,"do:stamina+=5,do:cardUsesRemaining+=1",1
+248,陽だまりの生徒会室,SSR,mental,free,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:fixedStamina+=3,do:cardUsesRemaining+=1",1
+249,陽だまりの生徒会室+,SSR,mental,free,1,TRUE,TRUE,support,,FALSE,,do:cost-=2,"do:fixedStamina+=5,do:cardUsesRemaining+=1",1
 250,心のアルバム,SSR,active,free,1,FALSE,TRUE,support,,FALSE,,,"do:score+=3,do:genki+=3;at:startOfTurn,do:drawCard,limit:2",1
 251,心のアルバム+,SSR,active,free,1,TRUE,TRUE,support,,FALSE,,,"do:score+=6,do:genki+=5;at:startOfTurn,do:drawCard,limit:2",1
 252,ティーパーティ,SSR,mental,free,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:cardUsesRemaining+=1,do:upgradeHand",1
@@ -264,8 +264,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 263,薄れゆく壁+,SSR,mental,free,1,TRUE,TRUE,support,,FALSE,,do:cost-=2,"do:genki+=3;at:startOfTurn,do:upgradeHand,limit:2",1
 264,絡まる想い,SSR,mental,logic,1,FALSE,TRUE,pIdol,28,TRUE,,do:cost-=8,do:goodImpressionTurns+=8,1
 265,絡まる想い+,SSR,mental,logic,1,TRUE,TRUE,pIdol,28,TRUE,,do:cost-=8,do:goodImpressionTurns+=10,1
-266,なに聴いてるの？,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,,"do:genki+=2,do:stamina+=3",1
-267,なに聴いてるの？+,SR,active,logic,1,TRUE,TRUE,support,,FALSE,,,"do:genki+=2,do:stamina+=5",1
+266,なに聴いてるの？,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,,"do:genki+=2,do:fixedStamina+=3",1
+267,なに聴いてるの？+,SR,active,logic,1,TRUE,TRUE,support,,FALSE,,,"do:genki+=2,do:fixedStamina+=5",1
 268,未完の大器,R,mental,logic,1,FALSE,TRUE,pIdol,29,FALSE,,do:stamina-=3,do:genki+=cardsUsed*3+2,1
 269,未完の大器+,R,mental,logic,1,TRUE,TRUE,pIdol,29,FALSE,,do:stamina-=3,do:genki+=cardsUsed*4+4,1
 270,打倒お姉ちゃん,SR,active,logic,1,FALSE,TRUE,pIdol,30,FALSE,,do:stamina-=4,"do:genki+=3,do:score+=genki",1
@@ -308,8 +308,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 307,あのときの約束+,SSR,active,logic,54,TRUE,TRUE,produce,,FALSE,,do:goodImpressionTurns-=4,"do:genki+=14,do:score+=genki*1.3,do:score+=motivation*2",1
 308,入道雲と、きみ,SSR,active,sense,1,FALSE,TRUE,pIdol,36,FALSE,,do:cost-=6,"at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=3,do:halfCostTurns+=2",1
 309,入道雲と、きみ+,SSR,active,sense,1,TRUE,TRUE,pIdol,36,FALSE,,do:cost-=5,"at:activeCardUsed,do:doubleCardEffectCards+=1,limit:1,ttl:1;do:goodConditionTurns+=5,do:halfCostTurns+=2",1
-310,はじける水しぶき,SSR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=4,limit:1",1
-311,はじける水しぶき+,SSR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:stamina+=6,limit:1",1
+310,はじける水しぶき,SSR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=33,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:fixedStamina+=4,limit:1",1
+311,はじける水しぶき+,SSR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:stamina-=6,"do:score+=45,do:hajikeruMizushibukiTurnUsed=turnsElapsed;if:goodConditionTurns>=4;at:startOfTurn,if:turnsElapsed-hajikeruMizushibukiTurnUsed==2,do:fixedStamina+=6,limit:1",1
 312,バスに揺られて,SSR,active,logic,1,FALSE,TRUE,pIdol,37,FALSE,,do:cost-=2,"do:concentrationMultiplier=2.3,do:score+=5;if:stamina<=maxStamina*0.5,do:genki+=6",1
 313,バスに揺られて+,SSR,active,logic,1,TRUE,TRUE,pIdol,37,FALSE,,do:cost-=2,"do:concentrationMultiplier=2.6,do:score+=8;if:stamina<=maxStamina*0.5,do:genki+=12",1
 314,金魚すくいで勝負,SSR,active,logic,1,FALSE,TRUE,pIdol,38,FALSE,,do:stamina-=2,"do:goodImpressionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",1
