@@ -13,7 +13,7 @@ phase,condition,action;phase,condition,condition,action,action,action
 
 ### Example
 
-ターン開始時、好調が4以上の場合、集中+4、好調+4 (ステージ中1回)  
+ターン開始時、好調が4以上の場合、集中+4、好調+4 (ステージ内1回)  
 アクティブスキルカード使用時、好印象の100%スコア上昇
 ```
 at:startOfTurn,if:goodConditionTurns>=4,do:concentration+=4,do:goodConditionTurns+=4,limit:1;
@@ -75,7 +75,7 @@ Maximum number of times to activate an effect, marked by `limit:`
 
 ### Example
 
-ステージ中2回
+ステージ内2回
 ```
 limit:2
 ```
