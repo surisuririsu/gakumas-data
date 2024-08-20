@@ -3873,7 +3873,7 @@
     "conditions": "",
     "cost": "do:stamina-=4",
     "effects": "do:genki+=2,do:score+=genki,do:motivation+=2",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "229",
@@ -3890,7 +3890,7 @@
     "conditions": "",
     "cost": "do:stamina-=4",
     "effects": "do:genki+=5,do:score+=genki*1.2,do:motivation+=3",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "230",
@@ -3907,7 +3907,7 @@
     "conditions": "",
     "cost": "do:cost-=4",
     "effects": "do:score+=7,do:score+=7;if:concentration>=6,do:score+=7",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "231",
@@ -3924,7 +3924,7 @@
     "conditions": "",
     "cost": "do:cost-=3",
     "effects": "do:score+=9,do:score+=9;if:concentration>=6,do:score+=9",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "232",
@@ -3941,7 +3941,7 @@
     "conditions": "",
     "cost": "",
     "effects": "do:genki+=5;if:motivation>=3,do:genki+=4",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "233",
@@ -3958,7 +3958,7 @@
     "conditions": "",
     "cost": "",
     "effects": "do:genki+=7;if:motivation>=3,do:genki+=7",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "234",
@@ -3975,7 +3975,7 @@
     "conditions": "",
     "cost": "do:cost-=4",
     "effects": "do:concentration+=4,do:fixedStamina+=4",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "235",
@@ -3992,7 +3992,7 @@
     "conditions": "",
     "cost": "do:cost-=3",
     "effects": "do:concentration+=5,do:fixedStamina+=5",
-    "limit": ""
+    "limit": "1"
   },
   {
     "id": "236",
