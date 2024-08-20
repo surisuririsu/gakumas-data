@@ -17,6 +17,6 @@ id,name,type,season,stage,plan,criteria,turnCounts,firstTurns,effects
 16,シーズン6 ステージ1,contest,6,1,free,"0.1,0.45,0.45","1,4,3",dance,"at:startOfTurn,if:halfCostTurns>=1,do:permanentScoreBuff+=0.15"
 17,シーズン6 ステージ2,contest,6,2,sense,"0.1,0.45,0.45","2,5,3",dance,"at:startOfTurn,if:goodConditionTurns>=6,do:goodConditionTurns+=6,do:concentration+=6,limit:1"
 18,シーズン6 ステージ3,contest,6,3,logic,"0.1,0.45,0.45","2,6,4",dance,"at:startOfTurn,do:motivation+=4,do:goodImpressionTurns+=4,limit:1"
-19,シーズン7 ステージ1,contest,7,1,free,"0.15,0.5,0.35","2,6,4",dance,"at:startOfTurn,if:turnsRemaining<=4,do:cardUsesRemaining+=1,do:costReduction-=1,limit:4"
+19,シーズン7 ステージ1,contest,7,1,free,"0.15,0.5,0.35","2,6,4",dance,"at:startOfTurn,if:turnsRemaining<=4,do:cardUsesRemaining+=1,do:costIncrease+=1,limit:4"
 20,シーズン7 ステージ2,contest,7,2,sense,"0.15,0.5,0.35","2,6,4",dance,"at:startOfTurn,if:turnsElapsed==10,do:oneTurnScoreBuff+=0.5,do:goodConditionTurns+=2,limit:1;at:startOfTurn,if:turnsElapsed==11,do:oneTurnScoreBuff+=0.5,limit:1"
 21,シーズン7 ステージ3,contest,7,3,logic,"0.15,0.5,0.35","2,6,4",dance,"at:startOfTurn,do:motivation+=4,do:goodImpressionTurns+=4,limit:1"

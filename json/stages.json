@@ -225,7 +225,7 @@
     "criteria": "0.15,0.5,0.35",
     "turnCounts": "2,6,4",
     "firstTurns": "dance",
-    "effects": "at:startOfTurn,if:turnsRemaining<=4,do:cardUsesRemaining+=1,do:costReduction-=1,limit:4"
+    "effects": "at:startOfTurn,if:turnsRemaining<=4,do:cardUsesRemaining+=1,do:costIncrease+=1,limit:4"
   },
   {
     "id": "20",
