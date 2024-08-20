@@ -45,6 +45,7 @@ at:startOfTurn
 | やる気が増加後 | `motivationIncreased` |
 | 好調の効果ターンが増加後 | `goodConditionTurnsIncreased` |
 | 集中が増加後 | `concentrationIncreased` |
+| 体力が減少後 | `staminaDecreased` |
 
 ## Condition
 
@@ -87,6 +88,7 @@ limit:2
 | 残りターン数 | `turnsRemaining` |
 | スキルカード使用回数 | `cardUsesRemaining` |
 | 最大体力 | `maxStamina` |
+| 固定体力 | `fixedStamina` |
 | 体力 | `stamina` |
 | 固定元気 | `fixedGenki` |
 | 元気 | `genki` |
@@ -103,6 +105,7 @@ limit:2
 | 消費体力減少 | `halfCostTurns` |
 | 消費体力増加 | `doubleCostTurns` |
 | 消費体力削減 | `costReduction` |
+| 消費体力追加 | `costIncrease` |
 | スキルカード追加発動 | `doubleCardEffectCards` |
 | 元気無効 | `nullifyGenkiTurns` |
 | 使用スキルカード強化前ID | `usedCardId` |
