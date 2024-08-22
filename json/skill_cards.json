@@ -5557,5 +5557,39 @@
     "cost": "do:cost-=4",
     "effects": "do:goodConditionTurns+=4,do:perfectConditionTurns+=3",
     "limit": "1"
+  },
+  {
+    "id": "328",
+    "name": "\u304a\u8336\u4f1a\u3078\u3088\u3046\u3053\u305d\u266a",
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "sense",
+    "unlockPlv": "1",
+    "upgraded": "FALSE",
+    "unique": "TRUE",
+    "sourceType": "pIdol",
+    "pIdolId": "44",
+    "forceInitialHand": "FALSE",
+    "conditions": "",
+    "cost": "do:cost-=4",
+    "effects": "do:genki+=3,do:perfectConditionTurns+=2,do:cardUsesRemaining+=1,do:drawCard",
+    "limit": "1"
+  },
+  {
+    "id": "329",
+    "name": "\u304a\u8336\u4f1a\u3078\u3088\u3046\u3053\u305d\u266a+",
+    "rarity": "SSR",
+    "type": "mental",
+    "plan": "sense",
+    "unlockPlv": "1",
+    "upgraded": "TRUE",
+    "unique": "TRUE",
+    "sourceType": "pIdol",
+    "pIdolId": "44",
+    "forceInitialHand": "FALSE",
+    "conditions": "",
+    "cost": "do:cost-=3",
+    "effects": "do:genki+=5,do:perfectConditionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",
+    "limit": "1"
   }
 ]

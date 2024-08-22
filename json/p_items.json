@@ -1329,5 +1329,49 @@
     "sourceType": "pIdol",
     "pIdolId": "43",
     "effects": "at:cardUsed,if:usedCardId==326,do:goodConditionTurns+=2,do:fixedGenki+=5,limit:1"
+  },
+  {
+    "id": "122",
+    "name": "\u3068\u304d\u3081\u304d\u306e\u3044\u3063\u3071\u3044",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "44",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=3+3*cardsUsed,do:fixedStamina-=2,limit:1"
+  },
+  {
+    "id": "123",
+    "name": "\u3068\u304d\u3081\u304d\u306e\u3044\u3063\u3071\u3044+",
+    "rarity": "SSR",
+    "upgraded": "TRUE",
+    "plan": "sense",
+    "mode": "stage",
+    "sourceType": "pIdol",
+    "pIdolId": "44",
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=5+3*cardsUsed,do:fixedStamina-=2,limit:1"
+  },
+  {
+    "id": "124",
+    "name": "\u307b\u3063\u3053\u308a\u307e\u3093\u3077\u304f",
+    "rarity": "SSR",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "produce",
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&goodConditionTurns,if:dance>=200,do:minimumRarity=2,do:getRandomPDrinks=1,limit:4"
+  },
+  {
+    "id": "125",
+    "name": "\u304d\u3063\u304b\u3051\u306e\u5e2f",
+    "rarity": "SR",
+    "upgraded": "FALSE",
+    "plan": "sense",
+    "mode": "produce",
+    "sourceType": "support",
+    "pIdolId": "",
+    "effects": "at:cardReceived,if:cardEffects&goodConditionTurns,if:dance>=700,do:removeSelectedCard,do:pPoints+=40,limit:1"
   }
 ]

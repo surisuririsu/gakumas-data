@@ -326,3 +326,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 325,初めての場所,R,mental,logic,1,TRUE,TRUE,pIdol,42,FALSE,,do:cost-=6,do:goodImpressionTurns+=8,1
 326,初めてのご褒美,R,mental,sense,1,FALSE,TRUE,pIdol,43,FALSE,,do:cost-=4,"do:goodConditionTurns+=3,do:perfectConditionTurns+=2",1
 327,初めてのご褒美,R,mental,sense,1,TRUE,TRUE,pIdol,43,FALSE,,do:cost-=4,"do:goodConditionTurns+=4,do:perfectConditionTurns+=3",1
+328,お茶会へようこそ♪,SSR,mental,sense,1,FALSE,TRUE,pIdol,44,FALSE,,do:cost-=4,"do:genki+=3,do:perfectConditionTurns+=2,do:cardUsesRemaining+=1,do:drawCard",1
+329,お茶会へようこそ♪+,SSR,mental,sense,1,TRUE,TRUE,pIdol,44,FALSE,,do:cost-=3,"do:genki+=5,do:perfectConditionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",1

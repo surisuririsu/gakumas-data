@@ -342,5 +342,13 @@
     "rarity": "R",
     "plan": "sense",
     "recommendedEffect": "goodConditionTurns"
+  },
+  {
+    "id": "44",
+    "idolId": "6",
+    "title": "\u65e5\u3005\u3001\u767a\u898b\u7684\u30b9\u30c6\u30c3\u30d7\uff01",
+    "rarity": "SSR",
+    "plan": "sense",
+    "recommendedEffect": "goodConditionTurns"
   }
 ]
