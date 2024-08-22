@@ -1350,7 +1350,7 @@
     "mode": "stage",
     "sourceType": "pIdol",
     "pIdolId": "44",
-    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=5+3*cardsUsed,do:fixedStamina-=2,limit:1"
+    "effects": "at:startOfTurn,if:turnsRemaining==1,do:score+=5+3*cardsUsed,limit:1"
   },
   {
     "id": "124",
