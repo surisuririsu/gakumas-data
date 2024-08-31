@@ -5,17 +5,12 @@ import { getSkillCardContestPower } from "../utils/contestPower";
 import { deserializeEffect, deserializeEffectSequence } from "../utils/effects";
 
 SKILL_CARDS.forEach((skillCard) => {
-  skillCard.id = parseInt(skillCard.id, 10);
-  skillCard.unlockPlv = parseInt(skillCard.unlockPlv, 10);
-  skillCard.upgraded = skillCard.upgraded == "TRUE";
   skillCard.conditions =
     deserializeEffect(skillCard.conditions).conditions || [];
   skillCard.cost = deserializeEffect(skillCard.cost).actions || [];
   skillCard.effects = deserializeEffectSequence(skillCard.effects);
-  skillCard.limit = parseInt(skillCard.limit, 10) || null;
-  skillCard.unique = skillCard.unique == "TRUE";
-  skillCard.forceInitialHand = skillCard.forceInitialHand == "TRUE";
-  skillCard.pIdolId = parseInt(skillCard.pIdolId, 10) || null;
+  skillCard.limit = skillCard.limit || null;
+  skillCard.pIdolId = skillCard.pIdolId || null;
   skillCard.getIcon = (idolId = 1) =>
     ICONS[`${skillCard.id}_${idolId}`] || ICONS[skillCard.id];
   skillCard.details = DETAILS[skillCard.id];

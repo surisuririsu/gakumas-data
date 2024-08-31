@@ -5,10 +5,8 @@ import { getPItemContestPower } from "../utils/contestPower";
 import { deserializeEffectSequence } from "../utils/effects";
 
 P_ITEMS.forEach((pItem) => {
-  pItem.id = parseInt(pItem.id, 10);
-  pItem.upgraded = pItem.upgraded == "TRUE";
   pItem.effects = deserializeEffectSequence(pItem.effects);
-  pItem.pIdolId = parseInt(pItem.pIdolId, 10) || null;
+  pItem.pIdolId = pItem.pIdolId || null;
   pItem.getIcon = () => ICONS[pItem.id];
   pItem.details = DETAILS[pItem.id];
   pItem.contestPower = getPItemContestPower(pItem);

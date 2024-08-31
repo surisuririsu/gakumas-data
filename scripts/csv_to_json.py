@@ -9,6 +9,11 @@ for data_type in data_types:
   with open(f"csv/{data_type}.csv", encoding="utf-8") as f:
     csv_reader = csv.DictReader(f)
     for row in csv_reader:
+      for k, v in row.items():
+        if v in ("TRUE", "FALSE"):
+          row[k] = v == "TRUE"
+        elif v.isnumeric():
+          row[k] = int(v)
       data.append(row)
 
   with open(f"json/{data_type}.json", "w", encoding="utf-8") as f:

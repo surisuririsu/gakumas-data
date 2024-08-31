@@ -1,10 +1,10 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "1",
-    "stage": "1",
+    "season": 1,
+    "stage": 1,
     "plan": "free",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "5,3,4",
@@ -12,11 +12,11 @@
     "effects": "at:startOfTurn,if:turnsElapsed==7,do:score+=15,do:genki+=15,limit:1"
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "1",
-    "stage": "2",
+    "season": 1,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "4,2,2",
@@ -24,11 +24,11 @@
     "effects": "at:startOfTurn,do:goodConditionTurns+=3,limit:1;at:startOfTurn,do:oneTurnScoreBuff+=0.5,limit:4"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "\u30b7\u30fc\u30ba\u30f31 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "1",
-    "stage": "3",
+    "season": 1,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.4,0.27,0.33",
     "turnCounts": "4,2,2",
@@ -36,11 +36,11 @@
     "effects": "at:goodImpressionTurnsIncreased,if:goodImpressionTurns>=10,do:goodImpression+=4,do:score+=goodImpressionTurns*0.5"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "2",
-    "stage": "1",
+    "season": 2,
+    "stage": 1,
     "plan": "free",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "4,5,3",
@@ -48,11 +48,11 @@
     "effects": "at:startOfTurn,if:turnsElapsed==7,do:score+=15,do:genki+=15,limit:1"
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "2",
-    "stage": "2",
+    "season": 2,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "4,5,3",
@@ -60,11 +60,11 @@
     "effects": "at:afterCardUsed,if:cardEffects&perfectConditionTurns,if:goodConditionTurns>=4,do:cardUsesRemaining+=1"
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "\u30b7\u30fc\u30ba\u30f32 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "2",
-    "stage": "3",
+    "season": 2,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.33,0.4,0.27",
     "turnCounts": "3,4,3",
@@ -72,11 +72,11 @@
     "effects": "at:cardUsed,if:cardsUsed%2==0,do:score+=genki*0.5"
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "3",
-    "stage": "1",
+    "season": 3,
+    "stage": 1,
     "plan": "sense",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "3,3,4",
@@ -84,11 +84,11 @@
     "effects": "at:startOfTurn,if:turnsElapsed==7,do:concentration*=2,limit:1"
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "3",
-    "stage": "2",
+    "season": 3,
+    "stage": 2,
     "plan": "logic",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "2,2,4",
@@ -96,11 +96,11 @@
     "effects": "at:activeCardUsed,do:score+=goodImpressionTurns*1.7,limit:3"
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "\u30b7\u30fc\u30ba\u30f33 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "3",
-    "stage": "3",
+    "season": 3,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.27,0.33,0.4",
     "turnCounts": "2,2,4",
@@ -108,11 +108,11 @@
     "effects": "at:startOfTurn,do:motivation+=4,limit:2"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "4",
-    "stage": "1",
+    "season": 4,
+    "stage": 1,
     "plan": "sense",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,5,3",
@@ -120,11 +120,11 @@
     "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,do:fixedStamina-=3,limit:3"
   },
   {
-    "id": "11",
+    "id": 11,
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "4",
-    "stage": "2",
+    "season": 4,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,5,3",
@@ -132,11 +132,11 @@
     "effects": "at:afterCardUsed,if:cardEffects&perfectConditionTurns,if:goodConditionTurns>=4,do:cardUsesRemaining+=1"
   },
   {
-    "id": "12",
+    "id": 12,
     "name": "\u30b7\u30fc\u30ba\u30f34 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "4",
-    "stage": "3",
+    "season": 4,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.15,0.45,0.4",
     "turnCounts": "2,4,2",
@@ -144,11 +144,11 @@
     "effects": "at:activeCardUsed,do:motivation+=3,limit:4"
   },
   {
-    "id": "13",
+    "id": 13,
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "5",
-    "stage": "1",
+    "season": 5,
+    "stage": 1,
     "plan": "sense",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "4,3,3",
@@ -156,11 +156,11 @@
     "effects": "at:cardUsed,if:cardEffects&halfCostTurns,do:concentration+=3,do:goodConditionTurns+=3,do:fixedStamina-=3,limit:3"
   },
   {
-    "id": "14",
+    "id": 14,
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "5",
-    "stage": "2",
+    "season": 5,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "5,3,4",
@@ -168,11 +168,11 @@
     "effects": "at:startOfTurn,do:concentration+=5,do:doubleCostTurns+=1,limit:2"
   },
   {
-    "id": "15",
+    "id": 15,
     "name": "\u30b7\u30fc\u30ba\u30f35 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "5",
-    "stage": "3",
+    "season": 5,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.35,0.3,0.35",
     "turnCounts": "5,3,4",
@@ -180,11 +180,11 @@
     "effects": "at:startOfTurn,do:goodImpressionTurns+=4,do:nullifyGenkiTurns+=1,limit:6"
   },
   {
-    "id": "16",
+    "id": 16,
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "6",
-    "stage": "1",
+    "season": 6,
+    "stage": 1,
     "plan": "free",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "1,4,3",
@@ -192,11 +192,11 @@
     "effects": "at:startOfTurn,if:halfCostTurns>=1,do:permanentScoreBuff+=0.15"
   },
   {
-    "id": "17",
+    "id": 17,
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "6",
-    "stage": "2",
+    "season": 6,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "2,5,3",
@@ -204,11 +204,11 @@
     "effects": "at:startOfTurn,if:goodConditionTurns>=6,do:goodConditionTurns+=6,do:concentration+=6,limit:1"
   },
   {
-    "id": "18",
+    "id": 18,
     "name": "\u30b7\u30fc\u30ba\u30f36 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "6",
-    "stage": "3",
+    "season": 6,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.1,0.45,0.45",
     "turnCounts": "2,6,4",
@@ -216,11 +216,11 @@
     "effects": "at:startOfTurn,do:motivation+=4,do:goodImpressionTurns+=4,limit:1"
   },
   {
-    "id": "19",
+    "id": 19,
     "name": "\u30b7\u30fc\u30ba\u30f37 \u30b9\u30c6\u30fc\u30b81",
     "type": "contest",
-    "season": "7",
-    "stage": "1",
+    "season": 7,
+    "stage": 1,
     "plan": "free",
     "criteria": "0.15,0.5,0.35",
     "turnCounts": "2,6,4",
@@ -228,11 +228,11 @@
     "effects": "at:startOfTurn,if:turnsRemaining<=4,do:cardUsesRemaining+=1,do:costIncrease+=1,limit:4"
   },
   {
-    "id": "20",
+    "id": 20,
     "name": "\u30b7\u30fc\u30ba\u30f37 \u30b9\u30c6\u30fc\u30b82",
     "type": "contest",
-    "season": "7",
-    "stage": "2",
+    "season": 7,
+    "stage": 2,
     "plan": "sense",
     "criteria": "0.15,0.5,0.35",
     "turnCounts": "2,6,4",
@@ -240,11 +240,11 @@
     "effects": "at:startOfTurn,if:turnsElapsed==10,do:oneTurnScoreBuff+=0.5,do:goodConditionTurns+=2,limit:1;at:startOfTurn,if:turnsElapsed==11,do:oneTurnScoreBuff+=0.5,limit:1"
   },
   {
-    "id": "21",
+    "id": 21,
     "name": "\u30b7\u30fc\u30ba\u30f37 \u30b9\u30c6\u30fc\u30b83",
     "type": "contest",
-    "season": "7",
-    "stage": "3",
+    "season": 7,
+    "stage": 3,
     "plan": "logic",
     "criteria": "0.15,0.5,0.35",
     "turnCounts": "2,6,4",

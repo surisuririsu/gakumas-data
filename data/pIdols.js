@@ -2,8 +2,6 @@ import P_IDOLS from "../json/p_idols.json" with { mode: "json" };
 import ICONS from "../images/pIdols/imports";
 
 P_IDOLS.forEach((pIdol) => {
-  pIdol.id = parseInt(pIdol.id, 10);
-  pIdol.idolId = parseInt(pIdol.idolId, 10);
   pIdol.getIcon = () => ICONS[pIdol.id];
 });
 
