@@ -16,9 +16,8 @@ SKILL_CARDS.forEach((skillCard) => {
   skillCard.unique = skillCard.unique == "TRUE";
   skillCard.forceInitialHand = skillCard.forceInitialHand == "TRUE";
   skillCard.pIdolId = parseInt(skillCard.pIdolId, 10) || null;
-  skillCard.icon = ICONS[skillCard.id] || ICONS[`${skillCard.id}_1`];
-  skillCard.getDynamicIcon = (idolId) =>
-    ICONS[`${skillCard.id}_${idolId || 1}`] || ICONS[skillCard.id];
+  skillCard.getIcon = (idolId = 1) =>
+    ICONS[`${skillCard.id}_${idolId}`] || ICONS[skillCard.id];
   skillCard.details = DETAILS[skillCard.id];
   skillCard.contestPower = getSkillCardContestPower(skillCard);
 });

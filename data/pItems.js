@@ -9,7 +9,7 @@ P_ITEMS.forEach((pItem) => {
   pItem.upgraded = pItem.upgraded == "TRUE";
   pItem.effects = deserializeEffectSequence(pItem.effects);
   pItem.pIdolId = parseInt(pItem.pIdolId, 10) || null;
-  pItem.icon = ICONS[pItem.id];
+  pItem.getIcon = () => ICONS[pItem.id];
   pItem.details = DETAILS[pItem.id];
   pItem.contestPower = getPItemContestPower(pItem);
 });
