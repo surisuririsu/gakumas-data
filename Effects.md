@@ -111,4 +111,5 @@ limit:2
 | 使用スキルカード強化前ID | `usedCardId` |
 | 使用スキルカード効果 | `cardEffects` |
 | 集中適用倍数 | `concentrationMultiplier` |
+| やる気適用倍数 | `motivationMultiplier` |
 
