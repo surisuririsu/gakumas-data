@@ -43,3 +43,7 @@ id,idolId,title,rarity,plan,recommendedEffect
 42,2,初声,R,logic,goodImpressionTurns
 43,3,初声,R,sense,goodConditionTurns
 44,6,日々、発見的ステップ！,SSR,sense,goodConditionTurns
+45,5,初心,R,sense,goodConditionTurns
+46,6,初心,R,sense,goodConditionTurns
+47,9,初心,R,logic,motivation
+48,9,ようこそ初星温泉,SSR,logic,motivation

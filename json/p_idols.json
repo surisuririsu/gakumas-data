@@ -350,5 +350,37 @@
     "rarity": "SSR",
     "plan": "sense",
     "recommendedEffect": "goodConditionTurns"
+  },
+  {
+    "id": 45,
+    "idolId": 5,
+    "title": "\u521d\u5fc3",
+    "rarity": "R",
+    "plan": "sense",
+    "recommendedEffect": "goodConditionTurns"
+  },
+  {
+    "id": 46,
+    "idolId": 6,
+    "title": "\u521d\u5fc3",
+    "rarity": "R",
+    "plan": "sense",
+    "recommendedEffect": "goodConditionTurns"
+  },
+  {
+    "id": 47,
+    "idolId": 9,
+    "title": "\u521d\u5fc3",
+    "rarity": "R",
+    "plan": "logic",
+    "recommendedEffect": "motivation"
+  },
+  {
+    "id": 48,
+    "idolId": 9,
+    "title": "\u3088\u3046\u3053\u305d\u521d\u661f\u6e29\u6cc9",
+    "rarity": "SSR",
+    "plan": "logic",
+    "recommendedEffect": "motivation"
   }
 ]

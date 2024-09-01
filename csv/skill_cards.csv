@@ -328,3 +328,13 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 327,初めてのご褒美,R,mental,sense,1,TRUE,TRUE,pIdol,43,FALSE,,do:cost-=4,"do:goodConditionTurns+=4,do:perfectConditionTurns+=3",1
 328,お茶会へようこそ♪,SSR,mental,sense,1,FALSE,TRUE,pIdol,44,FALSE,,do:cost-=4,"do:genki+=3,do:perfectConditionTurns+=2,do:cardUsesRemaining+=1,do:drawCard",1
 329,お茶会へようこそ♪+,SSR,mental,sense,1,TRUE,TRUE,pIdol,44,FALSE,,do:cost-=3,"do:genki+=5,do:perfectConditionTurns+=3,do:cardUsesRemaining+=1,do:drawCard",1
+330,初めての地平,R,active,sense,1,FALSE,TRUE,pIdol,45,FALSE,,do:cost-=2,do:score+=goodConditionTurns*2,1
+331,初めての地平+,R,active,sense,1,TRUE,TRUE,pIdol,45,FALSE,,do:cost-=2,do:score+=goodConditionTurns*2.5,1
+332,初めての色,R,mental,sense,1,FALSE,TRUE,pIdol,46,FALSE,,do:cost-=2,"do:genki+=5,do:perfectConditionTurns+=2",1
+333,初めての色+,R,mental,sense,1,TRUE,TRUE,pIdol,46,FALSE,,do:cost-=2,"do:genki+=5,do:perfectConditionTurns+=3",1
+334,初めてのお相手,R,active,logic,1,FALSE,TRUE,pIdol,47,FALSE,,do:stamina-=4,"do:motivationMultiplier=1.5,do:genki+=2,do:score+=genki*0.4,do:costReduction+=1",1
+335,初めてのお相手+,R,active,logic,1,TRUE,TRUE,pIdol,47,FALSE,,do:stamina-=3,"do:motivationMultiplier=1.5,do:genki+=2,do:score+=genki*0.5,do:costReduction+=1",1
+336,さっぱりひといき,SSR,active,logic,1,FALSE,TRUE,pIdol,48,FALSE,,do:stamina-=5,"do:motivationMultiplier=2.3,do:genki+=2,do:score+=genki*0.5,do:costReduction+=1",1
+337,さっぱりひといき+,SSR,active,logic,1,TRUE,TRUE,pIdol,48,FALSE,,do:stamina-=4,"do:motivationMultiplier=2.3,do:genki+=2,do:score+=genki*0.9,do:costReduction+=1",1
+338,その本、おもしろい？,SSR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:stamina-=5,"if:goodImpressionTurns>=3,do:score+=goodImpressionTurns*1.2;if:motivation>=3,do:score+=genki*0.5;do:cardUsesRemaining+=1",1
+339,その本、おもしろい？+,SSR,active,logic,1,TRUE,TRUE,support,,FALSE,,do:stamina-=4,"if:goodImpressionTurns>=3,do:score+=goodImpressionTurns*1.5;if:motivation>=3,do:score+=genki*0.7;do:cardUsesRemaining+=1",1
