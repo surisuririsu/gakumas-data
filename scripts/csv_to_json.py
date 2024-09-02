@@ -17,4 +17,4 @@ for data_type in data_types:
       data.append(row)
 
   with open(f"json/{data_type}.json", "w", encoding="utf-8") as f:
-    f.write(json.dumps(data, indent=2))
+    f.write(json.dumps(data, ensure_ascii=False, separators=(',',':')))
