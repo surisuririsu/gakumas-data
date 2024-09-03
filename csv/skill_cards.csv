@@ -142,10 +142,10 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 141,コール&レスポンス+,SSR,active,sense,11,TRUE,TRUE,produce,,FALSE,,do:cost-=6,"do:score+=15;if:concentration>=3,do:concentrationMultiplier=1.5,do:score+=34",1
 142,バズワード,SSR,active,sense,12,FALSE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=7,do:score+=38,
 143,バズワード+,SSR,active,sense,12,TRUE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=7,do:score+=54,
-144,成就,SSR,active,sense,41,FALSE,TRUE,produce,,FALSE,,do:cost-=10,"do:goodConditionTurns+=4;at:startOfTurn,do:score+=32,limit:1",1
-145,成就+,SSR,active,sense,41,TRUE,TRUE,produce,,FALSE,,do:cost-=10,"do:goodConditionTurns+=7;at:startOfTurn,do:score+=40,limit:1",1
-146,魅惑のパフォーマンス,SSR,active,sense,43,FALSE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=8,"do:perfectConditionTurns+=2;at:startOfTurn,do:score+=38,limit:1",1
-147,魅惑のパフォーマンス+,SSR,active,sense,43,TRUE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=7,"do:perfectConditionTurns+=3;at:startOfTurn,do:score+=47,limit:1",1
+144,成就,SSR,active,sense,41,FALSE,TRUE,produce,,FALSE,,do:cost-=10,"do:goodConditionTurns+=4;at:startOfTurn,do:score+=32,order:100,limit:1",1
+145,成就+,SSR,active,sense,41,TRUE,TRUE,produce,,FALSE,,do:cost-=10,"do:goodConditionTurns+=7;at:startOfTurn,do:score+=40,order:100,limit:1",1
+146,魅惑のパフォーマンス,SSR,active,sense,43,FALSE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=8,"do:perfectConditionTurns+=2;at:startOfTurn,do:score+=38,order:100,limit:1",1
+147,魅惑のパフォーマンス+,SSR,active,sense,43,TRUE,TRUE,produce,,FALSE,if:goodConditionTurns>=1,do:cost-=7,"do:perfectConditionTurns+=3;at:startOfTurn,do:score+=47,order:100,limit:1",1
 148,200%スマイル,SSR,active,logic,11,FALSE,TRUE,produce,,FALSE,,do:cost-=6,"do:goodImpressionTurns+=5,do:score+=goodImpressionTurns",1
 149,200%スマイル+,SSR,active,logic,11,TRUE,TRUE,produce,,FALSE,,do:cost-=6,"do:goodImpressionTurns+=6,do:score+=goodImpressionTurns*1.7",1
 150,開花,SSR,active,logic,12,FALSE,TRUE,produce,,FALSE,,do:cost-=5,"do:motivation+=6,do:score+=motivation*2",1
