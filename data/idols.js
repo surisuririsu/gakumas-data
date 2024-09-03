@@ -1,4 +1,4 @@
-import IDOLS from "../json/idols.json" with { mode: "json" };
+import IDOLS from "../json/idols.json";
 import ICONS from "../images/idols/imports";
 
 IDOLS.forEach(async (idol) => {

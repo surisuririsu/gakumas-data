@@ -1,4 +1,4 @@
-import P_ITEMS from "../json/p_items.json" with { mode: "json" };
+import P_ITEMS from "../json/p_items.json";
 import ICONS from "../images/pItems/icons/imports";
 import DETAILS from "../images/pItems/details/imports";
 import { getPItemContestPower } from "../utils/contestPower";

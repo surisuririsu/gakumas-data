@@ -1,4 +1,4 @@
-import P_IDOLS from "../json/p_idols.json" with { mode: "json" };
+import P_IDOLS from "../json/p_idols.json";
 import ICONS from "../images/pIdols/imports";
 
 P_IDOLS.forEach((pIdol) => {

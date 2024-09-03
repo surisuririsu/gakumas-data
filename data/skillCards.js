@@ -1,4 +1,4 @@
-import SKILL_CARDS from "../json/skill_cards.json" with { mode: "json" };
+import SKILL_CARDS from "../json/skill_cards.json";
 import ICONS from "../images/skillCards/icons/imports";
 import DETAILS from "../images/skillCards/details/imports";
 import { getSkillCardContestPower } from "../utils/contestPower";
