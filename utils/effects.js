@@ -25,7 +25,7 @@ export function serializeEffect(effect) {
 
 export function deserializeEffect(effectString) {
   if (!effectString.length) return {};
-  return effectString.split(",").reduce((acc, cur) => {
+  return effectString.split(/,(?![^()]*\))/).reduce((acc, cur) => {
     const [expKey, expValue] = cur.split(":");
     if (expKey == "at") {
       acc.phase = expValue;

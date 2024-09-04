@@ -113,3 +113,21 @@ limit:2
 | 集中適用倍数 | `concentrationMultiplier` |
 | やる気適用倍数 | `motivationMultiplier` |
 
+## Non-assignment actions
+
+| Action | Representation |
+| --- | --- |
+| スキルカードを引く | `drawCard` |
+| 手札をすべてレッスン中強化 | `upgradeHand` |
+| 手札をすべて入れ替える | `exchangeHand` |
+| ランダムな強化済みスキルカードを、手札に生成 | `addRandomUpgradedCardToHand` |
+| スコア上昇量増加 | `setScoreBuff(amount,turns)` |
+
+### Example
+
+スコア上昇量増加 30% (5ターン)
+スコア上昇量増加 15%
+```
+do:setScoreBuff(0.3,5);
+do:setScoreBuff(0.15)
+```
