@@ -100,8 +100,6 @@ limit:2
 | 集中 | `concentration` |
 | 好印象 | `goodImpressionTurns` |
 | やる気 | `motivation` |
-| スコア上昇量増加 (1ターン) | `oneTurnScoreBuff` |
-| スコア上昇量増加  | `permanentScoreBuff` |
 | 消費体力減少 | `halfCostTurns` |
 | 消費体力増加 | `doubleCostTurns` |
 | 消費体力削減 | `costReduction` |
