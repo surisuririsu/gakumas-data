@@ -924,26 +924,8 @@ import image_299_8 from "./299_8.png";
 import image_299_9 from "./299_9.png";
 import image_3 from "./3.png";
 import image_30 from "./30.png";
-import image_300_1 from "./300_1.png";
-import image_300_10 from "./300_10.png";
-import image_300_2 from "./300_2.png";
-import image_300_3 from "./300_3.png";
-import image_300_4 from "./300_4.png";
-import image_300_5 from "./300_5.png";
-import image_300_6 from "./300_6.png";
-import image_300_7 from "./300_7.png";
-import image_300_8 from "./300_8.png";
-import image_300_9 from "./300_9.png";
-import image_301_1 from "./301_1.png";
-import image_301_10 from "./301_10.png";
-import image_301_2 from "./301_2.png";
-import image_301_3 from "./301_3.png";
-import image_301_4 from "./301_4.png";
-import image_301_5 from "./301_5.png";
-import image_301_6 from "./301_6.png";
-import image_301_7 from "./301_7.png";
-import image_301_8 from "./301_8.png";
-import image_301_9 from "./301_9.png";
+import image_300 from "./300.png";
+import image_301 from "./301.png";
 import image_302_1 from "./302_1.png";
 import image_302_10 from "./302_10.png";
 import image_302_2 from "./302_2.png";
@@ -1040,6 +1022,8 @@ import image_337 from "./337.png";
 import image_338 from "./338.png";
 import image_339 from "./339.png";
 import image_34 from "./34.png";
+import image_340 from "./340.png";
+import image_341 from "./341.png";
 import image_35 from "./35.png";
 import image_36 from "./36.png";
 import image_37 from "./37.png";
@@ -2309,26 +2293,8 @@ const IMAGES = {
   '299_9': image_299_9,
   '3': image_3,
   '30': image_30,
-  '300_1': image_300_1,
-  '300_10': image_300_10,
-  '300_2': image_300_2,
-  '300_3': image_300_3,
-  '300_4': image_300_4,
-  '300_5': image_300_5,
-  '300_6': image_300_6,
-  '300_7': image_300_7,
-  '300_8': image_300_8,
-  '300_9': image_300_9,
-  '301_1': image_301_1,
-  '301_10': image_301_10,
-  '301_2': image_301_2,
-  '301_3': image_301_3,
-  '301_4': image_301_4,
-  '301_5': image_301_5,
-  '301_6': image_301_6,
-  '301_7': image_301_7,
-  '301_8': image_301_8,
-  '301_9': image_301_9,
+  '300': image_300,
+  '301': image_301,
   '302_1': image_302_1,
   '302_10': image_302_10,
   '302_2': image_302_2,
@@ -2425,6 +2391,8 @@ const IMAGES = {
   '338': image_338,
   '339': image_339,
   '34': image_34,
+  '340': image_340,
+  '341': image_341,
   '35': image_35,
   '36': image_36,
   '37': image_37,
