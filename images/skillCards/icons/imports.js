@@ -828,7 +828,6 @@ import image_276 from "./276.png";
 import image_277 from "./277.png";
 import image_278 from "./278.png";
 import image_279 from "./279.png";
-import image_28 from "./28.png";
 import image_280 from "./280.png";
 import image_281 from "./281.png";
 import image_282 from "./282.png";
@@ -839,7 +838,16 @@ import image_286 from "./286.png";
 import image_287 from "./287.png";
 import image_288 from "./288.png";
 import image_289 from "./289.png";
-import image_29 from "./29.png";
+import image_28_1 from "./28_1.png";
+import image_28_10 from "./28_10.png";
+import image_28_2 from "./28_2.png";
+import image_28_3 from "./28_3.png";
+import image_28_4 from "./28_4.png";
+import image_28_5 from "./28_5.png";
+import image_28_6 from "./28_6.png";
+import image_28_7 from "./28_7.png";
+import image_28_8 from "./28_8.png";
+import image_28_9 from "./28_9.png";
 import image_290 from "./290.png";
 import image_291 from "./291.png";
 import image_292_1 from "./292_1.png";
@@ -922,6 +930,16 @@ import image_299_6 from "./299_6.png";
 import image_299_7 from "./299_7.png";
 import image_299_8 from "./299_8.png";
 import image_299_9 from "./299_9.png";
+import image_29_1 from "./29_1.png";
+import image_29_10 from "./29_10.png";
+import image_29_2 from "./29_2.png";
+import image_29_3 from "./29_3.png";
+import image_29_4 from "./29_4.png";
+import image_29_5 from "./29_5.png";
+import image_29_6 from "./29_6.png";
+import image_29_7 from "./29_7.png";
+import image_29_8 from "./29_8.png";
+import image_29_9 from "./29_9.png";
 import image_3 from "./3.png";
 import image_30 from "./30.png";
 import image_300 from "./300.png";
@@ -1038,8 +1056,26 @@ import image_44 from "./44.png";
 import image_45 from "./45.png";
 import image_46 from "./46.png";
 import image_47 from "./47.png";
-import image_48 from "./48.png";
-import image_49 from "./49.png";
+import image_48_1 from "./48_1.png";
+import image_48_10 from "./48_10.png";
+import image_48_2 from "./48_2.png";
+import image_48_3 from "./48_3.png";
+import image_48_4 from "./48_4.png";
+import image_48_5 from "./48_5.png";
+import image_48_6 from "./48_6.png";
+import image_48_7 from "./48_7.png";
+import image_48_8 from "./48_8.png";
+import image_48_9 from "./48_9.png";
+import image_49_1 from "./49_1.png";
+import image_49_10 from "./49_10.png";
+import image_49_2 from "./49_2.png";
+import image_49_3 from "./49_3.png";
+import image_49_4 from "./49_4.png";
+import image_49_5 from "./49_5.png";
+import image_49_6 from "./49_6.png";
+import image_49_7 from "./49_7.png";
+import image_49_8 from "./49_8.png";
+import image_49_9 from "./49_9.png";
 import image_5 from "./5.png";
 import image_50 from "./50.png";
 import image_51 from "./51.png";
@@ -2197,7 +2233,6 @@ const IMAGES = {
   '277': image_277,
   '278': image_278,
   '279': image_279,
-  '28': image_28,
   '280': image_280,
   '281': image_281,
   '282': image_282,
@@ -2208,7 +2243,16 @@ const IMAGES = {
   '287': image_287,
   '288': image_288,
   '289': image_289,
-  '29': image_29,
+  '28_1': image_28_1,
+  '28_10': image_28_10,
+  '28_2': image_28_2,
+  '28_3': image_28_3,
+  '28_4': image_28_4,
+  '28_5': image_28_5,
+  '28_6': image_28_6,
+  '28_7': image_28_7,
+  '28_8': image_28_8,
+  '28_9': image_28_9,
   '290': image_290,
   '291': image_291,
   '292_1': image_292_1,
@@ -2291,6 +2335,16 @@ const IMAGES = {
   '299_7': image_299_7,
   '299_8': image_299_8,
   '299_9': image_299_9,
+  '29_1': image_29_1,
+  '29_10': image_29_10,
+  '29_2': image_29_2,
+  '29_3': image_29_3,
+  '29_4': image_29_4,
+  '29_5': image_29_5,
+  '29_6': image_29_6,
+  '29_7': image_29_7,
+  '29_8': image_29_8,
+  '29_9': image_29_9,
   '3': image_3,
   '30': image_30,
   '300': image_300,
@@ -2407,8 +2461,26 @@ const IMAGES = {
   '45': image_45,
   '46': image_46,
   '47': image_47,
-  '48': image_48,
-  '49': image_49,
+  '48_1': image_48_1,
+  '48_10': image_48_10,
+  '48_2': image_48_2,
+  '48_3': image_48_3,
+  '48_4': image_48_4,
+  '48_5': image_48_5,
+  '48_6': image_48_6,
+  '48_7': image_48_7,
+  '48_8': image_48_8,
+  '48_9': image_48_9,
+  '49_1': image_49_1,
+  '49_10': image_49_10,
+  '49_2': image_49_2,
+  '49_3': image_49_3,
+  '49_4': image_49_4,
+  '49_5': image_49_5,
+  '49_6': image_49_6,
+  '49_7': image_49_7,
+  '49_8': image_49_8,
+  '49_9': image_49_9,
   '5': image_5,
   '50': image_50,
   '51': image_51,
