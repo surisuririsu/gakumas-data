@@ -340,3 +340,4 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 339,その本、おもしろい？+,SSR,active,logic,1,TRUE,TRUE,support,,FALSE,,do:stamina-=4,"if:goodImpressionTurns>=3,do:score+=goodImpressionTurns*1.5;if:motivation>=3,do:score+=genki*0.7;do:cardUsesRemaining+=1",1
 340,切れた鼻緒が結んだ絆,SR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:goodCondition+=4;at:startOfTurn,do:drawCard,limit:1",1
 341,切れた鼻緒が結んだ絆+,SR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=3,"do:goodCondition+=5;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
+343,こくりとひとくち+,SSR,mental,sense,1,TRUE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=4,do:halfCostTurns+=1,do:cardUsesRemaining+=1",1
