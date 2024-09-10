@@ -19,6 +19,7 @@ import image_25 from "./25.png";
 import image_26 from "./26.png";
 import image_27 from "./27.png";
 import image_28 from "./28.png";
+import image_29 from "./29.png";
 import image_3 from "./3.png";
 import image_30 from "./30.png";
 import image_31 from "./31.png";
@@ -30,11 +31,16 @@ import image_36 from "./36.png";
 import image_37 from "./37.png";
 import image_38 from "./38.png";
 import image_39 from "./39.png";
+import image_4 from "./4.png";
 import image_40 from "./40.png";
 import image_41 from "./41.png";
 import image_42 from "./42.png";
 import image_43 from "./43.png";
 import image_44 from "./44.png";
+import image_45 from "./45.png";
+import image_46 from "./46.png";
+import image_47 from "./47.png";
+import image_48 from "./48.png";
 import image_5 from "./5.png";
 import image_6 from "./6.png";
 import image_7 from "./7.png";
@@ -63,6 +69,7 @@ const IMAGES = {
   '26': image_26,
   '27': image_27,
   '28': image_28,
+  '29': image_29,
   '3': image_3,
   '30': image_30,
   '31': image_31,
@@ -74,11 +81,16 @@ const IMAGES = {
   '37': image_37,
   '38': image_38,
   '39': image_39,
+  '4': image_4,
   '40': image_40,
   '41': image_41,
   '42': image_42,
   '43': image_43,
   '44': image_44,
+  '45': image_45,
+  '46': image_46,
+  '47': image_47,
+  '48': image_48,
   '5': image_5,
   '6': image_6,
   '7': image_7,
