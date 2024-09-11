@@ -133,4 +133,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,effects
 132,ぱたぱたうちわ,SSR,FALSE,logic,stage,pIdol,48,"at:cardUsed,if:cardsUsed%3==2,do:genki+=1,do:motivation+=3,limit:2"
 133,ぱたぱたうちわ+,SSR,TRUE,logic,stage,pIdol,48,"at:cardUsed,if:cardsUsed%3==2,do:genki+=2,do:motivation+=4,limit:2"
 134,大きくてつやつや,SR,FALSE,logic,produce,support,,"at:cardReceived,if:cardEffects&motivation,if:visual>=400,do:upgradeSelectedCard,do:stamina+=2,limit:1"
+135,温泉の後のお楽しみ,SSR,FALSE,sense,stage,pIdol,49,"at:cardUsed,if:cardsUsed%4==3,do:concentration*=1.3,do:fixedGenki+=2,limit:2"
 136,温泉の後のお楽しみ+,SSR,TRUE,sense,stage,pIdol,49,"at:cardUsed,if:cardsUsed%4==3,do:concentration*=1.3,do:fixedGenki+=7,limit:2"
+137,とうちょーのきろく,SSR,FALSE,free,produce,support,,"at:afterClass,do:visual+=15,do:stamina+=2"
+138,みんなの教科書,SSR,FALSE,free,stage,support,,"at:startOfTurn,if:isVocalTurn,if:stamina<=maxStamina*0.5,do:fixedStamina+=4,limit:1"
