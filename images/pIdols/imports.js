@@ -41,6 +41,7 @@ import image_45 from "./45.png";
 import image_46 from "./46.png";
 import image_47 from "./47.png";
 import image_48 from "./48.png";
+import image_49 from "./49.png";
 import image_5 from "./5.png";
 import image_6 from "./6.png";
 import image_7 from "./7.png";
@@ -91,6 +92,7 @@ const IMAGES = {
   '46': image_46,
   '47': image_47,
   '48': image_48,
+  '49': image_49,
   '5': image_5,
   '6': image_6,
   '7': image_7,
