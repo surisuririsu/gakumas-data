@@ -1,6 +1,6 @@
 {
   "name": "gakumas-data",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "packageManager": "yarn@4.4.1",
   "scripts": {
     "generate": "python -m scripts.csv_to_json && python -m scripts.generate_image_imports"
