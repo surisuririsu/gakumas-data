@@ -270,6 +270,8 @@ import image_340 from "./340.png";
 import image_341 from "./341.png";
 import image_342 from "./342.png";
 import image_343 from "./343.png";
+import image_344 from "./344.png";
+import image_345 from "./345.png";
 import image_35 from "./35.png";
 import image_36 from "./36.png";
 import image_37 from "./37.png";
@@ -615,6 +617,8 @@ const IMAGES = {
   '341': image_341,
   '342': image_342,
   '343': image_343,
+  '344': image_344,
+  '345': image_345,
   '35': image_35,
   '36': image_36,
   '37': image_37,

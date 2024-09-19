@@ -342,3 +342,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 341,切れた鼻緒が結んだ絆+,SR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=3,"do:goodCondition+=5;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
 342,こくりとひとくち,SSR,mental,sense,1,FALSE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=3,do:cardUsesRemaining+=1",1
 343,こくりとひとくち+,SSR,mental,sense,1,TRUE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=4,do:halfCostTurns+=1,do:cardUsesRemaining+=1",1
+344,月夜のランウェイ+,SSR,active,logic,1,FALSE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.5",1
+345,月夜のランウェイ+,SSR,active,logic,1,TRUE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.5",1

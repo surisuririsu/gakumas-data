@@ -137,3 +137,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,effects
 136,温泉の後のお楽しみ+,SSR,TRUE,sense,stage,pIdol,49,"at:cardUsed,if:cardsUsed%4==3,do:concentration*=1.3,do:fixedGenki+=7,limit:2"
 137,とうちょーのきろく,SSR,FALSE,free,produce,support,,"at:afterClass,do:visual+=15,do:stamina+=2"
 138,みんなの教科書,SSR,FALSE,free,stage,support,,"at:startOfTurn,if:isVocalTurn,if:stamina<=maxStamina*0.5,do:fixedStamina+=4,limit:1"
+139,スタイリッシュモード+,SSR,FALSE,logic,stage,pIdol,50,"at:startOfTurn,if:motivation>=3,do:goodImpressionTurns+=3,do:motivation-=1,limit:4"
+140,スタイリッシュモード+,SSR,TRUE,logic,stage,pIdol,50,"at:startOfTurn,if:motivation>=3,do:goodImpressionTurns+=3,do:motivation-=1,limit:4"
+141,とろけた時間,SSR,FALSE,free,stage,support,,"at:startOfTurn,if:isVocalTurn,do:setScoreBuff(0.5,1),limit:3"
+142,優しさミルクシュガー,SR,FALSE,free,produce,support,,"at:cardRecevied,if:cardEffects&goodImpressionTurns,if:vocal>=700,do:copySelectedSkillCard,do:pPoints+=40,limit:1"
