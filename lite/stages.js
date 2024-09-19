@@ -10,7 +10,10 @@ STAGES.forEach((stage) => {
     .split(",")
     .map((p) => parseInt(p, 10));
   stage.turnCounts = { vocal: voT, dance: daT, visual: viT };
-  stage.firstTurns = stage.firstTurns.split(",");
+  const [voFt, daFt, viFt] = stage.firstTurns
+    .split(",")
+    .map((p) => parseFloat(p));
+  stage.firstTurns = { vocal: voFt, dance: daFt, visual: viFt };
   stage.effects = deserializeEffectSequence(stage.effects);
 });
 
