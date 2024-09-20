@@ -156,10 +156,10 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 155,テレビ出演+,SSR,mental,free,5,TRUE,TRUE,produce,,FALSE,,do:cost-=1,"do:genki+=5,do:halfCostTurns+=5",1
 156,叶えたい夢,SSR,mental,free,10,FALSE,TRUE,produce,,FALSE,,do:stamina-=1,"do:genki+=8,do:costReduction+=1",1
 157,叶えたい夢+,SSR,mental,free,10,TRUE,TRUE,produce,,FALSE,,do:stamina-=1,"do:genki+=9,do:costReduction+=2",1
-158,アイドル魂,SSR,mental,free,35,FALSE,TRUE,produce,,TRUE,,do:cost-=2,"do:genki+=6,do:nullifyDebuff+=1",1
-159,アイドル魂+,SSR,mental,free,35,TRUE,TRUE,produce,,TRUE,,do:cost-=2,"do:genki+=6,do:nullifyDebuff+=1;at:startOfTurn,do:upgradeHand,limit:1",1
-160,仕切り直し,SSR,mental,free,40,FALSE,TRUE,produce,,FALSE,,do:cost-=5,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",1
-161,仕切り直し+,SSR,mental,free,40,TRUE,TRUE,produce,,FALSE,,do:cost-=2,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1",1
+158,アイドル魂,SSR,mental,free,35,FALSE,TRUE,produce,,TRUE,,do:cost-=2,"do:genki+=6,do:nullifyDebuff+=1,do:cardUsesRemaining+=1",1
+159,アイドル魂+,SSR,mental,free,35,TRUE,TRUE,produce,,TRUE,,do:cost-=2,"do:genki+=6,do:nullifyDebuff+=1,do:cardUsesRemaining+=1;at:startOfTurn,do:upgradeHand,limit:1",1
+160,仕切り直し,SSR,mental,free,40,FALSE,TRUE,produce,,FALSE,,do:cost-=5,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1,do:drawCard,do:drawCard",1
+161,仕切り直し+,SSR,mental,free,40,TRUE,TRUE,produce,,FALSE,,do:cost-=2,"do:exchangeHand,do:halfCostTurns+=4,do:cardUsesRemaining+=1,do:drawCard,do:drawCard",1
 162,国民的アイドル,SSR,mental,sense,25,FALSE,TRUE,produce,,FALSE,,do:goodConditionTurns-=1,"do:doubleCardEffectCards+=1,do:cardUsesRemaining+=1",1
 163,国民的アイドル+,SSR,mental,sense,25,TRUE,TRUE,produce,,FALSE,,do:goodConditionTurns-=1,"do:genki+=8,do:doubleCardEffectCards+=1,do:cardUsesRemaining+=1",1
 164,魅惑の視線,SSR,mental,sense,30,FALSE,TRUE,produce,,FALSE,,do:concentration-=3,"do:perfectConditionTurns+=4,do:halfCostTurns+=2,do:cardUsesRemaining+=1",1
@@ -342,5 +342,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 341,切れた鼻緒が結んだ絆+,SR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=3,"do:goodCondition+=5;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
 342,こくりとひとくち,SSR,mental,sense,1,FALSE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=3,do:cardUsesRemaining+=1",1
 343,こくりとひとくち+,SSR,mental,sense,1,TRUE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=4,do:halfCostTurns+=1,do:cardUsesRemaining+=1",1
-344,月夜のランウェイ+,SSR,active,logic,1,FALSE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.5",1
-345,月夜のランウェイ+,SSR,active,logic,1,TRUE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.5",1
+344,月夜のランウェイ,SSR,active,logic,1,FALSE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.3,order:100",1
+345,月夜のランウェイ+,SSR,active,logic,1,TRUE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.5,order:100",1
