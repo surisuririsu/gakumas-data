@@ -146,4 +146,4 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,effects
 145,ぶきっちょコウモリ,SSR,FALSE,logic,stage,pIdol,52,"at:startOfTurn,if:turnsElapsed%3==2,if:goodImpressionTurns>=3,do:score+=genki,do:score+=motivation*2.3,do:goodImpressionTurns-=2,order:100,limit:3"
 146,ぶきっちょコウモリ+,SSR,TRUE,logic,stage,pIdol,52,"at:startOfTurn,if:turnsElapsed%3==2,if:goodImpressionTurns>=3,do:score+=genki,do:score+=motivation*2.3,do:goodImpressionTurns-=2,order:100,limit:3"
 147,いじっぱりバルーン,SSR,FALSE,logic,stage,support,,"at:startOfTurn,if:isDanceTurn,if:goodImpressionTurns>=3,do:motivation+=3,limit:2"
-148,お嬢様の恩返し,SR,FALSE,logic,stage,support,,"at:startOfTurn,if:isDanceTurn,if:goodImpressionTurns>=6,do:score+=goodImpressionTurns*0.8"
+148,お嬢様の恩返し,SR,FALSE,logic,stage,support,,"at:startOfTurn,if:isDanceTurn,if:goodImpressionTurns>=6,do:score+=goodImpressionTurns*0.8,order:100,limit:2"
