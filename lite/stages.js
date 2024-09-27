@@ -2,8 +2,6 @@ import STAGES from "../json/stages.json";
 import { deserializeEffectSequence } from "../utils/effects";
 
 STAGES.forEach((stage) => {
-  stage.id = parseInt(stage.id, 10);
-  stage.season = parseInt(stage.season, 10);
   const [vo, da, vi] = stage.criteria.split(",").map((p) => parseFloat(p));
   stage.criteria = { vocal: vo, dance: da, visual: vi };
   const [voT, daT, viT] = stage.turnCounts
