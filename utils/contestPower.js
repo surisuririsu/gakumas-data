@@ -10,7 +10,11 @@ export function getPItemContestPower(pItem) {
       return pItem.upgraded ? 420 : 300;
     }
   } else if (pItem.sourceType == "support") {
-    return 180;
+    if (pItem.rarity == "SR") {
+      return 135;
+    } else if (pItem.rarity == "SSR") {
+      return 180;
+    }
   }
   return 0;
 }
