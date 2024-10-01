@@ -11,9 +11,6 @@ export function serializeEffect(effect) {
       exp.push(`do:${action}`);
     });
   }
-  if (effect.order) {
-    exp.push(`order:${effect.order}`);
-  }
   if (effect.limit) {
     exp.push(`limit:${effect.limit}`);
   }
@@ -35,8 +32,6 @@ export function deserializeEffect(effectString) {
     } else if (expKey == "do") {
       if (!acc.actions) acc.actions = [];
       acc.actions.push(expValue);
-    } else if (expKey == "order") {
-      acc.order = parseInt(expValue, 10);
     } else if (expKey == "limit") {
       acc.limit = parseInt(expValue, 10);
     } else if (expKey == "ttl") {
