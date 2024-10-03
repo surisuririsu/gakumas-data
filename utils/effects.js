@@ -11,6 +11,9 @@ export function serializeEffect(effect) {
       exp.push(`do:${action}`);
     });
   }
+  if (effect.group) {
+    exp.push(`group:${effect.group}`);
+  }
   if (effect.limit) {
     exp.push(`limit:${effect.limit}`);
   }
@@ -32,6 +35,8 @@ export function deserializeEffect(effectString) {
     } else if (expKey == "do") {
       if (!acc.actions) acc.actions = [];
       acc.actions.push(expValue);
+    } else if (expKey == "group") {
+      acc.group = parseInt(expValue, 10);
     } else if (expKey == "limit") {
       acc.limit = parseInt(expValue, 10);
     } else if (expKey == "ttl") {
