@@ -13,7 +13,11 @@ export function getPItemContestPower(pItem) {
     if (pItem.rarity == "SR") {
       return 135;
     } else if (pItem.rarity == "SSR") {
-      return 180;
+      if (pItem.welfare) {
+        return 159;
+      } else {
+        return 180;
+      }
     }
   }
   return 0;

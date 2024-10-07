@@ -102,6 +102,7 @@ limit:2
 | 体力 (元気適用)            | `cost`                    |
 | スコア                     | `score`                   |
 | ステージ中使用したカード数 | `cardsUsed`               |
+| ステージ中に消費した体力   | `staminaConsumed`         |
 | 好調                       | `goodConditionTurns`      |
 | 絶好調                     | `perfectConditionTurns`   |
 | 集中                       | `concentration`           |
@@ -113,6 +114,7 @@ limit:2
 | 消費体力追加               | `costIncrease`            |
 | スキルカード追加発動       | `doubleCardEffectCards`   |
 | 元気無効                   | `nullifyGenkiTurns`       |
+| 低下状態無効               | `nullifyDebuff`           |
 | 使用スキルカード強化前 ID  | `usedCardId`              |
 | 使用スキルカード効果       | `cardEffects`             |
 | 集中適用倍数               | `concentrationMultiplier` |
