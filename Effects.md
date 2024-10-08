@@ -102,7 +102,7 @@ limit:2
 | 体力 (元気適用)            | `cost`                    |
 | スコア                     | `score`                   |
 | ステージ中使用したカード数 | `cardsUsed`               |
-| ステージ中に消費した体力   | `staminaConsumed`         |
+| ステージ中に消費した体力   | `consumedStamina`         |
 | 好調                       | `goodConditionTurns`      |
 | 絶好調                     | `perfectConditionTurns`   |
 | 集中                       | `concentration`           |

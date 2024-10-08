@@ -348,7 +348,7 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 347,悪戯しちゃいますわ！+,SSR,active,sense,1,TRUE,TRUE,pIdol,51,FALSE,,do:cost-=5,"do:score+=10,do:score+=10;if:concentration>=3,do:concentration+=4",1
 348,悪戦苦闘ハンドメイド,SSR,mental,logic,1,FALSE,TRUE,pIdol,52,FALSE,,do:stamina-=4,"do:goodImpressionTurns+=4,do:motivation+=4;if:goodImpressionTurns>=3,do:cardUsesRemaining+=1",1
 349,悪戦苦闘ハンドメイド+,SSR,mental,logic,1,TRUE,TRUE,pIdol,52,FALSE,,do:stamina-=4,"do:goodImpressionTurns+=6,do:motivation+=5;if:goodImpressionTurns>=3,do:cardUsesRemaining+=1",1
-350,正確無比な看板づくり,SSR,mental,sense,1,FALSE,TRUE,pIdol,53,TRUE,,do:cost-=6,"do:goodConditionTurns+=5,do:nullifyDebuff+=1,do:cardUsesRemaining+=1",1
+350,正確無比な看板づくり,SSR,mental,sense,1,FALSE,TRUE,pIdol,53,TRUE,,do:cost-=6,"do:goodConditionTurns+=3,do:nullifyDebuff+=1,do:cardUsesRemaining+=1",1
 351,正確無比な看板づくり+,SSR,mental,sense,1,TRUE,TRUE,pIdol,53,TRUE,,do:cost-=6,"do:goodConditionTurns+=5,do:nullifyDebuff+=1,do:cardUsesRemaining+=1",1
 352,気になる……,SR,mental,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=5,"do:concentration+=4;if:concentration>=3;at:startOfTurn,do:upgradeHand,limit:1",1
-353,気になる……+,SR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=5,"do:concentration+=4;if:concentration>=3;at:startOfTurn,do:upgradeHand,limit:1",1
+353,気になる……+,SR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:concentration+=5;if:concentration>=3;at:startOfTurn,do:upgradeHand,limit:1",1

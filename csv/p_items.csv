@@ -147,6 +147,6 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 146,ぶきっちょコウモリ+,SSR,TRUE,logic,stage,pIdol,52,FALSE,"at:everyTurn,if:turnsElapsed%3==2,if:goodImpressionTurns>=3,do:score+=genki,do:score+=motivation*2.3,do:goodImpressionTurns-=2,limit:3"
 147,いじっぱりバルーン,SSR,FALSE,logic,stage,support,,FALSE,"at:startOfTurn,if:isDanceTurn,if:goodImpressionTurns>=3,do:motivation+=3,limit:2"
 148,お嬢様の恩返し,SR,FALSE,logic,stage,support,,FALSE,"at:startOfTurn,if:isDanceTurn,if:goodImpressionTurns>=6,do:score+=goodImpressionTurns*0.8,limit:2"
-149,いたずらパペット,SSR,FALSE,sense,stage,pIdol,53,FALSE,"at:activeCardUsed,if:stamina<=maxStamina*0.5,do:score+=consumedStamina*2.2,do:fixedStamina+=6,do:nullifyGenkiTurns+=2,limit:2"
+149,いたずらパペット,SSR,FALSE,sense,stage,pIdol,53,FALSE,"at:activeCardUsed,if:stamina<=maxStamina*0.5,do:score+=consumedStamina*1.8,do:fixedStamina+=5,do:nullifyGenkiTurns+=2,limit:2"
 150,いたずらパペット+,SSR,TRUE,sense,stage,pIdol,53,FALSE,"at:activeCardUsed,if:stamina<=maxStamina*0.5,do:score+=consumedStamina*2.2,do:fixedStamina+=6,do:nullifyGenkiTurns+=2,limit:2"
 151,つやつやでふさふさ,SSR,FALSE,sense,produce,support,,FALSE,"at:shikyuuSelected,if:vocal>=700,do:upgradeSelectedCard,do:upgradeSelectedCard,limit:1"
