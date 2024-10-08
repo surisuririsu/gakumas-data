@@ -97,12 +97,12 @@ limit:2
 | 最大体力                   | `maxStamina`              |
 | 固定体力                   | `fixedStamina`            |
 | 体力                       | `stamina`                 |
+| ステージ中に消費した体力   | `consumedStamina`         |
 | 固定元気                   | `fixedGenki`              |
 | 元気                       | `genki`                   |
 | 体力 (元気適用)            | `cost`                    |
 | スコア                     | `score`                   |
 | ステージ中使用したカード数 | `cardsUsed`               |
-| ステージ中に消費した体力   | `consumedStamina`         |
 | 好調                       | `goodConditionTurns`      |
 | 絶好調                     | `perfectConditionTurns`   |
 | 集中                       | `concentration`           |
