@@ -338,8 +338,8 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 337,さっぱりひといき+,SSR,active,logic,1,TRUE,TRUE,pIdol,48,FALSE,,do:stamina-=4,"do:motivationMultiplier=2.3,do:genki+=2,do:score+=genki*0.9,do:costReduction+=1",1
 338,その本、おもしろい？,SSR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:stamina-=5,"if:goodImpressionTurns>=3,do:score+=goodImpressionTurns*1.2;if:motivation>=3,do:score+=genki*0.5;do:cardUsesRemaining+=1",1
 339,その本、おもしろい？+,SSR,active,logic,1,TRUE,TRUE,support,,FALSE,,do:stamina-=4,"if:goodImpressionTurns>=3,do:score+=goodImpressionTurns*1.5;if:motivation>=3,do:score+=genki*0.7;do:cardUsesRemaining+=1",1
-340,切れた鼻緒が結んだ絆,SR,active,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:goodConditionTurns+=4;at:startOfTurn,do:drawCard,limit:1",1
-341,切れた鼻緒が結んだ絆+,SR,active,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=3,"do:goodConditionTurns+=5;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
+340,切れた鼻緒が結んだ絆,SR,mental,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=3,"do:goodConditionTurns+=4;at:startOfTurn,do:drawCard,limit:1",1
+341,切れた鼻緒が結んだ絆+,SR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=3,"do:goodConditionTurns+=5;at:startOfTurn,do:drawCard,do:drawCard,limit:1",1
 342,こくりとひとくち,SSR,mental,sense,1,FALSE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=3,do:cardUsesRemaining+=1",1
 343,こくりとひとくち+,SSR,mental,sense,1,TRUE,TRUE,pIdol,49,TRUE,,do:cost-=5,"do:concentration+=4,do:halfCostTurns+=1,do:cardUsesRemaining+=1",1
 344,月夜のランウェイ,SSR,active,logic,1,FALSE,TRUE,pIdol,50,FALSE,,do:cost-=6,"do:motivation+=3;at:afterCardUsed,if:cardEffects&goodImpressionTurns,do:score+=goodImpressionTurns*0.3",1
