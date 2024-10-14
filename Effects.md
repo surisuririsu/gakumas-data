@@ -128,6 +128,7 @@ limit:2
 | 手札をすべてレッスン中強化                   | `upgradeHand`                 |
 | 手札をすべて入れ替える                       | `exchangeHand`                |
 | ランダムな強化済みスキルカードを、手札に生成 | `addRandomUpgradedCardToHand` |
+| ランダムな手札 1 枚をレッスン中強化          | `upgradeRandomCardInHand`     |
 | スコア上昇量増加                             | `setScoreBuff(amount,turns)`  |
 
 ### Example
