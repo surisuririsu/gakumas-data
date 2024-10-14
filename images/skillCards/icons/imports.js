@@ -1055,6 +1055,12 @@ import image_350 from "./350.png";
 import image_351 from "./351.png";
 import image_352 from "./352.png";
 import image_353 from "./353.png";
+import image_354 from "./354.png";
+import image_355 from "./355.png";
+import image_356 from "./356.png";
+import image_357 from "./357.png";
+import image_358 from "./358.png";
+import image_359 from "./359.png";
 import image_36 from "./36.png";
 import image_37 from "./37.png";
 import image_38 from "./38.png";
@@ -2472,6 +2478,12 @@ const IMAGES = {
   '351': image_351,
   '352': image_352,
   '353': image_353,
+  '354': image_354,
+  '355': image_355,
+  '356': image_356,
+  '357': image_357,
+  '358': image_358,
+  '359': image_359,
   '36': image_36,
   '37': image_37,
   '38': image_38,

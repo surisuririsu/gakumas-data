@@ -352,3 +352,9 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 351,正確無比な看板づくり+,SSR,mental,sense,1,TRUE,TRUE,pIdol,53,TRUE,,do:cost-=6,"do:goodConditionTurns+=5,do:nullifyDebuff+=1,do:cardUsesRemaining+=1",1
 352,気になる……,SR,mental,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=5,"do:concentration+=4;if:concentration>=3;at:startOfTurn,do:upgradeHand,limit:1",1
 353,気になる……+,SR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:concentration+=5;if:concentration>=3;at:startOfTurn,do:upgradeHand,limit:1",1
+354,初めての結晶,R,active,logic,1,FALSE,TRUE,pIdol,54,FALSE,,do:cost-=4,"do:score+=goodImpressionTurns*0.8,do:motivation+=3",1
+355,初めての結晶+,R,active,logic,1,TRUE,TRUE,pIdol,54,FALSE,,do:cost-=4,"do:score+=goodImpressionTurns*1.2,do:motivation+=3",1
+356,初めての想い,R,mental,logic,1,FALSE,TRUE,pIdol,55,FALSE,,do:stamina-=2,"do:motivation+=4;if:motivation>=6,do:motivation+=3",1
+357,初めての想い+,R,mental,logic,1,TRUE,TRUE,pIdol,55,FALSE,,do:stamina-=2,"do:motivation+=6;if:motivation>=6,do:motivation+=3",1
+358,初めてのたのしみ,R,active,sense,1,FALSE,TRUE,pIdol,56,FALSE,,do:cost-=3,"do:concentrationMultiplier=1.5,do:score+=6;if:stamina<=maxStamina*0.5,do:genki+=4",1
+359,初めてのたのしみ+,R,active,sense,1,TRUE,TRUE,pIdol,56,FALSE,,do:cost-=3,"do:concentrationMultiplier=2,do:score+=8;if:stamina<=maxStamina*0.5,do:genki+=7",1

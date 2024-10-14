@@ -52,3 +52,6 @@ id,idolId,title,rarity,plan,recommendedEffect
 51,6,仮装狂騒曲,SSR,sense,concentration
 52,2,仮装狂騒曲,SSR,logic,motivation
 53,8,仮装狂騒曲,SSR,sense,goodConditionTurns
+54,4,初恋,R,logic,goodImpressionTurns
+55,7,初恋,R,logic,motivation
+56,8,初恋,R,sense,concentration
