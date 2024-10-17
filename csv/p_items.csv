@@ -156,3 +156,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 155,初恋の証・清夏+,R,TRUE,logic,stage,pIdol,55,FALSE,"at:afterCardUsed,if:motivation>=8,do:score+=motivation*2.1,do:fixedStamina-=1,limit:2"
 156,初恋の証・広,R,FALSE,sense,stage,pIdol,56,FALSE,"at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=2,do:costReduction+=1,do:upgradeRandomCardInHand,limit:1,group:1"
 157,初恋の証・広+,R,TRUE,sense,stage,pIdol,56,FALSE,"at:startOfTurn,if:stamina<=maxStamina*0.5,do:concentration+=4,do:costReduction+=2,do:upgradeRandomCardInHand,limit:1,group:1"
+158,これでばっちり,SSR,FALSE,logic,stage,pIdol,57,FALSE,"at:afterCardUsed,if:cardEffects&fixedStamina,do:goodImpressionTurns+=genki*0.7,do:genki=0,do:score+=goodImpressionTurns*2,do:fixedStamina-=5,limit:1"
+159,これでばっちり+,SSR,TRUE,logic,stage,pIdol,57,FALSE,"at:afterCardUsed,if:cardEffects&fixedStamina,do:goodImpressionTurns+=genki*0.7,do:genki=0,do:score+=goodImpressionTurns*2,do:fixedStamina-=5,limit:1"
+160,会長の完璧な計画,SSR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&genki,if:visual>=200,do:minimumRarity=2,do:getRandomPDrinks=1,limit:4"
+161,ぜったいマル秘レシピ,SR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&goodImpressionTurns,if:visual>=700,do:removeSelectedCard,do:pPoints+=40,limit:1"
