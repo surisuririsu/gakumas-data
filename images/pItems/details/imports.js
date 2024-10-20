@@ -68,6 +68,8 @@ import image_159 from "./159.png";
 import image_16 from "./16.png";
 import image_160 from "./160.png";
 import image_161 from "./161.png";
+import image_162 from "./162.png";
+import image_163 from "./163.png";
 import image_17 from "./17.png";
 import image_18 from "./18.png";
 import image_19 from "./19.png";
@@ -231,6 +233,8 @@ const IMAGES = {
   '16': image_16,
   '160': image_160,
   '161': image_161,
+  '162': image_162,
+  '163': image_163,
   '17': image_17,
   '18': image_18,
   '19': image_19,
