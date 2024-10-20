@@ -160,5 +160,5 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 159,これでばっちり+,SSR,TRUE,logic,stage,pIdol,57,FALSE,"at:afterCardUsed,if:cardEffects&fixedStamina,do:goodImpressionTurns+=genki*0.7,do:genki=0,do:score+=goodImpressionTurns*2,do:fixedStamina-=5,limit:1"
 160,会長の完璧な計画,SSR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&genki,if:visual>=200,do:minimumRarity=2,do:getRandomPDrinks=1,limit:4"
 161,ぜったいマル秘レシピ,SR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&goodImpressionTurns,if:visual>=700,do:removeSelectedCard,do:pPoints+=40,limit:1"
-162,アニメイト装備,SSR,FALSE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
-163,アニメイト装備+,SSR,TRUE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
+162,アニメイト装備,SSR,FALSE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,do:concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
+163,アニメイト装備+,SSR,TRUE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,do:concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
