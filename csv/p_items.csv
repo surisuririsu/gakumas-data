@@ -162,3 +162,5 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 161,ぜったいマル秘レシピ,SR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&goodImpressionTurns,if:visual>=700,do:removeSelectedCard,do:pPoints+=40,limit:1"
 162,アニメイト装備,SSR,FALSE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,do:concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
 163,アニメイト装備+,SSR,TRUE,sense,stage,pIdol,58,FALSE,"at:everyTurn,if:turnsElapsed%2==1,if:goodConditionTurns>=1,do:concentration+=goodConditionTurns*0.5,do:concentration+=1,do:genki+=3,limit:2"
+164,ごちそうさまでした,SSR,FALSE,free,produce,support,,FALSE,"at:soudanSelected,do:soudanDiscount=0.2"
+165,小さい秋見つけた,SR,FALSE,sense,stage,support,,FALSE,"at:startOfTurn,if:isDanceTurn,if:concentration>=5,do:score+=10,limit:2"
