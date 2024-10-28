@@ -32,3 +32,8 @@ id,name,type,season,stage,plan,criteria,turnCounts,firstTurns,effects
 31,シーズン11 ステージ1,contest,11,1,free,"0.15,0.35,0.5","2,3,5","0,0,1","at:startOfTurn,if:turnsElapsed==1,do:setScoreBuff(0.7,8),do:poorConditionTurns+=8,limit:1"
 32,シーズン11 ステージ2,contest,11,2,sense,"0.15,0.35,0.5","2,3,5","0,0,1","at:startOfTurn,do:goodConditionTurns+=9,limit:1"
 33,シーズン11 ステージ3,contest,11,3,logic,"0.15,0.35,0.5","2,4,6","0,0,1","at:startOfTurn,do:motivation+=4,do:goodImpressionTurns+=4,limit:1"
+34,#アニメイトを盛り上げ隊,event,1,A,sense,"0.15,0.35,0.5","2,3,5","0,0,1","at:startOfTurn,do:goodConditionTurns+=9,limit:1"
+35,#アニメイトを盛り上げ隊,event,1,B,sense,"0.35,0.3,0.35","5,3,4","1,0,0","at:startOfTurn,do:concentration+=5,do:doubleCostTurns+=1,limit:2"
+36,#アニメイトを盛り上げ隊,event,1,C,sense,"0.1,0.45,0.45","2,5,3","0,1,0","at:startOfTurn,if:goodConditionTurns>=6,do:goodConditionTurns+=6,do:concentration+=6,limit:1"
+37,#アニメイトを盛り上げ隊,event,1,D,logic,"0.35,0.3,0.35","5,3,4","1,0,0","at:startOfTurn,do:goodImpressionTurns+=4,do:nullifyGenkiTurns+=1,limit:6"
+38,#アニメイトを盛り上げ隊,event,1,E,logic,"0.1,0.45,0.45","2,6,4","0,1,0","at:startOfTurn,do:motivation+=4,do:goodImpressionTurns+=4,limit:1"
