@@ -362,3 +362,7 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 361,また、明日+,SSR,mental,logic,1,TRUE,TRUE,pIdol,57,FALSE,if:goodImpressionTurns>=1,do:cost-=6,"do:fixedStamina+=maxStamina*0.1,do:goodImpressionTurns+=5,do:genki+=10,do:cardUsesRemaining+=1",1
 362,ちょちょいのちょい,SSR,active,sense,1,FALSE,TRUE,pIdol,58,FALSE,,do:cost-=4,"do:goodConditionTurns+=2;at:endOfTurn,do:score+=4,limit:3",1
 363,ちょちょいのちょい+,SSR,active,sense,1,TRUE,TRUE,pIdol,58,FALSE,,do:cost-=4,"do:goodConditionTurns+=2;at:endOfTurn,do:score+=4,limit:5",1
+364,ほかほか焼き芋,SSR,mental,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:genki+=4,do:motivation+=4;if:genki>=30,do:goodImpressionTurns+=3",1
+365,ほかほか焼き芋+,SSR,mental,logic,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:genki+=4,do:motivation+=4;if:genki>=30,do:goodImpressionTurns+=3",1
+366,こうかい……?,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:goodImpressionTurns+=3,do:score+=goodImpressionTurns*0.9",1
+367,こうかい……?+,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:goodImpressionTurns+=3,do:score+=goodImpressionTurns*0.9",1
