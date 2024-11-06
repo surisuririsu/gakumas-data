@@ -363,6 +363,6 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 362,ちょちょいのちょい,SSR,active,sense,1,FALSE,TRUE,pIdol,58,FALSE,,do:cost-=4,"do:goodConditionTurns+=2;at:endOfTurn,do:score+=4,limit:3",1
 363,ちょちょいのちょい+,SSR,active,sense,1,TRUE,TRUE,pIdol,58,FALSE,,do:cost-=4,"do:goodConditionTurns+=2;at:endOfTurn,do:score+=4,limit:5",1
 364,ほかほか焼き芋,SSR,mental,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:genki+=4,do:motivation+=4;if:genki>=30,do:goodImpressionTurns+=3",1
-365,ほかほか焼き芋+,SSR,mental,logic,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:genki+=4,do:motivation+=4;if:genki>=30,do:goodImpressionTurns+=3",1
+365,ほかほか焼き芋+,SSR,mental,logic,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:genki+=7,do:motivation+=5;if:genki>=30,do:goodImpressionTurns+=4",1
 366,こうかい……?,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:goodImpressionTurns+=3,do:score+=goodImpressionTurns*0.9",1
-367,こうかい……?+,SR,active,logic,1,FALSE,TRUE,support,,FALSE,,do:cost-=4,"do:goodImpressionTurns+=3,do:score+=goodImpressionTurns*0.9",1
+367,こうかい……?+,SR,active,logic,1,TRUE,TRUE,support,,FALSE,,do:cost-=4,"do:goodImpressionTurns+=4,do:score+=goodImpressionTurns",1
