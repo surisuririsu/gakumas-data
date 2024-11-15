@@ -20,6 +20,11 @@ export function serializeEffect(effect) {
   if (effect.ttl) {
     exp.push(`ttl:${effect.ttl}`);
   }
+  if (effect.targets) {
+    effect.targets.forEach((target) => {
+      exp.push(`target:${target}`);
+    });
+  }
   return exp.join(",");
 }
 
@@ -41,6 +46,9 @@ export function deserializeEffect(effectString) {
       acc.limit = parseInt(expValue, 10);
     } else if (expKey == "ttl") {
       acc.ttl = parseInt(expValue, 10);
+    } else if (expKey == "target") {
+      if (!acc.targets) acc.targets = [];
+      acc.targets.push(expValue);
     } else {
       console.warn("Unrecognized effect segment", effectString);
     }
