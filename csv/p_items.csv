@@ -173,3 +173,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 172,新しい、私,SSR,FALSE,anomaly,stage,pIdol,61,FALSE,"at:afterActiveCardUsed,if:isStrength,do:score+=8,do:fixedStamina+=4,limit:1"
 173,新しい、私+,SSR,TRUE,anomaly,stage,pIdol,61,FALSE,"at:afterActiveCardUsed,if:isStrength,do:score+=12,do:fixedStamina+=6,limit:1"
 174,アイドルパワー測定器,SSR,FALSE,anomaly,stage,support,,TRUE,"at:startOfTurn,if:isDanceTurn,if:isPreservation,do:fixedStamina+=5,limit:1"
+175,費用0円愛情MAX,SSR,FALSE,logic,stage,pIdol,62,FALSE,"at:startOfTurn,if:motivation>=5,do:genki+=6,limit:2"
+176,費用0円愛情MAX+,SSR,TRUE,logic,stage,pIdol,62,FALSE,"at:startOfTurn,if:motivation>=5,do:genki+=6,limit:2"
+177,めりくりライオン,SSR,FALSE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,limit:2"
+178,めりくりライオン+,SSR,TRUE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,limit:2"

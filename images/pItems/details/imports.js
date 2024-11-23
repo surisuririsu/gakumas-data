@@ -82,6 +82,10 @@ import image_171 from "./171.png";
 import image_172 from "./172.png";
 import image_173 from "./173.png";
 import image_174 from "./174.png";
+import image_175 from "./175.png";
+import image_176 from "./176.png";
+import image_177 from "./177.png";
+import image_178 from "./178.png";
 import image_18 from "./18.png";
 import image_19 from "./19.png";
 import image_2 from "./2.png";
@@ -258,6 +262,10 @@ const IMAGES = {
   '172': image_172,
   '173': image_173,
   '174': image_174,
+  '175': image_175,
+  '176': image_176,
+  '177': image_177,
+  '178': image_178,
   '18': image_18,
   '19': image_19,
   '2': image_2,
