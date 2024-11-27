@@ -460,3 +460,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 459,メリクリで～す♪+,SSR,mental,logic,1,TRUE,TRUE,pIdol,62,FALSE,,do:cost-=2,"do:goodImpressionTurns+=5;at:mentalCardUsed,do:motivation+=1",1,
 460,おすそわけですっ！,SSR,mental,sense,1,FALSE,TRUE,pIdol,63,FALSE,,do:cost-=6,"do:concentration+=3;at:startOfTurn,do:goodConditionTurns+=2",1,
 461,おすそわけですっ！+,SSR,mental,sense,1,TRUE,TRUE,pIdol,63,FALSE,,do:cost-=6,"do:concentration+=3;at:startOfTurn,do:goodConditionTurns+=2",1,
+462,光の夜,SSR,mental,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=0,"do:perfectConditionTurns+=2,do:fixedStamina+=2",1,
+463,光の夜+,SSR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=0,"do:perfectConditionTurns+=2,do:fixedStamina+=2",1,

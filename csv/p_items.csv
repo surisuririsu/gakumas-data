@@ -177,3 +177,4 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 176,費用0円愛情MAX+,SSR,TRUE,logic,stage,pIdol,62,FALSE,"at:startOfTurn,if:motivation>=5,do:genki+=6,limit:2"
 177,めりくりライオン,SSR,FALSE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,limit:2"
 178,めりくりライオン+,SSR,TRUE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,limit:2"
+179,イケてるセーター,SR,FALSE,sense,stage,support,,FALSE,"at:startOfTurn,if:isDanceTurn,if:concentration>=1,do:goodConditionTurns+=3,do:concentration-=1,limit:1"
