@@ -53,3 +53,6 @@ id,name,type,season,stage,round,plan,criteria,turnCounts,firstTurns,effects
 52,シーズン13 ステージ1,contest,13,1,,free,"0.385,0.385,0.33","3,2,1","1,0,0","at:cardUsed,if:turnCardsUsed%2==1,do:score+=2,do:score+=2"
 53,シーズン13 ステージ2,contest,13,2,,sense,"0.385,0.385,0.33","5,4,3","0.889,0.111,0","at:startOfTurn,if:turnsElapsed==9,do:goodConditionTurns+=10,do:perfectConditionTurns+=3,limit:1,group:1"
 54,シーズン13 ステージ3,contest,13,3,,logic,"0.385,0.385,0.33","5,4,3","0.889,0.111,0","at:afterCardUsed,if:cardEffects&motivation,do:genki+=1,do:goodImpressionTurns+=3,limit:3"
+55,シーズン14 ステージ1,contest,14,1,,free,"0.15,0.45,0.4","2,4,2","0,1,0","at:cardUsed,do:setScoreBuff(0.3,3),limit:5"
+56,シーズン14 ステージ2,contest,14,2,,sense,"0.15,0.45,0.4","2,6,4","0,1,0","at:startOfTurn,if:turnsElapsed==9,do:goodConditionTurns+=10,do:perfectConditionTurns+=3,limit:1,group:1"
+57,シーズン14 ステージ3,contest,14,3,,logic,"0.15,0.45,0.4","2,6,4","0,1,0","at:startOfTurn,if:motivation>=12,do:score+=motivation*5,limit:3"
