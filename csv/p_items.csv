@@ -178,3 +178,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 177,めりくりライオン,SSR,FALSE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,do:fixedStamina-=1,limit:2"
 178,めりくりライオン+,SSR,TRUE,sense,stage,pIdol,63,FALSE,"at:startOfTurn,if:turnsRemaining<=2,do:score+=goodConditionTurns*0.7,limit:2"
 179,イケてるセーター,SR,FALSE,sense,stage,support,,FALSE,"at:startOfTurn,if:isDanceTurn,if:concentration>=1,do:goodConditionTurns+=3,do:concentration-=1,limit:1"
+180,海の向こうまで,SSR,FALSE,logic,stage,pIdol,64,FALSE,"at:startOfTurn,if:motivation>=5,do:motivation*=1.3,do:drawCard,limit:3"
+181,海の向こうまで+,SSR,TRUE,logic,stage,pIdol,64,FALSE,"at:startOfTurn,if:motivation>=5,do:motivation*=1.3,do:drawCard,limit:3"
+182,ぬくもりふたりぶん,SSR,FALSE,logic,stage,support,,FALSE,"at:startOfTurn,if:motivation>=5,do:genki+=2,limit:2"
+183,カワイイのつくり方,SR,FALSE,logic,produce,support,,FALSE,"at:cardReceived,if:cardEffects&motivation,do:dance+=6"

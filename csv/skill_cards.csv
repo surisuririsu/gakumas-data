@@ -462,3 +462,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 461,おすそわけですっ！+,SSR,mental,sense,1,TRUE,TRUE,pIdol,63,FALSE,,do:cost-=6,"do:concentration+=3;at:startOfTurn,do:goodConditionTurns+=2",1,
 462,光の夜,SSR,mental,sense,1,FALSE,TRUE,support,,FALSE,,do:cost-=0,"do:perfectConditionTurns+=2,do:fixedStamina+=2",1,
 463,光の夜+,SSR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=0,"do:perfectConditionTurns+=3,do:fixedStamina+=4",1,
+464,愛をこめて,SSR,active,logic,1,FALSE,TRUE,pIdol,64,FALSE,,do:cost-=6,"do:motivationMultiplier=2,do:genki+=6,do:score+=motivation*4",1,
+465,愛をこめて+,SSR,active,logic,1,TRUE,TRUE,pIdol,64,FALSE,,do:cost-=6,"do:motivationMultiplier=2,do:genki+=6,do:score+=motivation*4",1,
