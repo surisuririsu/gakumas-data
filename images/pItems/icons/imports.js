@@ -92,6 +92,8 @@ import image_180 from "./180.png";
 import image_181 from "./181.png";
 import image_182 from "./182.png";
 import image_183 from "./183.png";
+import image_184 from "./184.png";
+import image_185 from "./185.png";
 import image_19 from "./19.png";
 import image_2 from "./2.png";
 import image_20 from "./20.png";
@@ -277,6 +279,8 @@ const IMAGES = {
   '181': image_181,
   '182': image_182,
   '183': image_183,
+  '184': image_184,
+  '185': image_185,
   '19': image_19,
   '2': image_2,
   '20': image_20,
