@@ -3,12 +3,12 @@ export function serializeEffect(effect) {
   if (effect.phase) exp.push(`at:${effect.phase}`);
   if (effect.conditions) {
     effect.conditions.forEach((condition) => {
-      exp.push(`if:${condition}`);
+      exp.push(`if:${condition.join("")}`);
     });
   }
   if (effect.actions) {
     effect.actions.forEach((action) => {
-      exp.push(`do:${action}`);
+      exp.push(`do:${action.join("")}`);
     });
   }
   if (effect.group) {
@@ -28,6 +28,8 @@ export function serializeEffect(effect) {
   return exp.join(",");
 }
 
+const TOKEN_REGEX = /([=!]?=|[<>]=?|[+\-*/%]=?|&)/;
+
 export function deserializeEffect(effectString) {
   if (!effectString.length) return {};
   return effectString.split(/,(?![^()]*\))/).reduce((acc, cur) => {
@@ -36,10 +38,10 @@ export function deserializeEffect(effectString) {
       acc.phase = expValue;
     } else if (expKey == "if") {
       if (!acc.conditions) acc.conditions = [];
-      acc.conditions.push(expValue);
+      acc.conditions.push(expValue.split(TOKEN_REGEX));
     } else if (expKey == "do") {
       if (!acc.actions) acc.actions = [];
-      acc.actions.push(expValue);
+      acc.actions.push(expValue.split(TOKEN_REGEX));
     } else if (expKey == "group") {
       acc.group = parseInt(expValue, 10);
     } else if (expKey == "limit") {

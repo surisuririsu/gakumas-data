@@ -54,7 +54,11 @@ import image_57 from "./57.png";
 import image_58 from "./58.png";
 import image_59 from "./59.png";
 import image_6 from "./6.png";
+import image_60 from "./60.png";
 import image_61 from "./61.png";
+import image_62 from "./62.png";
+import image_63 from "./63.png";
+import image_64 from "./64.png";
 import image_7 from "./7.png";
 import image_8 from "./8.png";
 import image_9 from "./9.png";
@@ -116,7 +120,11 @@ const IMAGES = {
   '58': image_58,
   '59': image_59,
   '6': image_6,
+  '60': image_60,
   '61': image_61,
+  '62': image_62,
+  '63': image_63,
+  '64': image_64,
   '7': image_7,
   '8': image_8,
   '9': image_9,
