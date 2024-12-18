@@ -464,5 +464,5 @@ id,name,rarity,type,plan,unlockPlv,upgraded,unique,sourceType,pIdolId,forceIniti
 463,光の夜+,SSR,mental,sense,1,TRUE,TRUE,support,,FALSE,,do:cost-=0,"do:perfectConditionTurns+=3,do:fixedStamina+=4",1,
 464,愛をこめて,SSR,active,logic,1,FALSE,TRUE,pIdol,64,FALSE,,do:cost-=6,"do:motivationMultiplier=1.8,do:genki+=4,do:score+=motivation*3",1,
 465,愛をこめて+,SSR,active,logic,1,TRUE,TRUE,pIdol,64,FALSE,,do:cost-=6,"do:motivationMultiplier=2,do:genki+=6,do:score+=motivation*4",1,
-466,踏切の先に,SSR,active,anomaly,1,FALSE,TRUE,pIdol,65,FALSE,if:isFullPower,do:cost-=3,"do:score+=16,do:score+=16,do:score+=16;at:startOfTurn,do:setStance(preservation2),limit:1",1,
+466,踏切の先に,SSR,active,anomaly,1,FALSE,TRUE,pIdol,65,FALSE,if:isFullPower,do:cost-=3,"do:score+=10,do:score+=10,do:score+=10;at:startOfTurn,do:setStance(preservation2),limit:1",1,
 467,踏切の先に+,SSR,active,anomaly,1,TRUE,TRUE,pIdol,65,FALSE,if:isFullPower,do:cost-=3,"do:score+=16,do:score+=16,do:score+=16;at:startOfTurn,do:setStance(preservation2),limit:1",1,
