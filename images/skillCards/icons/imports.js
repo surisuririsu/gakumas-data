@@ -1189,8 +1189,28 @@ import image_394 from "./394.png";
 import image_395 from "./395.png";
 import image_396 from "./396.png";
 import image_397 from "./397.png";
-import image_398 from "./398.png";
-import image_399 from "./399.png";
+import image_398_1 from "./398_1.png";
+import image_398_10 from "./398_10.png";
+import image_398_11 from "./398_11.png";
+import image_398_2 from "./398_2.png";
+import image_398_3 from "./398_3.png";
+import image_398_4 from "./398_4.png";
+import image_398_5 from "./398_5.png";
+import image_398_6 from "./398_6.png";
+import image_398_7 from "./398_7.png";
+import image_398_8 from "./398_8.png";
+import image_398_9 from "./398_9.png";
+import image_399_1 from "./399_1.png";
+import image_399_10 from "./399_10.png";
+import image_399_11 from "./399_11.png";
+import image_399_2 from "./399_2.png";
+import image_399_3 from "./399_3.png";
+import image_399_4 from "./399_4.png";
+import image_399_5 from "./399_5.png";
+import image_399_6 from "./399_6.png";
+import image_399_7 from "./399_7.png";
+import image_399_8 from "./399_8.png";
+import image_399_9 from "./399_9.png";
 import image_4 from "./4.png";
 import image_40 from "./40.png";
 import image_400 from "./400.png";
@@ -2838,8 +2858,28 @@ const IMAGES = {
   '395': image_395,
   '396': image_396,
   '397': image_397,
-  '398': image_398,
-  '399': image_399,
+  '398_1': image_398_1,
+  '398_10': image_398_10,
+  '398_11': image_398_11,
+  '398_2': image_398_2,
+  '398_3': image_398_3,
+  '398_4': image_398_4,
+  '398_5': image_398_5,
+  '398_6': image_398_6,
+  '398_7': image_398_7,
+  '398_8': image_398_8,
+  '398_9': image_398_9,
+  '399_1': image_399_1,
+  '399_10': image_399_10,
+  '399_11': image_399_11,
+  '399_2': image_399_2,
+  '399_3': image_399_3,
+  '399_4': image_399_4,
+  '399_5': image_399_5,
+  '399_6': image_399_6,
+  '399_7': image_399_7,
+  '399_8': image_399_8,
+  '399_9': image_399_9,
   '4': image_4,
   '40': image_40,
   '400': image_400,
