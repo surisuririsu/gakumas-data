@@ -51,6 +51,10 @@ export function deserializeEffect(effectString) {
     } else if (expKey == "target") {
       if (!acc.targets) acc.targets = [];
       acc.targets.push(expValue);
+    } else if (expKey == "level") {
+      acc.level = parseInt(expValue, 10);
+    } else if (expKey == "line") {
+      acc.line = parseInt(expValue, 10);
     } else {
       console.warn("Unrecognized effect segment", effectString);
     }
