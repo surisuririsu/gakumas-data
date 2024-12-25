@@ -96,7 +96,13 @@ import image_184 from "./184.png";
 import image_185 from "./185.png";
 import image_186 from "./186.png";
 import image_187 from "./187.png";
+import image_188 from "./188.png";
+import image_189 from "./189.png";
 import image_19 from "./19.png";
+import image_190 from "./190.png";
+import image_191 from "./191.png";
+import image_192 from "./192.png";
+import image_193 from "./193.png";
 import image_2 from "./2.png";
 import image_20 from "./20.png";
 import image_21 from "./21.png";
@@ -285,7 +291,13 @@ const IMAGES = {
   '185': image_185,
   '186': image_186,
   '187': image_187,
+  '188': image_188,
+  '189': image_189,
   '19': image_19,
+  '190': image_190,
+  '191': image_191,
+  '192': image_192,
+  '193': image_193,
   '2': image_2,
   '20': image_20,
   '21': image_21,
