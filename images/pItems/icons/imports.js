@@ -103,8 +103,16 @@ import image_190 from "./190.png";
 import image_191 from "./191.png";
 import image_192 from "./192.png";
 import image_193 from "./193.png";
+import image_194 from "./194.png";
+import image_195 from "./195.png";
+import image_196 from "./196.png";
+import image_197 from "./197.png";
+import image_198 from "./198.png";
+import image_199 from "./199.png";
 import image_2 from "./2.png";
 import image_20 from "./20.png";
+import image_200 from "./200.png";
+import image_201 from "./201.png";
 import image_21 from "./21.png";
 import image_22 from "./22.png";
 import image_23 from "./23.png";
@@ -298,8 +306,16 @@ const IMAGES = {
   '191': image_191,
   '192': image_192,
   '193': image_193,
+  '194': image_194,
+  '195': image_195,
+  '196': image_196,
+  '197': image_197,
+  '198': image_198,
+  '199': image_199,
   '2': image_2,
   '20': image_20,
+  '200': image_200,
+  '201': image_201,
   '21': image_21,
   '22': image_22,
   '23': image_23,
