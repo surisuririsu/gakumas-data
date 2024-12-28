@@ -3,6 +3,9 @@ import { getSkillCardContestPower } from "../utils/contestPower";
 import { deserializeEffect, deserializeEffectSequence } from "../utils/effects";
 
 SKILL_CARDS.forEach((skillCard) => {
+  skillCard.availableCustomizations = skillCard.availableCustomizations
+    .split(",")
+    .filter((c) => c);
   skillCard.conditions =
     deserializeEffect(skillCard.conditions).conditions || [];
   skillCard.cost = deserializeEffect(skillCard.cost).actions || [];
