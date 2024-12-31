@@ -287,7 +287,7 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 286,昼下がりのそよ風,,SSR,mental,logic,1,FALSE,TRUE,pIdol,35,FALSE,,do:stamina-=3,"do:motivation+=7;if:motivation>=6,do:motivation+=3",1,
 287,昼下がりのそよ風+,,SSR,mental,logic,1,TRUE,TRUE,pIdol,35,FALSE,,do:stamina-=3,"do:motivation+=8;if:motivation>=3,do:motivation+=5",1,
 288,ひと呼吸,,R,mental,sense,47,FALSE,TRUE,produce,,FALSE,,do:cost-=7,"do:goodConditionTurns+=3,do:concentration+=4",1,
-289,ひと呼吸+,"29,28",R,mental,sense,47,TRUE,TRUE,produce,,FALSE,,do:cost-=7,"do:goodConditionTurns+=4,do:concentration+=5",1,
+289,ひと呼吸+,"29,28,70",R,mental,sense,47,TRUE,TRUE,produce,,FALSE,,do:cost-=7,"do:goodConditionTurns+=4,do:concentration+=5",1,
 290,幸せのおまじない,,R,mental,logic,46,FALSE,FALSE,produce,,FALSE,,do:cost-=8,do:goodImpressionTurns+=7,1,
 291,幸せのおまじない+,"71,7,29",R,mental,logic,46,TRUE,FALSE,produce,,FALSE,,do:cost-=8,do:goodImpressionTurns+=9,1,
 292,立ち位置チェック,,SR,active,sense,51,FALSE,FALSE,produce,,FALSE,,do:concentration-=3,"do:score+=25,do:genki+=15,do:nullifyGenkiTurns+=2",1,
