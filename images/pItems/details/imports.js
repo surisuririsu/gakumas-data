@@ -113,6 +113,12 @@ import image_2 from "./2.png";
 import image_20 from "./20.png";
 import image_200 from "./200.png";
 import image_201 from "./201.png";
+import image_202 from "./202.png";
+import image_203 from "./203.png";
+import image_204 from "./204.png";
+import image_205 from "./205.png";
+import image_206 from "./206.png";
+import image_207 from "./207.png";
 import image_21 from "./21.png";
 import image_22 from "./22.png";
 import image_23 from "./23.png";
@@ -316,6 +322,12 @@ const IMAGES = {
   '20': image_20,
   '200': image_200,
   '201': image_201,
+  '202': image_202,
+  '203': image_203,
+  '204': image_204,
+  '205': image_205,
+  '206': image_206,
+  '207': image_207,
   '21': image_21,
   '22': image_22,
   '23': image_23,
