@@ -200,9 +200,9 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 199,N.I.Aバンド（黒）,SSR,FALSE,anomaly,produce,produce,,FALSE,
 200,N.I.Aライト（黒）,SSR,FALSE,anomaly,produce,produce,,FALSE,
 201,すごすぎるバトン,SSR,FALSE,free,produce,support,,FALSE,
-202,ボクの一部,SSR,FALSE,anomaly,stage,pIdol,69,FALSE,"at:cardUsed,if:usedCardBaseId==382,if:isPreservation,do:drawCard,do:drawCard,do:halfCostTurns+=1,do:fixedStamina-=1,limit:3;at:cardUsed,if:usedCardBaseId==382,if:isPreservation,target:382,do:g.score+=10,limit:3"
+202,ボクの一部,SSR,FALSE,anomaly,stage,pIdol,69,FALSE,"at:cardUsed,if:usedCardBaseId==382,if:isPreservation,do:drawCard,do:halfCostTurns+=1,do:fixedStamina-=1,limit:3;at:cardUsed,if:usedCardBaseId==382,if:isPreservation,target:382,do:g.score+=10,limit:3"
 203,ボクの一部+,SSR,TRUE,anomaly,stage,pIdol,69,FALSE,"at:cardUsed,if:usedCardBaseId==382,if:isPreservation,do:drawCard,do:drawCard,do:halfCostTurns+=1,do:fixedStamina-=1,limit:3;at:cardUsed,if:usedCardBaseId==382,if:isPreservation,target:382,do:g.score+=10,limit:3"
-204,いつかの小さな星,SSR,FALSE,sense,stage,pIdol,70,FALSE,"at:afterCardUsed,if:usedCardBaseId==30,do:turnsRemaining+=1,do:perfectConditionTurns+=3,do:fixedStamina-=2,limit:2"
+204,いつかの小さな星,SSR,FALSE,sense,stage,pIdol,70,FALSE,"at:afterCardUsed,if:usedCardBaseId==30,do:turnsRemaining+=1,do:perfectConditionTurns+=2,do:fixedStamina-=3,limit:2"
 205,いつかの小さな星+,SSR,TRUE,sense,stage,pIdol,70,FALSE,"at:afterCardUsed,if:usedCardBaseId==30,do:turnsRemaining+=1,do:perfectConditionTurns+=3,do:fixedStamina-=2,limit:2"
-206,きみが見つけた私,SSR,FALSE,anomaly,stage,pIdol,71,FALSE,"at:afterCardUsed,if:usedCardBaseId==394,do:setScoreBuff(0.6,2),do:fullPowerCharge+=15,do:fixedStamina-=1,limit:1"
-207,きみが見つけた私+,SSR,FALSE,anomaly,stage,pIdol,71,FALSE,"at:afterCardUsed,if:usedCardBaseId==394,do:setScoreBuff(0.6,2),do:fullPowerCharge+=15,do:fixedStamina-=1,limit:1"
+206,きみが見つけた私,SSR,FALSE,anomaly,stage,pIdol,71,FALSE,"at:afterCardUsed,if:usedCardBaseId==394,do:setScoreBuff(0.6,2),do:fullPowerCharge+=10,do:fixedStamina-=1,limit:1"
+207,きみが見つけた私+,SSR,TRUE,anomaly,stage,pIdol,71,FALSE,"at:afterCardUsed,if:usedCardBaseId==394,do:setScoreBuff(0.6,2),do:fullPowerCharge+=15,do:fixedStamina-=1,limit:1"
