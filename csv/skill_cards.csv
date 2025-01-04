@@ -237,7 +237,7 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 236,お姉ちゃんだもの！,,SR,active,free,1,FALSE,TRUE,support,,FALSE,if:clearRatio<=1,do:cost-=3,"do:score+=6,do:genki+=6;at:startOfTurn,do:drawCard,limit:1",1,
 237,お姉ちゃんだもの！+,"59,4,47",SR,active,free,1,TRUE,TRUE,support,,FALSE,if:clearRatio<=1,do:cost-=3,"do:score+=10,do:genki+=9;at:startOfTurn,do:drawCard,limit:1",1,
 238,おアツイ視線,,SR,mental,free,1,FALSE,TRUE,support,,FALSE,if:genki==0,,"do:genki+=5,do:halfCostTurns+=2;at:startOfTurn,do:drawCard,limit:1",1,
-239,おアツイ視線+,"59,3",SR,mental,free,1,TRUE,TRUE,support,,FALSE,if:genki==0,,"do:genki+=6,do:halfCostTurns+=3;at:startOfTurn,do:drawCard,limit:1",1,
+239,おアツイ視線+,"59,58,3",SR,mental,free,1,TRUE,TRUE,support,,FALSE,if:genki==0,,"do:genki+=6,do:halfCostTurns+=3;at:startOfTurn,do:drawCard,limit:1",1,
 240,ご指導ご鞭撻,,SR,active,free,1,FALSE,TRUE,support,,FALSE,if:stamina>=maxStamina*0.5,do:cost-=5,"do:score+=4,do:genki+=5;at:startOfTurn,do:upgradeHand,limit:1",1,
 241,ご指導ご鞭撻+,"48,59,27",SR,active,free,1,TRUE,TRUE,support,,FALSE,if:stamina>=maxStamina*0.5,do:cost-=2,"do:score+=4,do:genki+=5;at:startOfTurn,do:upgradeHand,limit:1",1,
 242,ストレッチ談義,,SR,active,free,1,FALSE,TRUE,support,,FALSE,if:turnsElapsed>=2,do:cost-=3,"do:score+=3,do:halfCostTurns+=2;at:startOfTurn,do:upgradeHand,limit:1",1,
