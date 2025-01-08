@@ -480,3 +480,9 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 479,夢はまだ続く+,,SSR,active,sense,1,TRUE,TRUE,pIdol,70,FALSE,if:goodConditionTurns>=1,do:cost-=4,"do:score+=goodConditionTurns*1.5,do:goodConditionTurns+=3,do:cardUsesRemaining+=1",,
 480,アイドルにしてくれた,,SSR,active,anomaly,1,FALSE,TRUE,pIdol,71,FALSE,if:fullPowerTimes>=1,do:cost-=3,do:score+=20,1,"at:stanceChanged,if:isFullPower,target:this,do:g.scoreTimes+=1,limit:4"
 481,アイドルにしてくれた+,,SSR,active,anomaly,1,TRUE,TRUE,pIdol,71,FALSE,if:fullPowerTimes>=1,do:cost-=2,do:score+=25,1,"at:stanceChanged,if:isFullPower,target:this,do:g.scoreTimes+=1,limit:4"
+482,広がり続ける世界,,SSR,active,logic,1,FALSE,TRUE,pIdol,72,FALSE,,do:stamina-=3,"do:motivation+=6;at:startOfTurn,do:genki+=8,limit:1;at:endOfTurn,if:turnsRemaining<=1,do:score+=genki*1.3",1,
+483,広がり続ける世界+,,SSR,active,logic,1,TRUE,TRUE,pIdol,72,FALSE,,do:stamina-=3,"do:motivation+=6;at:startOfTurn,do:genki+=8,limit:1;at:endOfTurn,if:turnsRemaining<=1,do:score+=genki*1.3",1,
+484,エウレカ！,,SSR,active,logic,1,FALSE,TRUE,pIdol,73,FALSE,,do:cost-=12,"do:cardUsesRemaining+=1;at:startOfTurn,if:stamina<=maxStamina*0.5,do:score+=genki*0.4,do:fixedStamina+=maxStamina*0.1",1,
+485,エウレカ！+,,SSR,active,logic,1,TRUE,TRUE,pIdol,73,FALSE,,do:cost-=12,"do:cardUsesRemaining+=1;at:startOfTurn,if:stamina<=maxStamina*0.5,do:score+=genki*0.4,do:fixedStamina+=maxStamina*0.1",1,
+486,新たなステージ,,SSR,mental,anomaly,1,FALSE,TRUE,pIdol,74,FALSE,,do:cost-=3,"do:holdSelectedFromDeckOrDiscards,do:fullPowerCharge+=2,do:cardUsesRemaining+=1;target:held,do:g.score+=5",,
+487,新たなステージ+,,SSR,mental,anomaly,1,TRUE,TRUE,pIdol,74,FALSE,,do:cost-=3,"do:holdSelectedFromDeckOrDiscards,do:fullPowerCharge+=2,do:cardUsesRemaining+=1;target:held,do:g.score+=5",,
