@@ -60,5 +60,5 @@ id,name,type,season,stage,round,plan,criteria,turnCounts,firstTurns,effects
 59,シーズン15 ステージ2,contest,15,2,,sense,"0.35,0.2,0.45","4,2,6","0,0,1","at:startOfTurn,do:concentration+=5,do:goodConditionTurns+=4,do:costReduction+=1,limit:1"
 60,シーズン15 ステージ3,contest,15,3,,logic,"0.35,0.2,0.45","4,2,6","0,0,1","at:startOfTurn,do:goodImpressionTurns+=10,limit:1"
 61,シーズン16 ステージ1,contest,16,1,,free,"0.25,0.45,0.3","2,4,2","0,1,0","at:startOfTurn,do:setScoreBuff(0.7,4),limit:1"
-62,シーズン16 ステージ2,contest,16,2,,sense,"0.25,0.45,0.3","2,6,4","0,1,0","at:endOfTurn,if:turnsRemaining<=2,do:concentrationMultiplier=1.5,do:score+=2,limit:2"
-63,シーズン16 ステージ3,contest,16,3,,logic,"0.25,0.45,0.3","2,6,4","0,1,0","at:afterCardUsed,if:cardEffects&genki,do:genki+=1,do:goodImpressionTurns+=3,limit:3"
+62,シーズン16 ステージ2,contest,16,2,,sense,"0.25,0.45,0.3","3,6,3","0,1,0","at:endOfTurn,if:turnsRemaining<=2,do:concentrationMultiplier=1.5,do:score+=2,limit:2"
+63,シーズン16 ステージ3,contest,16,3,,logic,"0.25,0.45,0.3","3,6,3","0,1,0","at:afterCardUsed,if:cardEffects&genki,do:genki+=1,do:goodImpressionTurns+=3,limit:3"
