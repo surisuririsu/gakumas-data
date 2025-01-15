@@ -486,3 +486,7 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 485,エウレカ！+,,SSR,active,logic,1,TRUE,TRUE,pIdol,73,FALSE,,do:cost-=12,"do:cardUsesRemaining+=1;at:startOfTurn,if:stamina<=maxStamina*0.5,do:score+=genki*0.4,do:fixedStamina+=maxStamina*0.1",1,
 486,新たなステージ,,SSR,mental,anomaly,1,FALSE,TRUE,pIdol,74,FALSE,,do:cost-=3,"do:holdSelectedFromDeckOrDiscards,do:fullPowerCharge+=1,do:cardUsesRemaining+=1",,
 487,新たなステージ+,,SSR,mental,anomaly,1,TRUE,TRUE,pIdol,74,FALSE,,do:cost-=3,"do:holdSelectedFromDeckOrDiscards,do:fullPowerCharge+=2,do:cardUsesRemaining+=1;target:held,do:g.score+=5",,
+488,いつか見た景色,,SSR,active,sense,1,FALSE,TRUE,pIdol,75,FALSE,if:concentration>=6,do:cost-=5,"do:concentration*=1.5;at:startOfTurn,do:concentrationMultiplier=1.5,do:score+=9,do:score+=9,do:score+=9,limit:1",1,
+489,いつか見た景色+,,SSR,active,sense,1,TRUE,TRUE,pIdol,75,FALSE,if:concentration>=6,do:cost-=5,"do:concentration*=1.5;at:startOfTurn,do:concentrationMultiplier=1.5,do:score+=9,do:score+=9,do:score+=9,limit:1",1,
+490,また、飛べる,,SSR,mental,logic,1,FALSE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
+491,また、飛べる+,,SSR,mental,logic,1,FALSE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
