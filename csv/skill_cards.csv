@@ -489,4 +489,4 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 488,いつか見た景色,,SSR,active,sense,1,FALSE,TRUE,pIdol,75,FALSE,if:concentration>=6,do:cost-=5,"do:concentration*=1.5;at:startOfTurn,do:concentrationMultiplier=1.5,do:score+=9,do:score+=9,do:score+=9,limit:1",1,
 489,いつか見た景色+,,SSR,active,sense,1,TRUE,TRUE,pIdol,75,FALSE,if:concentration>=6,do:cost-=5,"do:concentration*=1.5;at:startOfTurn,do:concentrationMultiplier=1.5,do:score+=9,do:score+=9,do:score+=9,limit:1",1,
 490,また、飛べる,,SSR,mental,logic,1,FALSE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
-491,また、飛べる+,,SSR,mental,logic,1,FALSE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
+491,また、飛べる+,,SSR,mental,logic,1,TRUE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
