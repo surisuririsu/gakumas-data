@@ -1,3 +1,4 @@
+export { default as Customizations } from "./customizations";
 export { default as Idols } from "./idols";
 export { default as PIdols } from "./pIdols";
 export { default as PItems } from "./pItems";
