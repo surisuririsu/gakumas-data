@@ -217,3 +217,10 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 216,いつか見た夢+,SSR,TRUE,sense,stage,pIdol,75,FALSE,"at:afterCardUsed,if:usedCardBaseId==28,do:concentration+=1,do:fixedStamina-=1,limit:2;at:afterCardUsed,if:usedCardBaseId==28,limit:2;at:startOfTurn,do:concentration+=3,limit:3"
 217,翼,SSR,FALSE,logic,stage,pIdol,76,FALSE,"at:afterCardUsed,if:usedCardBaseId==58,if:genki>=7,do:goodImpressionTurns*=1.5,limit:2;at:afterCardUsed,if:usedCardBaseId==58,if:genki>=7,limit:2;at:startOfTurn,do:moveCardToHandFromRemoved(490),do:fixedStamina-=2,limit:1"
 218,翼+,SSR,TRUE,logic,stage,pIdol,76,FALSE,"at:afterCardUsed,if:usedCardBaseId==58,if:genki>=7,do:goodImpressionTurns*=1.5,limit:2;at:afterCardUsed,if:usedCardBaseId==58,if:genki>=7,limit:2;at:startOfTurn,do:moveCardToHandFromRemoved(490),limit:1"
+219,体ほぐしローラー,SR,FALSE,free,produce,support,,FALSE,
+220,うるおいのどケア,SR,FALSE,free,produce,support,,FALSE,
+221,トレーナーの優しさ,SR,FALSE,free,produce,support,,FALSE,
+222,れんしゅーのしるし,SSR,FALSE,anomaly,stage,pIdol,77,FALSE,"at:cardUsed,if:cardEffects&fullPowerCharge,do:genki+=13,limit:1"
+223,れんしゅーのしるし+,SSR,TRUE,anomaly,stage,pIdol,77,FALSE,"at:cardUsed,if:cardEffects&fullPowerCharge,do:genki+=13,limit:1"
+224,あまいくちどけ,SSR,FALSE,anomaly,stage,pIdol,78,FALSE,"at:endOfTurn,if:isStrength,do:setStance(preservation),do:genki+=5,limit:2"
+225,あまいくちどけ+,SSR,TRUE,anomaly,stage,pIdol,78,FALSE,"at:endOfTurn,if:isStrength,do:setStance(preservation),do:genki+=5,limit:2"

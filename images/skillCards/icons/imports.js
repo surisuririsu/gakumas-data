@@ -1683,6 +1683,10 @@ import image_48_8 from "./48_8.png";
 import image_48_9 from "./48_9.png";
 import image_490 from "./490.png";
 import image_491 from "./491.png";
+import image_492 from "./492.png";
+import image_493 from "./493.png";
+import image_494 from "./494.png";
+import image_495 from "./495.png";
 import image_49_1 from "./49_1.png";
 import image_49_10 from "./49_10.png";
 import image_49_11 from "./49_11.png";
@@ -3736,6 +3740,10 @@ const IMAGES = {
   '48_9': image_48_9,
   '490': image_490,
   '491': image_491,
+  '492': image_492,
+  '493': image_493,
+  '494': image_494,
+  '495': image_495,
   '49_1': image_49_1,
   '49_10': image_49_10,
   '49_11': image_49_11,

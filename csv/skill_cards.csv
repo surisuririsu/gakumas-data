@@ -490,3 +490,7 @@ id,name,availableCustomizations,rarity,type,plan,unlockPlv,upgraded,unique,sourc
 489,いつか見た景色+,,SSR,active,sense,1,TRUE,TRUE,pIdol,75,FALSE,if:concentration>=6,do:cost-=5,"do:concentration*=1.5;at:startOfTurn,do:concentrationMultiplier=1.5,do:score+=9,do:score+=9,do:score+=9,limit:1",1,
 490,また、飛べる,,SSR,mental,logic,1,FALSE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=1,do:goodImpressionTurns+=3,do:cardUsesRemaining+=1",1,
 491,また、飛べる+,,SSR,mental,logic,1,TRUE,TRUE,pIdol,76,FALSE,,do:cost-=4,"do:genki+=2,do:goodImpressionTurns+=5,do:cardUsesRemaining+=1",1,
+492,がんばった、よ,,SSR,mental,anomaly,1,FALSE,TRUE,pIdol,77,FALSE,,do:cost-=3,"do:fullPowerCharge+=5,do:holdSelectedFromDeckOrDiscards;at:startOfTurn,if:isFullPower,target:all,do:g.score+=2",1,
+493,がんばった、よ+,,SSR,mental,anomaly,1,TRUE,TRUE,pIdol,77,FALSE,,do:cost-=3,"do:fullPowerCharge+=5,do:holdSelectedFromDeckOrDiscards;at:startOfTurn,if:isFullPower,target:all,do:g.score+=2",1,
+494,受け取ってくれる?,,SSR,mental,anomaly,1,FALSE,TRUE,pIdol,78,FALSE,,do:cost-=3,"do:setStance(preservation);at:afterCardUsed,if:cardEffects&strength,target:effect(strength),do:g.score+=3",1,
+495,受け取ってくれる?+,,SSR,mental,anomaly,1,TRUE,TRUE,pIdol,78,FALSE,,do:cost-=3,"do:setStance(preservation);at:afterCardUsed,if:cardEffects&strength,target:effect(strength),do:g.score+=3",1,
