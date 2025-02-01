@@ -220,7 +220,7 @@ id,name,rarity,upgraded,plan,mode,sourceType,pIdolId,welfare,effects
 219,体ほぐしローラー,SR,FALSE,free,produce,support,,FALSE,
 220,うるおいのどケア,SR,FALSE,free,produce,support,,FALSE,
 221,トレーナーの優しさ,SR,FALSE,free,produce,support,,FALSE,
-222,れんしゅーのしるし,SSR,FALSE,anomaly,stage,pIdol,77,FALSE,"at:cardUsed,if:cardEffects&fullPowerCharge,do:genki+=13,limit:1"
+222,れんしゅーのしるし,SSR,FALSE,anomaly,stage,pIdol,77,FALSE,"at:cardUsed,if:cardEffects&fullPowerCharge,do:genki+=10,limit:1"
 223,れんしゅーのしるし+,SSR,TRUE,anomaly,stage,pIdol,77,FALSE,"at:cardUsed,if:cardEffects&fullPowerCharge,do:genki+=13,limit:1"
-224,あまいくちどけ,SSR,FALSE,anomaly,stage,pIdol,78,FALSE,"at:endOfTurn,if:isStrength,do:setStance(preservation),do:genki+=5,limit:2"
+224,あまいくちどけ,SSR,FALSE,anomaly,stage,pIdol,78,FALSE,"at:endOfTurn,if:isStrength,do:setStance(preservation),do:genki+=2,limit:2"
 225,あまいくちどけ+,SSR,TRUE,anomaly,stage,pIdol,78,FALSE,"at:endOfTurn,if:isStrength,do:setStance(preservation),do:genki+=5,limit:2"
